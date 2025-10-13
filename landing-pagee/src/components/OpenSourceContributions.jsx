@@ -12,7 +12,7 @@ const contributions = [
     },
     {
       // img: "https://via.placeholder.com/150/ffffff/000000?text=Illustrations",
-      img: "/images/img2.png",
+      // img: "/opone.jpg",
       title: "Illustrations",
     },
     {

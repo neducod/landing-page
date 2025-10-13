@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
 import OpenSource from "./components/OpenSourceContributions";
 import SelectedWork from "./components/Selectedwork";
+// import DesignPhilosophy from "./components/DesignPhilosophy"
 
 import "./App.css";
 import "./styles/global.css";
@@ -14,7 +15,9 @@ function App() {
   return (
     <>
        <Navbar />
+       {/* <DesignPhilosophy /> */}
        <SelectedWork />
+
        <OpenSourceContributions />
        <Footer />
        
