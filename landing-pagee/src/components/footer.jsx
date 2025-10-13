@@ -7,6 +7,8 @@ const Footer = () => {
     return (
         <footer className="footer">
                   <div className="footer-left">
+
+
         <h1 className="footer-title">
           Let’s <br /> work <br /> together
         </h1>
@@ -21,13 +23,23 @@ const Footer = () => {
             aribidoolusegun@gmail.com
           </a>
         </div>
-        
+
       <div className="footer-right">
         <p>
           Do you have an interesting project? I’ll love to hear from you. Reach out and let’s
           create something amazing together.
         </p>
       </div>
+
+ 
+
+
+
+
+
+
+
+
 
       <div className="footer-bottom">
         <p>Copyright © 2025 Olusegun Aribido</p>

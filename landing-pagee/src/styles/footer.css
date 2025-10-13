@@ -75,6 +75,11 @@
     text-decoration: underline;
   }
   
+  .footer-top{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+  }
   /* Responsive */
   @media (max-width: 768px) {
     .footer {
