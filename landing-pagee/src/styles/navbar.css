@@ -6,14 +6,35 @@ flex: 1 0 0;
 
 display: flex;
 width: 74.75rem;
-padding: 1rem;
+/* padding: 1rem; */
+padding: 10px 24px;
 align-items: center;
 gap: 33rem;
 border-radius: 5.625rem;
 background: rgba(255, 255, 255, 0.40);
 
-justify-content: center;
+/* justify-content: center; */
 align-items: center;
+width: 100%;
+max-width: 1100px;
+justify-content: space-between;
+margin: 20px auto;
+/* box-shadow: 0 1px 3px rgba(0,0,0,0.05); */
+border-top: 1px solid white;
+background: linear-gradient(180deg, #f8f6fb, #f4f1fa);
+
+
+
+width: 90%;
+max-width: 1200px;
+margin: 20px auto;
+padding: 12px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 50px;
+background: linear-gradient(180deg, #faf6ff 0%, #f6f2fc 100%);
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
 }
 .nav-text{
     width: 7.3125rem;
@@ -34,12 +55,21 @@ font-style: normal;
 font-weight: 800;
 line-height: 1rem; /* 100% */
 text-transform: uppercase;
+
+
+font-weight: 800;
+font-size: 14px;
+line-height: 18px;
+color: #0f0f0f;
 }
 .nav-ul{
     display: flex;
 width: 32.4375rem;
 align-items: center;
 gap: 2.25rem;
+}
+.nav-ul li{
+    list-style-type: none;
 }
 .nav-ul li a{
     color: #1A1A1A;
@@ -54,4 +84,25 @@ letter-spacing: 0.018rem;
 text-decoration: none;
 
 /* Animation style; Instant */
+
+
+text-decoration: none;
+font-size: 15px;
+color: #0f0f0f;
+font-weight: 400;
+}
+.nav-ul button{
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: 1px solid #0f0f0f;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

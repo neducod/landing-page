@@ -155,5 +155,6 @@ createRoot(document.getElementById("root")).render(
 
 */
 body{
+  background: rgba(255, 255, 255, 0.40);
   /* background-color: pink; */
 }

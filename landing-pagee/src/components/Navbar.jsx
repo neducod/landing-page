@@ -19,7 +19,8 @@ const Navbar = () => {
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Work</a></li>
                 <li><a href="#">About me</a></li>
-                <button><a href="#">Let's Work</a></button>
+                {/* <button><a href="#">Let's Work</a></button> */}
+                <button>Let's Work</button>
             </ul>
         </div>
       </nav>
