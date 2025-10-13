@@ -7,14 +7,10 @@ const Footer = () => {
     return (
         <footer className="footer">
                   <div className="footer-left">
-
-
         <h1 className="footer-title">
           Let’s <br /> work <br /> together
         </h1>
-      </div>
-
-      <div className="footer-contact">
+        <div className="footer-contact">
           <span className="arrow">→</span>
           <a
             href="mailto:aribidoolusegun@gmail.com"
@@ -23,6 +19,7 @@ const Footer = () => {
             aribidoolusegun@gmail.com
           </a>
         </div>
+      </div>
 
       <div className="footer-right">
         <p>
@@ -30,16 +27,6 @@ const Footer = () => {
           create something amazing together.
         </p>
       </div>
-
- 
-
-
-
-
-
-
-
-
 
       <div className="footer-bottom">
         <p>Copyright © 2025 Olusegun Aribido</p>
