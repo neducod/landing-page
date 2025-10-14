@@ -9,7 +9,7 @@
     background-color: #f8f6ff; /* matches your screenshot background */
     font-family: "Inter", sans-serif;
   }
-  
+  /*
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -22,8 +22,43 @@
     backdrop-filter: blur(12px);
     border-radius: 50px;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+
+
+    border-radius: 5.625rem;
+background: rgba(255, 255, 255, 0.40);
+position: fixed;
+z-index: 999;
+
+display: flex;
+width: 74.75rem;
+padding: 1rem;
+align-items: center;
+gap: 33rem;
   }
   
+*/
+
+  .navbar {
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%); /* centers it horizontally */
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    width: 74.75rem; /* keep your desired width */
+    padding: 1rem 2rem;
+    gap: 2rem;
+  
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(12px);
+    border-radius: 5.625rem;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  
+    z-index: 999;
+  }
   /* Left side */
   .nav-left {
     display: flex;
