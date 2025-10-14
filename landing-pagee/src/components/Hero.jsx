@@ -5,33 +5,25 @@ import "../styles/hero.css";
 
 const Index = () => {
   return (
-    <main className="main">
-      <div className="container">
-        {/* Profile Image */}
-        <div className="profile-image-wrapper">
-            {/* <img src="/ProfileImages.png" alt="" /> */}
-        </div>
-
-        {/* Greeting */}
-        <h1 className="greeting">Hi,   <img src="/ProfileImages.png" alt="" />         I'm Segun</h1>
-
-        {/* Subtitle */}
-        <p className="subtitle">an Interaction Designer</p>
-
-        {/* Main Statement */}
-        <div className="main-statement">
-          <p>
-            I design for <span>clarity</span>
-          </p>
-          <div className="icon">🌍</div>
-        </div>
-
-        {/* CTA Button */}
-        <div className="cta-button-wrapper">
-             <button className="cta-button">Contact me</button>
-        </div>
-      </div>
-    </main>
+    <section className="intro">
+    <div className="intro-content">
+      <h1 className="intro-heading">
+        Hi,{" "}
+        <span className="intro-name">
+          <img src="/ProfileImages.png" alt=""  className="intro-avatar"  />
+          {/* <img src={profilePic} alt="Profile" className="intro-avatar" /> */}
+          I’m Segun
+        </span>
+      </h1>
+      <p className="intro-subtitle">an Interaction Designer</p>
+      <p className="intro-tagline">
+        I design for <span className="highlight">clarity</span>
+        <img src="/SHAKEPUZZLE.png" alt="" className="intro-icon"/>
+        {/* <img src={clarityIcon} alt="icon" className="intro-icon" /> */}
+      </p>
+      <button className="contact-btn">Contact me</button>
+    </div>
+  </section>
   );
 };
 

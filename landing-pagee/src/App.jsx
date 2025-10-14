@@ -4,6 +4,7 @@ import Footer from "./components/footer";
 import OpenSource from "./components/OpenSourceContributions";
 import SelectedWork from "./components/Selectedwork";
 // import Hero from "./Hero";
+import Hero from "./components/Hero";
 import DesignPhil from "./components/DesignPhi";
 import Designprinciples from "./components/Designprinciples";
 import DesignPhiloso from "./components/DesignPhiloso";
@@ -19,6 +20,8 @@ function App() {
   return (
     <>
       <Navbar />
+      <Hero />
+      {/* <Hero /> */}
       {/* <Hero /> */}
       <DesignPhiloso />
       <SelectedWork />
