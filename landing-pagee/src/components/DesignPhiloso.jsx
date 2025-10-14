@@ -19,8 +19,50 @@ const DesignPhiloso = () => {
             scalable, and built on collaboration.
           </p>
         </header>
-  
+
+
         <div className="principles-grid">
+  {/* Left column */}
+  <div className="left-column">
+    <article className="principle-cardd card-blue">
+      <h2 className="principle-title">Empathy first</h2>
+      <p className="principle-text">
+        I start by understanding users' real stories, needs, 
+        and frustrations.
+      </p>
+      <div className="principle-icon">
+        <div className="folder-icon">
+          <div className="folder-tab"></div>
+          <div className="folder-body"></div>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  {/* Right column */}
+  <div className="right-column">
+    <article className="principle-card card-pink">
+      <h2 className="principle-title">Clarity over complexity</h2>
+      <p className="principle-text">
+        I simplify digital experiences so every action feels natural.
+      </p>
+      <div className="principle-icon">
+        <div className="smile-icon">🙂</div>
+      </div>
+    </article>
+
+    <article className="principle-card card-green">
+      <h2 className="principle-title">Collaboration always</h2>
+      <p className="principle-text">
+        I work closely with developers, researchers, and stakeholders 
+        to bring ideas to life.
+      </p>
+    </article>
+  </div>
+</div>
+
+  
+     {/*    <div className="principles-grid">
             <div>
             <article className="principle-cardd card-bluue">
             <h2 className="principle-title">Empathy first</h2>
@@ -56,7 +98,7 @@ const DesignPhiloso = () => {
             </p>
           </article>
             </div>
-        </div>
+        </div> */}
       </div>
     );
   };

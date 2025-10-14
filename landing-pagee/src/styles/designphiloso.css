@@ -54,7 +54,7 @@
   
   /* Principles Grid */
   .principles-grid {
-    max-width: 1100px;
+ /*    max-width: 1100px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -65,8 +65,26 @@
     width: 58.75rem;
 height: 42.5rem;
 flex-shrink: 0;
+ */
+
+display: grid;
+grid-template-columns: 1fr 1fr; /* two columns: left and right */
+gap: 24px;
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 20px;
+  }
+  .left-column {
+    display: flex;
+    justify-content: center; /* center the card horizontally */
   }
   
+  /* Right column stacks the two cards */
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /* spacing between stacked cards */
+  }
   /* Principle Cards */
   .principle-card {
     background: white;
