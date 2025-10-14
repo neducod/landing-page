@@ -1,0 +1,301 @@
+
+.design-philosophy {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #f5f3ff 0%, #e9e5f5 100%);
+    padding: 60px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+  }
+  
+  /* Header Section */
+  .philosophy-header {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    text-align: center;
+  }
+  
+  .philosophy-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2d2d2d;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .icon-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #ffb280 0%, #ffa366 100%);
+    border-radius: 50%;
+    font-size: 1.8rem;
+    box-shadow: 0 4px 12px rgba(255, 178, 128, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .icon-badge:hover {
+    transform: rotate(15deg) scale(1.1);
+  }
+  
+  .philosophy-description {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Principles Grid */
+  .principles-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    padding: 0 20px;
+
+
+    width: 58.75rem;
+height: 42.5rem;
+flex-shrink: 0;
+  }
+  
+  /* Principle Cards */
+  .principle-card {
+    background: white;
+    border-radius: 24px;
+    padding: 36px 32px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+  }
+  .principle-cardd {
+    background: white;
+    border-radius: 24px;
+    padding: 36px 32px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    /* min-height: 280px; */
+    display: flex;
+    flex-direction: column;
+
+
+
+    width: 28.0625rem;
+height: 37.5rem;
+flex-shrink: 0;
+border-radius: 1rem;
+background: #CCE7FF;
+  }
+  .principle-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.15;
+    border-radius: 24px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-blue::before {
+    background: linear-gradient(135deg, #a8d8f0 0%, #7bc4e8 100%);
+  }
+  
+  .card-pink::before {
+    background: linear-gradient(135deg, #f5d4f0 0%, #e8bfe0 100%);
+  }
+  
+  .card-green::before {
+    background: linear-gradient(135deg, #c8f0d4 0%, #a8e8bf 100%);
+  }
+  
+  .principle-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+  
+  .principle-card:hover::before {
+    opacity: 0.25;
+  }
+  
+  .principle-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d2d2d;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .principle-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #555;
+    position: relative;
+    z-index: 1;
+    margin-bottom: auto;
+  }
+  
+  .principle-icon {
+    margin-top: 32px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Folder Icon */
+  .folder-icon {
+    position: relative;
+    width: 80px;
+    height: 70px;
+  }
+  
+  .folder-tab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 12px;
+    background: #2563eb;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .folder-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 60px;
+    background: #3b82f6;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  }
+  
+  .folder-body::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 2px;
+  }
+  
+  /* Smile Icon */
+  .smile-icon {
+    font-size: 2.5rem;
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .card-pink:hover .smile-icon {
+    transform: scale(1.1) rotate(5deg);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .design-philosophy {
+      padding: 40px 16px;
+    }
+  
+    .philosophy-title {
+      font-size: 2rem;
+      gap: 8px;
+    }
+  
+    .icon-badge {
+      width: 50px;
+      height: 50px;
+      font-size: 1.5rem;
+    }
+  
+    .philosophy-description {
+      font-size: 1rem;
+    }
+  
+    .principles-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 0;
+    }
+  
+    .principle-card {
+      padding: 28px 24px;
+      min-height: 240px;
+    }
+  
+    .principle-title {
+      font-size: 1.25rem;
+    }
+  
+    .principle-text {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .philosophy-title {
+      font-size: 1.75rem;
+    }
+  
+    .icon-badge {
+      width: 45px;
+      height: 45px;
+      font-size: 1.3rem;
+    }
+  
+    .principle-card {
+      padding: 24px 20px;
+    }
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .principle-card {
+    animation: fadeIn 0.6s ease-out backwards;
+  }
+  
+  .principle-card:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  
+  .principle-card:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .principle-card:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  

@@ -14,6 +14,7 @@ const Designprinciples = () => {
                 I start by understanding users' real stories, needs, and frustrations.
               </p>
             </div>
+            
             <div className="principle-icon">
               <svg className="folder-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="8" y="20" width="48" height="32" rx="4" fill="#1E40AF"/>

@@ -46,9 +46,6 @@
     gap: 1.5625rem;
     align-self: stretch;
   }
-  .open{
-
-  }
   @media (max-width: 768px) {
     .card-grid {
       grid-template-columns: repeat(2, 1fr);
