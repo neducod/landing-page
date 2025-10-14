@@ -7,6 +7,7 @@ import OpenSource from "./components/OpenSourceContributions";
 import SelectedWork from "./components/Selectedwork";
 // import DesignPhilosophy from "./components/DesignPhilosophy"
 import Hero from "./components/Hero";
+import DesignPhil from "./components/DesignPhi";
 
 import "./App.css";
 import "./styles/global.css";
@@ -17,6 +18,8 @@ function App() {
     <>
        <Navbar />
        <Hero />
+       <DesignPhil />
+
        {/* <DesignPhilosophy /> */}
        <SelectedWork />
        <OpenSourceContributions />
