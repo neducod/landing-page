@@ -1,108 +1,86 @@
-.navbar{
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f8f6ff; /* matches your screenshot background */
+    font-family: "Inter", sans-serif;
+  }
+  
+  .navbar {
     display: flex;
-align-items: center;
-gap: 38.5625rem;
-flex: 1 0 0;
-
-display: flex;
-width: 74.75rem;
-/* padding: 1rem; */
-padding: 10px 24px;
-align-items: center;
-gap: 33rem;
-border-radius: 5.625rem;
-background: rgba(255, 255, 255, 0.40);
-
-/* justify-content: center; */
-align-items: center;
-width: 100%;
-max-width: 1100px;
-justify-content: space-between;
-margin: 20px auto;
-/* box-shadow: 0 1px 3px rgba(0,0,0,0.05); */
-border-top: 1px solid white;
-background: linear-gradient(180deg, #f8f6fb, #f4f1fa);
-
-
-
-width: 90%;
-max-width: 1200px;
-margin: 20px auto;
-padding: 12px 30px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-border-radius: 50px;
-background: linear-gradient(180deg, #faf6ff 0%, #f6f2fc 100%);
-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
-}
-.nav-text{
-    width: 7.3125rem;
-height: 2.5rem;
-
-display: flex;
-}
-.nav-text img{
-    width: 2.5rem;
-height: 2.5rem;
-flex-shrink: 0;
-}
-.nav-text h1{
-    color: #1A1A1A;
-font-family: "Bricolage Grotesque";
-font-size: 1rem;
-font-style: normal;
-font-weight: 800;
-line-height: 1rem; /* 100% */
-text-transform: uppercase;
-
-
-font-weight: 800;
-font-size: 14px;
-line-height: 18px;
-color: #0f0f0f;
-}
-.nav-ul{
-    display: flex;
-width: 32.4375rem;
-align-items: center;
-gap: 2.25rem;
-}
-.nav-ul li{
-    list-style-type: none;
-}
-.nav-ul li a{
-    color: #1A1A1A;
-
-/* Body text */
-font-family: "Helvetica Neue";
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.6875rem; /* 150% */
-letter-spacing: 0.018rem;
-text-decoration: none;
-
-/* Animation style; Instant */
-
-
-text-decoration: none;
-font-size: 15px;
-color: #0f0f0f;
-font-weight: 400;
-}
-.nav-ul button{
-    padding: 8px 18px;
-    border-radius: 8px;
-    border: 1px solid #0f0f0f;
-    background: transparent;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 0.2s ease;
-}
-.logo{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    margin: 1rem auto;
+    max-width: 1100px;
+  
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12px);
+    border-radius: 50px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  }
+  
+  /* Left side */
+  .nav-left {
     display: flex;
     align-items: center;
-    gap: 10px;
-}
+    gap: 0.6rem;
+  }
+  
+  .nav-logo {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .brand-name {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #111;
+    letter-spacing: 0.3px;
+  }
+  
+  /* Right side */
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 400;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #0055ff;
+  }
+  
+  /* Button */
+  .nav-btn {
+    background: transparent;
+    border: 1.5px solid #ccc;
+    padding: 0.45rem 1rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: #111;
+    transition: all 0.2s ease;
+  }
+  
+  .nav-btn:hover {
+    border-color: #0055ff;
+    color: #0055ff;
+  }
+  
