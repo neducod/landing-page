@@ -463,7 +463,7 @@ background: #CCE7FF;
   color: #333;
   line-height: 1.6;
 }
-
+/*
 .principle-icon {
   margin-top: 32px;
   position: relative;
@@ -472,7 +472,64 @@ background: #CCE7FF;
   align-items: flex-end;
   height: 120px;
 }
+*/
+.principle-bottom {
+  position: relative;
+  min-height: 60px;
+}
+/* Base transition for appear/disappear */
+.extra-content {
+  transition: opacity 1s ease, transform 1s ease;
+}
+.extra-content.hidden {
+  opacity: 0;
+  transform: translateY(30px);
+}
+.extra-content.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* Icon row layout */
+.icon-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
 
+/* Staggered fade-in for spans */
+.icon-row span {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeUp 0.8s forwards ease;
+}
+/* When visible, trigger the stagger */
+.extra-content.visible .icon-row span:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.extra-content.visible .icon-row span:nth-child(2) {
+  animation-delay: 0.6s;
+}
+.extra-content.visible .icon-row span:nth-child(3) {
+  animation-delay: 1s;
+}
+/* Fade-up keyframes */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.extra-text {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
 /* ========= Folder icon ========= */
 .folder-icon {
   position: relative;

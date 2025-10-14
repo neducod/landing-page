@@ -68,3 +68,20 @@ button:focus-visible {
   }
 }
 */
+/* 
+        <header className="philosophy-header">
+          <h1 className="philosophy-title">
+            My Design 
+            <span className="icon-badge">✏️</span> 
+            Philosophy
+          </h1>
+          <p className="philosophy-description">
+            I design with logic and empathy to create functional, 
+            human-centered products. Good design, to me, feels effortless, 
+            scalable, and built on collaboration.
+          </p>
+        </header> Ignore the philosophy-description, Another animation again, see we have a text that says Design and a span for images then after that we have philosophy 
+That span for images we have a div with it's background color and icon, 
+The first div comes up between design and philosophy then it gets replaced by the second div with it's own background and icon the a third and fourth div slowly appears but I would not replace the second div this time around they stay side by side lapping each other a little of course it would move the philosophy text a bit 
+Then back to the first div again and it goes all over again 
+*/

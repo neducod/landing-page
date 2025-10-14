@@ -9,6 +9,8 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
+  margin-top: 180px;
+  margin-bottom: 100px;
 }
 
 .intro-title {
@@ -92,6 +94,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: 0.9rem;
+  text-decoration: underline;
 }
 
 .contact-btn:hover {

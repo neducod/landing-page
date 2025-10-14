@@ -29,6 +29,20 @@ const DesignPhiloso = () => {
 
 
 
+
+
+
+
+  const [showExtra, setShowExtra] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setShowExtra((prev) => !prev);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
+
     return (
       <div className="design-philosophy">
         <header className="philosophy-header">
@@ -113,10 +127,30 @@ const DesignPhiloso = () => {
       <p className="principle-text">
         I simplify digital experiences so every action feels natural.
       </p>
-      <div className="principle-icon">
+      {/* <div className="principle-icon">
         <div className="smile-icon">🙂</div>
+      </div> */}
+      <div className="principle-bottom">
+        <div className={`extra-content ${showExtra ? "visible" : "hidden"}`}>
+          <div className="icon-row">
+            <span>🌿</span>
+            <span>💡</span>
+            <span>✨</span>
+          </div>
+          <p className="extra-text">Design flows from simplicity</p>
+        </div>
       </div>
     </article>
+
+
+
+
+
+
+
+
+
+
 
     <article className="principle-card card-green">
       <h2 className="principle-title">Collaboration always</h2>
@@ -124,6 +158,7 @@ const DesignPhiloso = () => {
         I work closely with developers, researchers, and stakeholders 
         to bring ideas to life.
       </p>
+      <div></div>
     </article>
   </div>
 </div>
