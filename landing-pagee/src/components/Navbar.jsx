@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/navbar.css";
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "../assets/logo.svg";
   
   
