@@ -270,6 +270,15 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
    BUTTON
 =============================== */
 .view-more {
+  /* border: 1px solid #333;
+  background: transparent;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease; */
+
+
   border: 1px solid #333;
   background: transparent;
   border-radius: 8px;
@@ -277,6 +286,11 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  max-width: 100%;
 }
 
 .view-more:hover {
@@ -287,7 +301,20 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 .view-more span {
   margin-left: 8px;
 }
+@media (max-width: 768px) {
+  .view-more {
+    font-size: 0.9rem;
+    padding: 8px 18px;
+  }
+}
 
+@media (max-width: 480px) {
+  .view-more {
+    font-size: 0.85rem;
+    padding: 7px 16px;
+    width: auto; /* Prevents it from stretching too wide */
+  }
+}
 /* ===============================
    DESIGN SECTION
 =============================== */
@@ -405,10 +432,10 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     max-width: 280px;
   }
 
-  .view-more {
+  /* .view-more {
     width: 100%;
     padding: 12px 0;
-  }
+  } */
 
   .design-title {
     font-size: 1.5rem;

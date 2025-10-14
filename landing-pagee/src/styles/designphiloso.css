@@ -8,7 +8,6 @@
       sans-serif;
   }
   
-  /* Header Section */
   .philosophy-header {
     max-width: 800px;
     margin: 0 auto 60px;
@@ -52,23 +51,10 @@
     margin: 0 auto;
   }
   
-  /* Principles Grid */
   .principles-grid {
- /*    max-width: 1100px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 24px;
-    padding: 0 20px;
-
-
-    width: 58.75rem;
-height: 42.5rem;
-flex-shrink: 0;
- */
 
 display: grid;
-grid-template-columns: 1fr 1fr; /* two columns: left and right */
+grid-template-columns: 1fr 1fr;
 gap: 24px;
 max-width: 1100px;
 margin: 0 auto;
@@ -76,16 +62,14 @@ padding: 0 20px;
   }
   .left-column {
     display: flex;
-    justify-content: center; /* center the card horizontally */
+    justify-content: center;
   }
   
-  /* Right column stacks the two cards */
   .right-column {
     display: flex;
     flex-direction: column;
-    gap: 24px; /* spacing between stacked cards */
+    gap: 24px;
   }
-  /* Principle Cards */
   .principle-card {
     background: white;
     border-radius: 24px;
@@ -106,7 +90,6 @@ padding: 0 20px;
     overflow: hidden;
     transition: all 0.3s ease;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    /* min-height: 280px; */
     display: flex;
     flex-direction: column;
 
@@ -178,7 +161,6 @@ background: #CCE7FF;
     align-items: center;
   }
   
-  /* Folder Icon */
   .folder-icon {
     position: relative;
     width: 80px;
@@ -218,7 +200,6 @@ background: #CCE7FF;
     border-radius: 2px;
   }
   
-  /* Smile Icon */
   .smile-icon {
     font-size: 2.5rem;
     background: white;
@@ -231,8 +212,7 @@ background: #CCE7FF;
   .card-pink:hover .smile-icon {
     transform: scale(1.1) rotate(5deg);
   }
-  
-  /* Responsive Design */
+  /*
   @media (max-width: 768px) {
     .design-philosophy {
       padding: 40px 16px;
@@ -289,7 +269,6 @@ background: #CCE7FF;
     }
   }
   
-  /* Animations */
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -316,4 +295,140 @@ background: #CCE7FF;
   .principle-card:nth-child(3) {
     animation-delay: 0.3s;
   }
-  
+  */
+
+  /* ✅ Improved Responsive Styles — add this below everything */
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  .philosophy-title {
+    font-size: 2.2rem;
+  }
+
+  .principles-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .principle-cardd {
+    width: 100%;
+    height: auto;
+  }
+
+  .philosophy-description {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}
+
+/* Small Tablets & Large Phones (≤768px) */
+@media (max-width: 768px) {
+  .design-philosophy {
+    padding: 40px 16px;
+  }
+
+  .philosophy-header {
+    margin-bottom: 40px;
+  }
+
+  .philosophy-title {
+    font-size: 1.9rem;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .icon-badge {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .principles-grid {
+    grid-template-columns: 1fr;
+    padding: 0;
+    gap: 24px;
+  }
+
+  .principle-card,
+  .principle-cardd {
+    width: 100%;
+    padding: 28px 20px;
+    min-height: auto;
+  }
+
+  .principle-title {
+    font-size: 1.25rem;
+  }
+
+  .principle-text {
+    font-size: 0.95rem;
+  }
+
+  .folder-icon {
+    width: 60px;
+    height: 55px;
+  }
+}
+
+/* Phones (≤480px) */
+@media (max-width: 480px) {
+  .design-philosophy {
+    padding: 32px 12px;
+  }
+
+  .philosophy-title {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .icon-badge {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .philosophy-description {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .principle-card,
+  .principle-cardd {
+    padding: 24px 16px;
+    border-radius: 16px;
+  }
+
+  .principle-title {
+    font-size: 1.1rem;
+  }
+
+  .principle-text {
+    font-size: 0.9rem;
+  }
+
+  .smile-icon {
+    font-size: 2rem;
+    padding: 16px;
+  }
+
+  .folder-icon {
+    width: 50px;
+    height: 45px;
+  }
+}
+
+/* Ultra Small Devices (≤360px) */
+@media (max-width: 360px) {
+  .philosophy-title {
+    font-size: 1.4rem;
+  }
+
+  .philosophy-description {
+    font-size: 0.9rem;
+  }
+
+  .principle-title {
+    font-size: 1rem;
+  }
+}
