@@ -1,3 +1,4 @@
+/*
 .open-source {
     text-align: center;
     background-color: #f7f5fb;
@@ -21,15 +22,7 @@
   }
   
   .card-grid {
-    /*
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 30px;
-    justify-items: center;
-    max-width: 900px;
-    margin: 0 auto 40px;
-    */
-
+  
 
 
     display: grid;
@@ -46,7 +39,7 @@
     /* display: flex; */
     /* align-items: center; */
     /* gap: 1.5625rem; */
-    /* align-self: stretch; */
+    /* align-self: stretch; *
   }
   @media (max-width: 768px) {
     .card-grid {
@@ -60,7 +53,7 @@
     }
   }
   .card {
-    /* background: white; */
+    /* background: white; *
     border-radius: 10px;
     transition: transform 0.3s ease;
     display: flex;
@@ -76,7 +69,7 @@ gap: 1rem;
   
   .card img {
     /* width: 160px; */
-    /* height: 160px; */
+    /* height: 160px; *
     object-fit: cover;
     border-radius: 10px;
     display: block;
@@ -99,7 +92,7 @@ font-size: 1.2rem;
   .card a:hover {
     color: #000;
 
-    /* border-bottom: 1px solid #000; */
+    /* border-bottom: 1px solid #000; *
   }
   
   .view-more {
@@ -136,7 +129,7 @@ font-family: "Helvetica Neue";
 font-size: 1.5rem;
 font-style: normal;
 font-weight: 400;
-line-height: 2.25rem; /* 150% */
+line-height: 2.25rem; 
 letter-spacing: 0.024rem;
 align-self: stretch;
 
@@ -149,13 +142,13 @@ font-family: "Helvetica Neue";
 font-size: 2.5rem;
 font-style: normal;
 font-weight: 500;
-line-height: 3.375rem; /* 135% */
+line-height: 3.375rem; 
 letter-spacing: 0.04rem;
 
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
-/* / */
+/* / *
   .design-section {
     text-align: center;
     padding: 80px 20px;
@@ -189,3 +182,239 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #555;
   }
   
+  */
+
+  /* ===============================
+   OPEN SOURCE SECTION
+=============================== */
+.open-source {
+  text-align: center;
+  background-color: #f7f5fb;
+  padding: 60px 20px;
+  font-family: "Inter", sans-serif;
+  color: #333;
+}
+
+.open-source h2 {
+  color: #505050;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 3.375rem;
+  letter-spacing: 0.04rem;
+  margin-bottom: 8px;
+}
+
+.text-p,
+.open-source p {
+  color: #505050;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.25rem;
+  letter-spacing: 0.024rem;
+  margin-bottom: 40px;
+}
+
+/* ===============================
+   CARD GRID
+=============================== */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5625rem;
+  justify-items: center;
+  align-items: start;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
+
+.card {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  display: flex;
+  width: 13.75rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  width: 100%;
+  max-width: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card a {
+  text-decoration: underline;
+  font-weight: 500;
+  color: #444;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.card a:hover {
+  color: #000;
+}
+
+/* ===============================
+   BUTTON
+=============================== */
+.view-more {
+  border: 1px solid #333;
+  background: transparent;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-more:hover {
+  background-color: #333;
+  color: white;
+}
+
+.view-more span {
+  margin-left: 8px;
+}
+
+/* ===============================
+   DESIGN SECTION
+=============================== */
+.design-section {
+  text-align: center;
+  padding: 80px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.design-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.heart {
+  font-size: 1.5rem;
+  background-color: #cce4ff;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.design-text {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* ===============================
+   RESPONSIVE MEDIA QUERIES
+=============================== */
+
+/* Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  .open-source {
+    padding: 50px 16px;
+  }
+
+  .open-source h2 {
+    font-size: 2.2rem;
+  }
+
+  .text-p,
+  .open-source p {
+    font-size: 1.3rem;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .open-source h2 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .text-p,
+  .open-source p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .design-title {
+    font-size: 1.7rem;
+  }
+
+  .design-text {
+    font-size: 1rem;
+  }
+}
+
+/* Small Mobile (≤480px) */
+@media (max-width: 480px) {
+  .open-source {
+    padding: 40px 12px;
+  }
+
+  .open-source h2 {
+    font-size: 1.7rem;
+  }
+
+  .text-p,
+  .open-source p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .view-more {
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  .design-title {
+    font-size: 1.5rem;
+  }
+
+  .design-text {
+    font-size: 0.95rem;
+  }
+}
