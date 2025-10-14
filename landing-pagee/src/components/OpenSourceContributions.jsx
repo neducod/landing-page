@@ -6,28 +6,22 @@ import "../styles/opensource.css";
 
 const contributions = [
     {
-      // img: "https://via.placeholder.com/150/91b29d/ffffff?text=Leather+pattern",
       img: "/Leather.png",
       title: "Leather pattern",
     },
     {
-      // img: "https://via.placeholder.com/150/ffffff/000000?text=Illustrations",
-      // img: "/opone.jpg",
       img: "/Icons.png",
       title: "Illustrations",
     },
     {
-      // img: "https://via.placeholder.com/150/8ac7ff/ffffff?text=Card+UI",
       img: "/Frameone.png",
       title: "Card UI",
     },
     {
-      // img: "https://via.placeholder.com/150/ffd54f/000000?text=Pattern+library",
       img: "/dribbleone.png",
       title: "Pattern library",
     },
     {
-      // img: "https://via.placeholder.com/150/dde3e9/000000?text=Mockup",
       img: "/Frametwo.png",
       title: "Mockup",
     },
