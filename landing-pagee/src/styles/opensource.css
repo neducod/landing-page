@@ -53,6 +53,11 @@
     /* background: white; */
     border-radius: 10px;
     transition: transform 0.3s ease;
+    display: flex;
+width: 13.75rem;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
   }
   
   .card:hover {
@@ -114,8 +119,33 @@ font-size: 1.2rem;
 
 
 
+.text-p{
+  color: #505050;
+text-align: center;
+font-family: "Helvetica Neue";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.25rem; /* 150% */
+letter-spacing: 0.024rem;
+align-self: stretch;
 
+}
+.open-source h2{
+  align-self: stretch;
+  color: #505050;
+text-align: center;
+font-family: "Helvetica Neue";
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 3.375rem; /* 135% */
+letter-spacing: 0.04rem;
 
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+/* / */
   .design-section {
     text-align: center;
     padding: 80px 20px;

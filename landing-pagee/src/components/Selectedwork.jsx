@@ -18,6 +18,7 @@ const works = [
     {
       id: 2,
     //   image: "/optwo.jpg",
+        image: "selecone.jpg",
       subtitle: 'UI/UX',
       title: 'Mobile App UI',
       description: 'Empowering your financial journey through smarter saving tools.',

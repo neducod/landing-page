@@ -7,27 +7,28 @@ import "../styles/opensource.css";
 const contributions = [
     {
       // img: "https://via.placeholder.com/150/91b29d/ffffff?text=Leather+pattern",
-      img: "/images/img4.png",
+      img: "/Leather.png",
       title: "Leather pattern",
     },
     {
       // img: "https://via.placeholder.com/150/ffffff/000000?text=Illustrations",
       // img: "/opone.jpg",
+      img: "/Icons.png",
       title: "Illustrations",
     },
     {
       // img: "https://via.placeholder.com/150/8ac7ff/ffffff?text=Card+UI",
-      img: "/images/img3.png",
+      img: "/Frameone.png",
       title: "Card UI",
     },
     {
       // img: "https://via.placeholder.com/150/ffd54f/000000?text=Pattern+library",
-      img: "/images/img5.png",
+      img: "/dribbleone.png",
       title: "Pattern library",
     },
     {
       // img: "https://via.placeholder.com/150/dde3e9/000000?text=Mockup",
-      img: "/images/img1.png",
+      img: "/Frametwo.png",
       title: "Mockup",
     },
   ];
@@ -38,7 +39,7 @@ const contributions = [
     return (
       <section className="open-source">
         <h2>Open Source Contributions</h2>
-        <p>Giving back through community-driven design</p>
+        <p className="text-p">Giving back through community-driven design</p>
   
         <div className="card-grid">
           {contributions.map((item, index) => (
