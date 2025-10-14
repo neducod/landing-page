@@ -8,6 +8,7 @@ import SelectedWork from "./components/Selectedwork";
 // import DesignPhilosophy from "./components/DesignPhilosophy"
 import Hero from "./components/Hero";
 import DesignPhil from "./components/DesignPhi";
+import Designprinciples from "./components/Designprinciples";
 
 import "./App.css";
 import "./styles/global.css";
@@ -19,6 +20,7 @@ function App() {
        <Navbar />
        <Hero />
        <DesignPhil />
+       <Designprinciples />
 
        {/* <DesignPhilosophy /> */}
        <SelectedWork />
