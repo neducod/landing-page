@@ -6,6 +6,30 @@ import "../styles/designphiloso.css";
 
 
 const DesignPhiloso = () => {
+
+
+  const icons = [
+    { bg: "#FEE440", icon: "💡" },
+    { bg: "#00BBF9", icon: "⚙️" },
+    { bg: "#9B5DE5", icon: "🎨" },
+    { bg: "#00F5D4", icon: "🚀" },
+    { bg: "#FEE440", icon: "💡" },
+  ];
+
+  const [step, setStep] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setStep((prev) => (prev + 1) % 4);
+    }, 6000);
+    return () => clearInterval(interval);
+  }, []);
+
+
+
+
+
+
   const [hearts, setHearts] = useState([]);
 
 
@@ -57,7 +81,58 @@ const DesignPhiloso = () => {
         <header className="philosophy-header">
           <h1 className="philosophy-title">
             My Design 
-            <span className="icon-badge">✏️</span> 
+            {/* <span className="icon-badge">✏️</span>  */}
+            <span className="icon-span">
+          {step === 0 && (
+            <div
+              className="icon-box fade"
+              style={{ background: icons[0].bg }}
+            >
+              {icons[0].icon}
+            </div>
+          )}
+
+          {step === 1 && (
+            <div
+              className="icon-box fade"
+              style={{ background: icons[1].bg }}
+            >
+              {icons[1].icon}
+            </div>
+          )}
+
+          {step === 2 && (
+             <div className="multi-icon">
+    {icons.slice(1, 4).map((item, i) => (
+      <div
+        key={i}
+        className="icon-box fade overlap"
+        style={{
+          background: item.bg,
+          zIndex: 3 - i,
+          marginLeft: `${i * 12}px` // small spacing between icons
+        }}
+      >
+        {item.icon}
+      </div>
+    ))}
+  </div>
+            // <div className="multi-icon">
+            //   <div
+            //     className="icon-box fade"
+            //     style={{ background: icons[2].bg, zIndex: 2 }}
+            //   >
+            //     {icons[2].icon}
+            //   </div>
+            //   <div
+            //     className="icon-box fade overlap"
+            //     style={{ background: icons[3].bg, zIndex: 1 }}
+            //   >
+            //     {icons[3].icon}
+            //   </div>
+            // </div>
+          )}
+        </span>
             Philosophy
           </h1>
           <p className="philosophy-description">
