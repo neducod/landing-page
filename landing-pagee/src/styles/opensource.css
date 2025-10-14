@@ -39,12 +39,14 @@
     align-items: start;
     max-width: 1000px;
     margin: 0 auto 40px;
-
-
-    display: flex;
-    align-items: center;
     gap: 1.5625rem;
-    align-self: stretch;
+    display: flex;
+
+
+    /* display: flex; */
+    /* align-items: center; */
+    /* gap: 1.5625rem; */
+    /* align-self: stretch; */
   }
   @media (max-width: 768px) {
     .card-grid {
