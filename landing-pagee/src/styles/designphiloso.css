@@ -432,3 +432,122 @@ background: #CCE7FF;
     font-size: 1rem;
   }
 }
+
+
+
+/* ========= Card layout ========= */
+.principle-cardd {
+  position: relative;
+  background: #cce7ff;
+  border-radius: 1rem;
+  padding: 36px 32px;
+  width: 28.0625rem;
+  height: 37.5rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.principle-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1e3a8a;
+}
+
+.principle-text {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.principle-icon {
+  margin-top: 32px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 120px;
+}
+
+/* ========= Folder icon ========= */
+.folder-icon {
+  position: relative;
+  width: 80px;
+  height: 60px;
+}
+
+.folder-tab {
+  position: absolute;
+  top: -12px;
+  left: 0;
+  width: 40px;
+  height: 12px;
+  background: #2563eb;
+  border-radius: 4px 4px 0 0;
+}
+
+.folder-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 60px;
+  background: #3b82f6;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* ========= Floating hearts ========= */
+.heart-container {
+  position: absolute;
+  bottom: 40px; /* starts from the folder top */
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  overflow: visible;
+}
+
+.heart {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: floatUp ease-in forwards;
+  opacity: 0;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translate(-50%, 0) scale(0.8);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -40px) scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -100px) scale(0.5);
+    opacity: 0;
+  }
+}
+
+/* ========= Responsive tweaks ========= */
+@media (max-width: 768px) {
+  .principle-cardd {
+    width: 100%;
+    height: auto;
+    padding: 28px 24px;
+  }
+
+  .principle-title {
+    font-size: 1.5rem;
+  }
+
+  .principle-text {
+    font-size: 0.95rem;
+  }
+}

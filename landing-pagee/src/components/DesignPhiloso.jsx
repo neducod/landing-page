@@ -1,10 +1,34 @@
-import { useState } from "react"
-import React from "react";
+// import { useState } from "react"
+import React, { useEffect, useState } from "react";
+// import React from "react";
 
 import "../styles/designphiloso.css";
 
 
 const DesignPhiloso = () => {
+  const [hearts, setHearts] = useState([]);
+
+
+  useEffect(() => {
+    // create hearts every 600ms
+    const interval = setInterval(() => {
+      const newHeart = {
+        id: Date.now(),
+        left: Math.random() * 60 - 30, // random offset from center
+        size: Math.random() * 14 + 16, // 16–30px
+        duration: Math.random() * 1 + 2, // 2–3s float time
+      };
+      setHearts((prev) => [...prev, newHeart]);
+      setTimeout(() => {
+        setHearts((prev) => prev.filter((h) => h.id !== newHeart.id));
+      }, newHeart.duration * 1000);
+    }, 600);
+
+    return () => clearInterval(interval);
+  }, []);
+
+
+
     return (
       <div className="design-philosophy">
         <header className="philosophy-header">
@@ -24,7 +48,7 @@ const DesignPhiloso = () => {
         <div className="principles-grid">
   {/* Left column */}
   <div className="left-column">
-    <article className="principle-cardd card-blue">
+    {/* <article className="principle-cardd card-blue">
       <h2 className="principle-title">Empathy first</h2>
       <p className="principle-text">
         I start by understanding users' real stories, needs, 
@@ -36,7 +60,50 @@ const DesignPhiloso = () => {
           <div className="folder-body"></div>
         </div>
       </div>
+    </article> */}
+
+
+    <article className="principle-cardd card-blue">
+      <h2 className="principle-title">Empathy first</h2>
+      <p className="principle-text">
+        I start by understanding users' real stories, needs, and frustrations.
+      </p>
+
+      <div className="principle-icon">
+        {/* Folder base */}
+        <div className="folder-icon">
+          <div className="folder-tab"></div>
+          <div className="folder-body"></div>
+        </div>
+
+        {/* Floating hearts */}
+        <div className="heart-container">
+          {hearts.map((heart) => (
+            <span
+              key={heart.id}
+              className="heart"
+              style={{
+                left: `${heart.left}px`,
+                width: `${heart.size}px`,
+                height: `${heart.size}px`,
+                animationDuration: `${heart.duration}s`,
+              }}
+            >
+              💙
+            </span>
+          ))}
+        </div>
+      </div>
     </article>
+
+
+
+
+
+
+
+
+
   </div>
 
   {/* Right column */}
