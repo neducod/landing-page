@@ -1,10 +1,17 @@
 import React from "react";
 import "../styles/navbar.css";
-
+import React, { useState } from "react";
 import logo from "../assets/logo.svg";
   
   
   const Navbar = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+      setMenuOpen(!menuOpen);
+    };
+
+    
     return (
       <header className="navbar">
         <div className="nav-left">
@@ -21,6 +28,12 @@ import logo from "../assets/logo.svg";
             <li><a href="#about">About me</a></li>
           </ul>
           <button className="nav-btn">Let’s Work</button>
+
+
+      {/* Hamburger icon */}
+      <div className="hamburger" onClick={toggleMenu}>
+        <div className={`bar ${menuOpen ? "open" : ""}`}></div>
+      </div>
         </nav>
       </header>
     );
