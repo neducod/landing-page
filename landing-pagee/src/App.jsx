@@ -15,23 +15,22 @@ import "./App.css";
 import "./styles/global.css";
 import OpenSourceContributions from "./components/OpenSourceContributions";
 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from "./components/Home";
+
+import Welkom from "./components/Welkom";
+
+
 function App() {
   return (
-    <>
-       <Navbar />
-       <Hero />
-       <DesignPhiloso />
-       {/* <DesignPhil /> */}
-       {/* <Designprinciples /> */}
-
-       <SelectedWork />
-       <OpenSourceContributions />
-       <Footer />
-       
-       
-
-    </>
-  );
+        <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/welkom" element={<Welkom />} />
+      </Routes>
+    </Router>
+    );
 }
 
 export default App;

@@ -1,14 +1,14 @@
 import { useState } from "react"
 import React from "react";
-// import "../styles/opensource.css";
 import "../styles/selectedwork.css";
+import { Link } from "react-router-dom";
 
 
+// import { Link } from "react-router-dom";
 
 const works = [
     {
       id: 1,
-    //   image: '/images/imgg3.png',
       img: "/opone.jpg",
       image: "/opone.jpg",
       subtitle: 'Web Design',
@@ -17,7 +17,6 @@ const works = [
     },
     {
       id: 2,
-    //   image: "/optwo.jpg",
         image: "selecone.jpg",
       subtitle: 'UI/UX',
       title: 'Mobile App UI',
@@ -72,9 +71,18 @@ const SelectedWork = () => {
               <p className="work-subtitle">{work.subtitle}</p>
               <h3 className="work-title">{work.title}</h3>
               <p className="work-description">{work.description}</p>
+             
+
+  
               <button className="case-study-btn">
                 Case study <span className="arrow">→</span>
-              </button>
+              </button> 
+
+              {/* <button className="case-study-btn">
+                Case study <span className="arrow">→</span>
+              </button> */}
+           
+
             </div>
           </div>
         ))}

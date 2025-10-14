@@ -158,3 +158,118 @@ body{
   background: rgba(255, 255, 255, 0.40);
   /* background-color: pink; */
 }
+/* 
+
+
+APP.JSX
+
+import React from "react";
+// import { Routes, Route } from "react-router-dom";
+// import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+import Footer from "./components/footer";
+import OpenSource from "./components/OpenSourceContributions";
+import SelectedWork from "./components/Selectedwork";
+// import DesignPhilosophy from "./components/DesignPhilosophy"
+import Hero from "./components/Hero";
+import DesignPhil from "./components/DesignPhi";
+import Designprinciples from "./components/Designprinciples";
+import DesignPhiloso from "./components/DesignPhiloso";
+
+import "./App.css";
+import "./styles/global.css";
+import OpenSourceContributions from "./components/OpenSourceContributions";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from "./components/Home";
+
+import Welkom from "./components/Welkom";
+
+
+function App() {
+  return (
+    <>
+        <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/welkom" element={<Welkom />} />
+      </Routes>
+    </Router>
+
+
+
+       {/* <Hero /> */
+       /* <DesignPhiloso /> *
+       {/* <SelectedWork /> *
+       {/* <OpenSourceContributions /> *
+       {/* <Footer /> *}
+       
+       
+
+       </>
+       );
+     }
+     
+     export default App;
+     */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* 
+     
+     
+     HOME
+
+
+
+
+     import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./footer";
+import OpenSource from "./OpenSourceContributions";
+import SelectedWork from "./Selectedwork";
+import Hero from "./Hero";
+import DesignPhil from "./DesignPhi";
+import Designprinciples from "./Designprinciples";
+import DesignPhiloso from "./DesignPhiloso";
+
+// import "./App.css";
+// import "./styles/global.css";
+import OpenSourceContributions from "./OpenSourceContributions";
+
+// import { Link } from "react-router-dom";
+
+const Home = () => {
+    return (
+      <>
+        <Navbar />
+        <Hero />
+        <DesignPhiloso />
+        <SelectedWork />
+        <OpenSourceContributions />
+        <Footer />
+      </>
+    );
+  };
+  
+  export default Home;
+     
+     
+     
+     
+     */
