@@ -32,7 +32,6 @@ const DesignPhiloso = () => {
 
 
 
-
   const [showExtra, setShowExtra] = useState(false);
 
   useEffect(() => {
@@ -42,6 +41,16 @@ const DesignPhiloso = () => {
     return () => clearInterval(interval);
   }, []);
 
+
+  const [showFirst, setShowFirst] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setShowFirst((prev) => !prev);
+    }, 7000); // every 7s switch between cards
+
+    return () => clearInterval(interval);
+  }, []);
 
     return (
       <div className="design-philosophy">
@@ -142,23 +151,24 @@ const DesignPhiloso = () => {
       </div>
     </article>
 
-
-
-
-
-
-
-
-
-
-
     <article className="principle-card card-green">
       <h2 className="principle-title">Collaboration always</h2>
       <p className="principle-text">
         I work closely with developers, researchers, and stakeholders 
         to bring ideas to life.
       </p>
-      <div></div>
+      <div  className={`principle-card card-green ${!showFirst ? "visible" : "hidden"}`}>
+      <div className="principle-bottomm">
+          <div className="extra-content">
+            <div className="briefcase-icon">💼</div>
+            <div className="message-row">
+              <span>💬</span>
+              <span>💬</span>
+              <span>💬</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
   </div>
 </div>
