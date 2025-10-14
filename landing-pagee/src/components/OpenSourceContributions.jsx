@@ -32,8 +32,10 @@ const contributions = [
   export default function OpenSourceContributions() {
     return (
       <section className="open-source">
-        <h2>Open Source Contributions</h2>
+       <div className="open">
+       <h2>Open Source Contributions</h2>
         <p className="text-p">Giving back through community-driven design</p>
+       </div>
   
         <div className="card-grid">
           {contributions.map((item, index) => (

@@ -4,6 +4,8 @@
     padding: 60px 20px;
     font-family: "Inter", sans-serif;
     color: #333;
+
+
   }
   
   .open-source h2 {
@@ -37,6 +39,15 @@
     align-items: start;
     max-width: 1000px;
     margin: 0 auto 40px;
+
+
+    display: flex;
+    align-items: center;
+    gap: 1.5625rem;
+    align-self: stretch;
+  }
+  .open{
+
   }
   @media (max-width: 768px) {
     .card-grid {
