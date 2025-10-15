@@ -151,6 +151,180 @@ const Project1 = () => {
           </div>
         </div>
       </div>
+
+      <div className="frame-7">
+        <div className="frame-7a">
+          <h2>Challenges and Learning</h2>
+          <p>This project was my first opportunity to design for people relocating across countries. To better understand the needs of immigrants, I explored how relocation and immigration support apps work and gathered key insights from two primary sources.</p>
+        </div>
+        <div className="frame-7b">
+          <div className="frame-7b1">
+            <h3>UX Collective Article <span>“Making the move abroad less difficult — a UX case study”</span> by Paul Naylor</h3>
+            <div className="frame-761-group">
+              <img src="/Group 19299.png" alt="" />
+            </div>
+          </div>
+          <div className="frame-7b2">
+            <h3>UX Magazine <span> “Onboarding: best move for user retention in mobile apps”</span> </h3>
+            <div className="frame-7b2-group">
+              <div className="frame-7b2-groupp">
+                <div className="frame-7b2-grouppp">
+                  <ul>
+                    <li>Users should be able to quickly understand the purpose of a page without confusion or delay.</li>
+                    <li>Use clear, straightforward language that’s easy for users to understand</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+
+      <div className="frame-8">
+        <div className="frame-8a">
+          <h3>User Flow</h3>
+          <p>This user flow reflects the thinking and decisions made during the design process.</p>
+        </div>
+        <div className="frame-8b">
+          <img src="/Information Art Correct 1.png" alt="" />
+        </div>
+      </div>
+
+      <div className="frame-9">
+        <div className="frame-9-a">
+          <h3>Wireframes</h3>
+          <p>I created initial sketches to explore and visualise design ideas.</p>
+        </div>
+        <div className="frame-9-b">
+          <img src="/Wireframe white 1.png" alt="" />
+        </div>
+      </div>
+
+      <div className="frame-10">
+        <div className="frame-10a">
+          <h3>Design Iteration</h3>
+          <p>I tested several iterations of the homepage to ensure users could quickly find the information they need to make informed decisions, while also improving the visual appeal of the content feed.</p>
+        </div>
+      </div>
+
+      <div className="frame-11">
+        <img src="/Desktop - 2.png" alt="" className="group-19302"/>
+        <div className="frame-11a">
+            <h3>Feedbacks & Fixes</h3>
+            <p>Based on testing and feedback, I identified the need to improve the search functionality, refine the card layout and arrangement, adjust the scroll icon, and enhance the side navigation for better usability.</p>
+        </div>
+      </div>
+      <div className="frame-12">
+        <div>
+          <h3>Previous Iteration</h3>
+          <div className="frame-12a">
+            <img src="/Frame 3233040.png" alt="" />
+          </div>
+        </div>
+        <div>
+          <h3>Current Iteration</h3>
+          <div className="frame-12b">
+            <img src="/Frame 3233041.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="frame-13">
+        <div className="frame-13a">
+            <div className="frame-13aa">
+              <div className="frame-13aa1">
+                <h3>Exchange Currency</h3>
+                <p>Exchange money from one local 
+                currency to another</p>
+              </div>
+              <div>
+                <img src="/coin 1.png" alt="" />
+              </div>
+            </div>
+            <ul>
+              <li>Most users didn’t realise 
+            the cards were clickable.</li>
+            <li> I also found that the cards contained 
+            too much information, all crowded in the 
+            same area, which made them harder to 
+            scan and engage with.</li>
+            </ul>
+        </div>
+        <div className="frame-13b">
+          <img src="/Group 19202.png" alt="" />
+          <p>I kept the same width and icon as the previous 
+          card but increased the height to create better visual balance. 
+          This adjustment allowed for improved icon placement and 
+          added subtle background patterns for a more polished look.
+          I positioned the text next to the call-to-action (CTA) to 
+          make it clear to users that it is interactive and clickable.</p>
+
+        </div>
+      </div>
+
+      <div className="frame-14">
+        <div>
+        <img src="/Group 19204.png" alt="" />
+        </div>
+        <div>
+        <img src="/Current design.png" alt="" />
+        </div>
+      </div>
+      
+
+      <div className="frame-15">
+        <div className="frame-15a">
+          <h2>High Fidelity Design</h2>
+          <div className="frame-15aa">
+            <p>Accommodation Info – <span>I added location-specific accommodation details to ensure search results are relevant to the user’s destination country</span>.</p>
+            <p>Utilities Filter – <span>This feature allows users to narrow down accommodation options based on their specific needs, such as available amenities.</span></p>
+            <p>Search Criteria –<span> Users can select their preferred location, accommodation type, and set a budget to tailor the results to their preferences</span>.</p>
+            <p>Apartment Info – <span>Key details such as rental price and important features are highlighted to give users the essential information at a glance</span>.</p>
+            <p>Detailed Information – <span>Additional context is provided to help users make well-informed decisions about the apartment.</span></p>
+            <p>Map – <span>An integrated map helps users understand the exact location of the property and explore the surrounding area.</span></p>
+            <p>Top Activities – <span>Highlights indoor and outdoor activities available in the selected location, helping users engage with their new surroundings.</span></p>
+          </div>
+        </div>
+        <div className="frame-15b">
+          <img src="/Image 1.png" alt="" />
+          <img src="/Image 2.png" alt="" />
+          <img src="/Image 3.png" alt="" />
+          <img src="/Image 4.png" alt="" />
+        </div>
+      </div>
+
+      <div className="frame-16">
+        <h2>Developer Handoff </h2>
+        <p>To conclude the project, I took the extra step of consolidating all design components into a structured design system. This provided consistency and made it easier for the development team to implement and maintain the product over time. I facilitated the design handoff using Zeplin to ensure smooth collaboration and accurate execution.</p>
+        <p className="frame-16p"><span> GRID:</span>The layout uses a 12-column grid system to ensure consistent spacing and alignment across the design.</p>
+        <p className="frame-16p"><span>ICONS:</span> Some of the icons used in this project were sourced from <a href="https://remixicon.com/"> Remix Icon</a>, an open-source React icon library.  <br />
+        All icons are sized at 24px by 24px for visual consistency.</p>
+      </div>
+      <div className="frame-16a">
+        <img src="/Group 19230.png" alt="" />
+      </div>
+
+      <div className="frame-17">
+        <div>
+          <img src="/Screenshot 2025-10-10 at 07.33.36 1.png" alt="" />
+        </div>
+      </div>
+
+      <div className="frame-18">
+        <div className="frame-18a">
+          <h2>Colours</h2>
+          <img src="/Group 1.png" alt="" />
+        </div>
+      </div>
+
+      <div className="frame-19">
+        <h2>Learning & Achievement</h2>
+        <p>This has been one of the most exciting and meaningful projects I’ve worked on. Prior to this, I had never designed a product specifically for people migrating from one country to another. Having experienced the challenges of relocating from Nigeria to Rwanda myself, I understood how overwhelming it can be to face so many unknowns.
+Welkom-U was born from that insight — a product designed to support newcomers with relevant, localised information. It has since received recognition from <a href="https://www.facebook.com/venninnovation/posts/225060796287907">Venn Innovation</a> for its impact on individuals planning to migrate to Canada. Additionally, Welkom-U’s CEO was named one of Atlantic Business magazine’s 30 Under 30.
+ 
+View the live project: <a href="https://www.welkom-u.ca/">www.welkom-u.ca</a></p>
+      </div>
     </section>
   );
 };
