@@ -159,6 +159,10 @@ body{
   background: #F4F2FB;;
   /* background-color: pink; */
 }
+html {
+  scroll-behavior: smooth;
+}
+
 /* 
 
 

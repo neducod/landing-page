@@ -1,9 +1,7 @@
 import { useState } from "react"
 import React from "react";
 import "../styles/selectedwork.css";
-// import { Link } from "react-router-dom";
-
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 
 const works = [
     {
@@ -13,6 +11,7 @@ const works = [
       subtitle: 'UX/UI DESIGN',
       title: 'Welkom-U Dashboard',
       description: 'Helping immigrants settle seamlessly, with the tools, guidance, and community they need',
+      link: "/project1",
     },
     {
       id: 2,
@@ -20,6 +19,7 @@ const works = [
       subtitle: 'UI/UX',
       title: 'Mobile App UI',
       description: 'Empowering your financial journey through smarter saving tools.',
+      link: "/project2",
     },
     {
       id: 3,
@@ -27,6 +27,7 @@ const works = [
       subtitle: 'UI DESIGN',
       title: 'E-commerce Site',
       description: 'Leveraging artificial intelligence to transform how news is organised and understood.',
+      link: "/project3",
     },
     {
       id: 4,
@@ -34,6 +35,7 @@ const works = [
       subtitle: 'UX/UI DESIGN',
       title: 'SavePlus Web/Mobile',
       description: 'Helping change makers raise funds, share stories, and inspire action.',
+      link: "/project4",
     },
     {
       id: 5,
@@ -41,6 +43,7 @@ const works = [
       subtitle: 'UX/UI DESIGN',
       title: 'Farely Mobile App',
       description: 'Designing a seamless ride-hailing experience that simplifies fare comparison ',
+      link: "/project5",
     },
     {
       id: 6,
@@ -48,6 +51,7 @@ const works = [
       subtitle: 'UX/UI DESIGN',
       title: 'CouponVouch',
       description: 'Making online shopping smarter, with verified deals you can actually trust.',
+      link: "/project6",
     },
   ];
   
@@ -60,7 +64,7 @@ const SelectedWork = () => {
         <p>Proof of impact, stories behind the pixels.</p>
       </div>
 
-      <div className="work-grid">
+      <div className="work-grid" id="work">
         {works.map((work) => (
           <div className="work-card" key={work.id}>
             <img src={work.image} alt={work.title} className="work-image" />
@@ -71,14 +75,12 @@ const SelectedWork = () => {
              
 
   
-              <button className="case-study-btn">
-                Case study <span className="arrow">→</span>
-              </button> 
+              <Link to={work.link}>
+  <button className="case-study-btn">
+    Case study <span className="arrow">→</span>
+  </button>
+</Link>
 
-              {/* <button className="case-study-btn">
-                Case study <span className="arrow">→</span>
-              </button> */}
-           
 
             </div>
           </div>

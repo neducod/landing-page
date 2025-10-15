@@ -46,7 +46,7 @@ import "../styles/designphiloso.css";
 // }
 const DesignPhiloso = () => {
     return(
-      <section className="intro">
+      <section className="intro" id="home">
         <div className="qqq">
         <h2 className="www">My Design</h2>
         <div className="container">

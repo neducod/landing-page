@@ -43,7 +43,7 @@ const Index = () => {
   //     <button className="contact-btn">Contact me</button>
   //   </div>
   // </section>
-  <section className="intro">
+  <section className="intro" id="home">
   <h1 className="intro-title">
     Hi,{" "}
     <div className="intro-face-wrapper">

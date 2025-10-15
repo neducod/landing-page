@@ -31,7 +31,7 @@ const contributions = [
 
   export default function OpenSourceContributions() {
     return (
-      <section className="open-source">
+      <section className="open-source" id="home">
        <div className="open">
        <h2>Open Source Contributions</h2>
         <p className="text-p">Giving back through community-driven design</p>
