@@ -1,4 +1,9 @@
 
+
+
+
+
+/*
 .design-philosophy {
     min-height: 100vh;
     padding: 60px 20px;
@@ -48,9 +53,7 @@ letter-spacing: 0.04rem;
   }
   
   .philosophy-description {
-    /* font-size: 1.125rem; */
-    /* line-height: 1.8; */
-    /* color: #555; */
+  
     max-width: 700px;
     margin: 0 auto;
 
@@ -61,7 +64,7 @@ font-family: "Helvetica Neue";
 font-size: 1.5rem;
 font-style: normal;
 font-weight: 400;
-line-height: 2.25rem; /* 150% */
+line-height: 2.25rem; 
 letter-spacing: 0.024rem;
   }
   .icon-span {
@@ -91,28 +94,15 @@ letter-spacing: 0.024rem;
     justify-content: center;
 
   justify-content: flex-start;
-  gap: 00.1rem; /* gives a visible space between icons */
+  gap: 00.1rem; 
   transition: all 0.6s ease;
   }
   
   .overlap {
-    margin-left: -15px; /* make them lap each other a bit */
+    margin-left: -15px; 
     transform: scale(0.95);
     position: relative;
-  }/*
-  @keyframes fadeInOut {
-    0% {
-      opacity: 0;
-      transform: scale(0.8) translateY(10px);
-    }
-    50% {
-      opacity: 1;
-      transform: scale(1) translateY(0);
-    }
-    100% {
-      opacity: 1;
-    }
-  }*/
+  }/
   @keyframes fadeInOut {
     0% { opacity: 0; }
     50% { opacity: 1; }
@@ -122,7 +112,7 @@ letter-spacing: 0.024rem;
 .fade {
   transition: all 0.5s ease;
 }  
-  /*  */
+ 
   .principles-grid {
 
 display: grid;
@@ -155,25 +145,9 @@ padding: 0 20px;
     flex-direction: column;
   }
   .principle-cardd {
-    /*
+    
     background: white;
-    border-radius: 24px;
-    padding: 36px 32px;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    display: flex;
-    flex-direction: column;
 
-*/
-/*
-    width: 28.0625rem;
-height: 37.5rem;
-flex-shrink: 0;
-border-radius: 1rem;
-background: #CCE7FF;
-*/
   }
   .principle-card::before {
     content: '';
@@ -211,8 +185,7 @@ background: #CCE7FF;
   .principle-title {
     font-size: 1.5rem;
     font-weight: 600;
-    /* color: #2d2d2d; */
-    /* margin-bottom: 16px; */
+
     position: relative;
     z-index: 1;
 
@@ -223,7 +196,7 @@ font-family: "Helvetica Neue";
 font-size: 2rem;
 font-style: normal;
 font-weight: 500;
-line-height: 2.25rem; /* 112.5% */
+line-height: 2.25rem; 
 letter-spacing: 0.032rem;
   }
   
@@ -379,11 +352,9 @@ letter-spacing: 0.032rem;
   .principle-card:nth-child(3) {
     animation-delay: 0.3s;
   }
-  */
+  *
 
-  /* ✅ Improved Responsive Styles — add this below everything */
 
-/* Tablets (≤1024px) */
 @media (max-width: 1024px) {
   .philosophy-title {
     font-size: 2.2rem;
@@ -405,7 +376,6 @@ letter-spacing: 0.032rem;
   }
 }
 
-/* Small Tablets & Large Phones (≤768px) */
 @media (max-width: 768px) {
   .design-philosophy {
     padding: 40px 16px;
@@ -455,7 +425,6 @@ letter-spacing: 0.032rem;
   }
 }
 
-/* Phones (≤480px) */
 @media (max-width: 480px) {
   .design-philosophy {
     padding: 32px 12px;
@@ -502,7 +471,6 @@ letter-spacing: 0.032rem;
   }
 }
 
-/* Ultra Small Devices (≤360px) */
 @media (max-width: 360px) {
   .philosophy-title {
     font-size: 1.4rem;
@@ -519,7 +487,6 @@ letter-spacing: 0.032rem;
 
 
 
-/* ========= Card layout ========= */
 .principle-cardd {
   position: relative;
   background: #cce7ff;
@@ -556,12 +523,11 @@ letter-spacing: 0.032rem;
   align-items: flex-end;
   height: 120px;
 }
-*/
+*
 .principle-bottom {
   position: relative;
   min-height: 60px;
 }
-/* Base transition for appear/disappear */
 .extra-content {
   transition: opacity 1s ease, transform 1s ease;
 }
@@ -573,7 +539,6 @@ letter-spacing: 0.032rem;
   opacity: 1;
   transform: translateY(0);
 }
-/* Icon row layout */
 .icon-row {
   display: flex;
   justify-content: center;
@@ -581,13 +546,12 @@ letter-spacing: 0.032rem;
   font-size: 1.5rem;
 }
 
-/* Staggered fade-in for spans */
 .icon-row span {
   opacity: 0;
   transform: translateY(10px);
   animation: fadeUp 0.8s forwards ease;
 }
-/* When visible, trigger the stagger */
+/* When visible, trigger the stagger *
 .extra-content.visible .icon-row span:nth-child(1) {
   animation-delay: 0.2s;
 }
@@ -597,7 +561,7 @@ letter-spacing: 0.032rem;
 .extra-content.visible .icon-row span:nth-child(3) {
   animation-delay: 1s;
 }
-/* Fade-up keyframes */
+/* Fade-up keyframes *
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -614,7 +578,6 @@ letter-spacing: 0.032rem;
   font-size: 0.9rem;
   opacity: 0.8;
 }
-/* ========= Folder icon ========= */
 .folder-icon {
   position: relative;
   width: 80px;
@@ -642,10 +605,9 @@ letter-spacing: 0.032rem;
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
-/* ========= Floating hearts ========= */
 .heart-container {
   position: absolute;
-  bottom: 40px; /* starts from the folder top */
+  bottom: 40px; /* starts from the folder top *
   left: 50%;
   transform: translateX(-50%);
   pointer-events: none;
@@ -676,7 +638,6 @@ letter-spacing: 0.032rem;
   }
 }
 
-/* ========= Responsive tweaks ========= */
 @media (max-width: 768px) {
   .principle-cardd {
     width: 100%;
@@ -698,7 +659,6 @@ letter-spacing: 0.032rem;
 
 
 
-/* Visibility states */
 .principle-card.hidden {
   opacity: 0;
   transform: scale(0.9);
@@ -734,7 +694,6 @@ letter-spacing: 0.032rem;
     transform: scale(0.9);
   }
 }
-/* Icons section for green */
 .briefcase-icon {
   font-size: 2rem;
   opacity: 0;
@@ -777,3 +736,178 @@ letter-spacing: 0.032rem;
     opacity: 1;
   }
 }
+
+
+
+.folder-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.folder {
+  width: 120px;
+  height: 100px;
+  position: relative;
+  animation: folderAnimation 4s ease-in-out infinite;
+}
+.folder-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.heart {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  opacity: 0;
+  pointer-events: none;
+}
+.heart-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.heart-1 {
+  animation: floatHeart1 4s ease-in-out infinite;
+  left: 50%;
+  bottom: 50%;
+}
+
+.heart-2 {
+  animation: floatHeart2 4s ease-in-out infinite 0.3s;
+  left: 40%;
+  bottom: 50%;
+}
+.heart-3 {
+  animation: floatHeart3 4s ease-in-out infinite 0.6s;
+  left: 60%;
+  bottom: 50%;
+}
+
+.heart-4 {
+  animation: floatHeart4 4s ease-in-out infinite 0.2s;
+  left: 45%;
+  bottom: 50%;
+}
+
+.heart-5 {
+  animation: floatHeart5 4s ease-in-out infinite 0.5s;
+  left: 55%;
+  bottom: 50%;
+}
+
+@keyframes folderAnimation {
+  0% {
+    transform: scale(1) rotateY(0deg);
+  }
+  25% {
+    transform: scale(1.1) rotateY(10deg);
+  }
+  50% {
+    transform: scale(1.1) rotateY(10deg);
+  }
+  75% {
+    transform: scale(1) rotateY(0deg);
+  }
+  100% {
+    transform: scale(1) rotateY(0deg);
+  }
+}
+
+@keyframes floatHeart1 {
+  0%, 20% {
+    opacity: 0;
+    transform: translate(-50%, 0) scale(0);
+  }
+  30% {
+    opacity: 1;
+    transform: translate(-50%, -20px) scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translate(-50%, -80px) scale(1.2);
+  }
+  70%, 100% {
+    opacity: 0;
+    transform: translate(-50%, -120px) scale(0.8);
+  }
+}
+@keyframes floatHeart2 {
+  0%, 20% {
+    opacity: 0;
+    transform: translate(-50%, 0) scale(0) rotate(0deg);
+  }
+  30% {
+    opacity: 1;
+    transform: translate(-70%, -25px) scale(0.9) rotate(-15deg);
+  }
+  50% {
+    opacity: 0.7;
+    transform: translate(-90%, -70px) scale(1) rotate(-30deg);
+  }
+  70%, 100% {
+    opacity: 0;
+    transform: translate(-100%, -110px) scale(0.7) rotate(-45deg);
+  }
+}
+@keyframes floatHeart3 {
+  0%, 20% {
+    opacity: 0;
+    transform: translate(-50%, 0) scale(0) rotate(0deg);
+  }
+  30% {
+    opacity: 1;
+    transform: translate(-30%, -30px) scale(1.1) rotate(15deg);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translate(-10%, -75px) scale(1.3) rotate(30deg);
+  }
+  70%, 100% {
+    opacity: 0;
+    transform: translate(0%, -115px) scale(0.9) rotate(45deg);
+  }
+}
+@keyframes floatHeart4 {
+  0%, 20% {
+    opacity: 0;
+    transform: translate(-50%, 0) scale(0);
+  }
+  28% {
+    opacity: 1;
+    transform: translate(-60%, -15px) scale(0.8);
+  }
+  48% {
+    opacity: 0.9;
+    transform: translate(-75%, -65px) scale(1.1);
+  }
+  70%, 100% {
+    opacity: 0;
+    transform: translate(-85%, -105px) scale(0.6);
+  }
+}
+@keyframes floatHeart5 {
+  0%, 20% {
+    opacity: 0;
+    transform: translate(-50%, 0) scale(0);
+  }
+  32% {
+    opacity: 1;
+    transform: translate(-40%, -20px) scale(0.95);
+  }
+  52% {
+    opacity: 0.85;
+    transform: translate(-25%, -72px) scale(1.15);
+  }
+  70%, 100% {
+    opacity: 0;
+    transform: translate(-15%, -108px) scale(0.75);
+  }
+}
+*/
