@@ -80,8 +80,18 @@ const DesignPhiloso = () => {
       <div className="design-philosophy">
         <header className="philosophy-header">
           <h1 className="philosophy-title">
+              My Design 
+              <video
+  src="/videotwofile.mov"
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="#"
+/>
+          </h1>
+          {/* <h1 className="philosophy-title">
             My Design 
-            {/* <span className="icon-badge">✏️</span>  */}
             <span className="icon-span">
           {step === 0 && (
             <div
@@ -117,24 +127,10 @@ const DesignPhiloso = () => {
       </div>
     ))}
   </div>
-            // <div className="multi-icon">
-            //   <div
-            //     className="icon-box fade"
-            //     style={{ background: icons[2].bg, zIndex: 2 }}
-            //   >
-            //     {icons[2].icon}
-            //   </div>
-            //   <div
-            //     className="icon-box fade overlap"
-            //     style={{ background: icons[3].bg, zIndex: 1 }}
-            //   >
-            //     {icons[3].icon}
-            //   </div>
-            // </div>
           )}
         </span>
             Philosophy
-          </h1>
+          </h1> */}
           <p className="philosophy-description">
             I design with logic and empathy to create functional, 
             human-centered products. Good design, to me, feels effortless, 

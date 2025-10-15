@@ -1,7 +1,7 @@
 
 .design-philosophy {
     min-height: 100vh;
-    background: linear-gradient(180deg, #f5f3ff 0%, #e9e5f5 100%);
+    /* background: linear-gradient(180deg, #f5f3ff 0%, #e9e5f5 100%); */
     padding: 60px 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,18 +12,28 @@
     max-width: 800px;
     margin: 0 auto 60px;
     text-align: center;
-  }
-  
-  .philosophy-title {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #2d2d2d;
-    margin-bottom: 24px;
+
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 12px;
     flex-wrap: wrap;
+  }
+  
+  .philosophy-title {
+    /* font-size: 2.5rem; */
+    /* font-weight: 600; */
+    /* color: #2d2d2d; */
+    /* margin-bottom: 24px; */
+    
+
+    color: #505050;
+font-family: "Helvetica Neue";
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 3.375rem;
+letter-spacing: 0.04rem;
   }
   
   .icon-badge {
@@ -44,11 +54,21 @@
   }
   
   .philosophy-description {
-    font-size: 1.125rem;
-    line-height: 1.8;
-    color: #555;
+    /* font-size: 1.125rem; */
+    /* line-height: 1.8; */
+    /* color: #555; */
     max-width: 700px;
     margin: 0 auto;
+
+
+    color: #505050;
+text-align: center;
+font-family: "Helvetica Neue";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.25rem; /* 150% */
+letter-spacing: 0.024rem;
   }
   .icon-span {
     display: inline-flex;
