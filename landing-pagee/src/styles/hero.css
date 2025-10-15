@@ -246,11 +246,11 @@ text-underline-position: from-font;
 /* For very small screens (below 480px) */
 @media (max-width: 480px) {
   .intro {
-    margin-top: 2rem;
+    margin-top: 5rem;
     padding: 40px 8px;
   }
   .intro-title {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
   .intro-face {
     width: 50px;
@@ -398,3 +398,28 @@ text-underline-position: from-font;
       font-size: 1rem;
     }
   */
+
+  /*
+
+  {
+  "name": "landing-pagee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neducod/landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neducod/landing-page/issues"
+  },
+  "homepage": "https://github.com/neducod/landing-page#readme"
+}
+*/
