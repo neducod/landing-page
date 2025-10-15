@@ -58,10 +58,21 @@ const Index = () => {
 
   <p className="intro-subtitle">an Interaction Designer</p>
 
-  <p className="intro-tagline">
+  {/* <p className="intro-tagline">
     I design for <em>clarity</em>{" "}
     <img src="/SHAKEPUZZLE.png" alt="clarity icon" className="clarity-icon" />
-  </p>
+  </p> */}
+  <div className="intro-tagline">
+   <p> I design for </p>
+   <video
+  src="/videofile.mov"
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="hero-video"
+/>
+  </div>
 
   <button className="contact-btn">Contact me</button>
 </section>
