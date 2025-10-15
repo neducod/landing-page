@@ -21,8 +21,6 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      {/* <Hero /> */}
-      {/* <Hero /> */}
       <DesignPhiloso />
       <SelectedWork />
       <OpenSourceContributions />

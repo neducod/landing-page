@@ -3,7 +3,6 @@ import React from "react";
 import "../styles/selectedwork.css";
 // import { Link } from "react-router-dom";
 
-
 // import { Link } from "react-router-dom";
 
 const works = [
