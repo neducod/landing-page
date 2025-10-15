@@ -190,6 +190,10 @@ const DesignPhiloso = () => {
       </div>
     </article>
 
+    <article className="">
+
+    </article>
+
 
 
 

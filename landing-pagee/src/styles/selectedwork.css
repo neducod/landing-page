@@ -6,17 +6,28 @@
   }
   
   .selected-work-header h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    color: #333;
+    align-self: stretch;
+    color: #505050;
+text-align: center;
+font-family: "Helvetica Neue";
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 3.375rem; /* 135% */
+letter-spacing: 0.04rem;
   }
   
   .selected-work-header p {
-    color: #555;
-    font-size: 1.2rem;
-    font-weight: 200;
     margin-bottom: 3rem;
+    align-self: stretch;
+    color: #505050;
+text-align: center;
+font-family: "Helvetica Neue";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.25rem; /* 150% */
+letter-spacing: 0.024rem;
   }
   
   .work-grid {
@@ -27,13 +38,17 @@
   }
   
   .work-card {
-    background: #fff;
-    border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    max-width: 360px;
+    /* max-width: 360px; */
     text-align: left;
     transition: transform 0.3s ease;
+
+
+    width: 23.5rem;
+height: 29.75rem;
+border-radius: 0.5rem;
+background: #FFF;
   }
   
   .work-card:hover {
@@ -57,6 +72,14 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
+
+    color: #87909D;
+font-family: "Helvetica Neue";
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1rem; /* 133.333% */
+letter-spacing: 0.0045rem;
   }
   
   .work-title {
@@ -64,13 +87,26 @@
     font-weight: 700;
     color: #111;
     margin-bottom: 0.75rem;
+
+    color: #132238;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem; /* 133.333% */
+letter-spacing: 0.00675rem;
   }
   
   .work-description {
-    font-size: 0.95rem;
-    color: #444;
     margin-bottom: 1.5rem;
-    line-height: 1.5;
+
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25rem; /* 142.857% */
+letter-spacing: 0.007rem;
   }
   
   .case-study-btn {
@@ -85,6 +121,20 @@
     align-items: center;
     gap: 0.5rem;
     transition: all 0.3s ease;
+
+    display: inline-flex;
+padding: 0.5rem 1rem;
+align-items: center;
+gap: 0.5rem;
+border-radius: 0.25rem;
+border: 1px solid #132238;
+color: #132238;
+font-family: "Helvetica Neue";
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25rem; /* 142.857% */
+letter-spacing: 0.007rem;
   }
   
   .case-study-btn:hover {
