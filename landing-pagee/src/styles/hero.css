@@ -144,6 +144,132 @@ text-underline-position: from-font;
   background: #333;
   transform: translateY(-2px);
 }
+/* ------------------- MEDIA QUERIES ------------------- */
+
+/* For large desktops (1200px and above) */
+@media (min-width: 1200px) {
+  .intro {
+    padding: 100px 60px;
+  }
+  .intro-title {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .intro-subtitle {
+    font-size: 2.2rem;
+  }
+  .intro-tagline p {
+    font-size: 2.7rem;
+  }
+}
+
+/* For laptops and medium screens (992px – 1199px) */
+@media (max-width: 1199px) {
+  .intro-title {
+    font-size: 2.8rem;
+  }
+  .intro-subtitle {
+    font-size: 1.8rem;
+  }
+  .intro-tagline p {
+    font-size: 2rem;
+  }
+  .hero-video {
+    width: 160px;
+  }
+}
+
+/* For tablets (768px – 991px) */
+@media (max-width: 991px) {
+  .intro {
+    padding: 60px 20px;
+    gap: 12px;
+  }
+  .intro-title {
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+  .intro-subtitle {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  .intro-tagline {
+    flex-direction: column;
+  }
+  .intro-tagline p {
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+  }
+  .hero-video {
+    width: 140px;
+  }
+}
+
+/* For mobile phones (480px – 767px) */
+@media (max-width: 767px) {
+  .intro {
+    margin-top: 3rem;
+    padding: 50px 10px;
+  }
+  .intro-title {
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+  .intro-face {
+    width: 60px;
+    height: 60px;
+  }
+  .intro-subtitle {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  .intro-tagline {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .intro-tagline p {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+  .hero-video {
+    width: 120px;
+  }
+  .contact-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* For very small screens (below 480px) */
+@media (max-width: 480px) {
+  .intro {
+    margin-top: 2rem;
+    padding: 40px 8px;
+  }
+  .intro-title {
+    font-size: 1.6rem;
+  }
+  .intro-face {
+    width: 50px;
+    height: 50px;
+  }
+  .intro-subtitle {
+    font-size: 1rem;
+  }
+  .intro-tagline p {
+    font-size: 1.2rem;
+  }
+  .hero-video {
+    width: 100px;
+  }
+  .contact-btn {
+    font-size: 0.85rem;
+  }
+}
+
 /*
 @media (max-width: 768px) {
   .intro-title {
