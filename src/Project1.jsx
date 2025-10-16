@@ -40,10 +40,10 @@ const Project1 = () => {
           <h1>Welkom-U Dashboard</h1>
           <p className="frame-1-p">Helping immigrants settle seamlessly, with the 
           tools, guidance, and community they need.</p>
-          <p className="frame-1-pp">www.welkom-u.ca</p>
+          <p className="frame-1-pp"><a href="https://www.welkom-u.ca/">www.welkom-u.ca</a></p>
         </div>
         <div className="frame-2">
-          <div>
+          <div className="frame-22">
             <h2 className="frame-2h2">Context</h2>
             <p className="frame-2p">Relocating to a new country can be overwhelming. As someone who 
             relocated from Lagos, Nigeria to Kigali, Rwanda, I personally experienced 
@@ -52,7 +52,7 @@ const Project1 = () => {
             by giving them access to housing, social connections, cultural information, 
             and other essential resources.</p>
           </div>
-          <div>
+          <div className="frame-22">
             <h2 className="frame-2-h2">Introducing Welkom-U</h2>
             <div>
               <h3 className="frame-2-h3">Problem: </h3>
@@ -114,8 +114,8 @@ const Project1 = () => {
 
       <div className="frame-5">
         <div className="frame-5-a">
-            <h2>Exploring Opportunities</h2>
-            <p>I used the “How Might We” framework to turn user challenges into design opportunities. This helped me generate solution ideas grounded in real user insights and ensure the approach stayed focused on their needs.</p>
+          <h2>Exploring Opportunities</h2>
+          <p>I used the “How Might We” framework to turn user challenges into design opportunities. This helped me generate solution ideas grounded in real user insights and ensure the approach stayed focused on their needs.</p>
         </div>
         <div className="frame-5-b">
           <h3>How Might We</h3>
@@ -137,49 +137,49 @@ const Project1 = () => {
                 <div className="six-cardone">
                   <div className="six-cardone-a" >
                     <h4>STRENGTHS</h4>
-                    <p>Good content that is easy for the users</p>
+                    <li>Good content that is easy for the users</li>
                   </div>
                   <div className="six-cardone-b">
                     <h4>WEAKNESSES</h4>
-                    <p>Information are not properly arranged for users</p>
+                    <li>Information are not properly arranged for users</li>
                   </div>
                 </div>
               </div>
-              <div></div>
+              <div>
+                <img src="/frame-r4d.png" alt="" />
+              </div>
             </div>
-            <div className="frame-6b-one-2"></div>
+            <div className="frame-6b-one-2">
+               <div>
+               <img src="/ftw-5-py.png" alt="" />
+               </div>
+                <br />
+                <div>
+                  <img src="/py-5-mt-3.png" alt="" /> 
+                    {/* <img src="/ftw-5-py.png" alt="" /> */}
+                </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="frame-7">
+      {/* <div className="frame-7e">
         <div className="frame-7a">
           <h2>Challenges and Learning</h2>
           <p>This project was my first opportunity to design for people relocating across countries. To better understand the needs of immigrants, I explored how relocation and immigration support apps work and gathered key insights from two primary sources.</p>
         </div>
         <div className="frame-7b">
           <div className="frame-7b1">
-            <h3>UX Collective Article <span>“Making the move abroad less difficult — a UX case study”</span> by Paul Naylor</h3>
+            <h3>UX Collective Article <a href="https://uxdesign.cc/making-the-move-abroad-less-difficult-a-ux-case-study-c63d8046a565">“Making the move abroad less difficult — a UX case study”</a>   by Paul Naylor</h3>
             <div className="frame-761-group">
               <img src="/Group 19299.png" alt="" />
             </div>
           </div>
           <div className="frame-7b2">
-            <h3>UX Magazine <span> “Onboarding: best move for user retention in mobile apps”</span> </h3>
-            <div className="frame-7b2-group">
-              <div className="frame-7b2-groupp">
-                <div className="frame-7b2-grouppp">
-                  <ul>
-                    <li>Users should be able to quickly understand the purpose of a page without confusion or delay.</li>
-                    <li>Use clear, straightforward language that’s easy for users to understand</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            <h3>UX Magazine <a href="#"> “Onboarding: best move for user retention in mobile apps”</a></h3>
           </div>
-          <div></div>
         </div>
-      </div>
+      </div> */}
 
       <div className="frame-8">
         <div className="frame-8a">
@@ -209,7 +209,8 @@ const Project1 = () => {
       </div>
 
       <div className="frame-11">
-        <img src="/Desktop - 2.png" alt="" className="group-19302"/>
+        <img src="/Screenshot 2025-10-16 at 17.15.52.png" alt="" />
+        {/* <img src="/Desktop - 2.png" alt="" className="group-19302"/> */}
         <div className="frame-11a">
             <h3>Feedbacks & Fixes</h3>
             <p>Based on testing and feedback, I identified the need to improve the search functionality, refine the card layout and arrangement, adjust the scroll icon, and enhance the side navigation for better usability.</p>
@@ -253,13 +254,14 @@ const Project1 = () => {
         </div>
         <div className="frame-13b">
           <img src="/Group 19202.png" alt="" />
-          <p>I kept the same width and icon as the previous 
+          <ul>
+            <li>I kept the same width and icon as the previous 
           card but increased the height to create better visual balance. 
           This adjustment allowed for improved icon placement and 
-          added subtle background patterns for a more polished look.
-          I positioned the text next to the call-to-action (CTA) to 
-          make it clear to users that it is interactive and clickable.</p>
-
+          added subtle background patterns for a more polished look.</li>
+          <li>I positioned the text next to the call-to-action (CTA) to 
+          make it clear to users that it is interactive and clickable.</li>
+          </ul>
         </div>
       </div>
 

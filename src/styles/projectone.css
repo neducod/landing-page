@@ -12,8 +12,22 @@ background: url(<path-to-image>) lightgray 50% / cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3.8rem;
-    margin-top: 150px;
+    margin-top: 9.6rem;
+    /* margin-top: 150px;  */
+}
+.frame-1{
+display: flex;
+width: 23.9375rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+margin-left: 7.5rem;
+
+position: sticky;
+flex: 1;
+top: 0.2rem; 
+height: fit-content;
 }
 .frame-1 h2{
     align-self: stretch;
@@ -27,11 +41,19 @@ letter-spacing: 0.00488rem;
 color: rgba(135, 144, 157, 1);
 }
 .frame-1-wrapper{
-    display: flex;
+    /* display: flex;
     gap: 11.1rem;
     margin-top: 12rem;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+
+    display: inline-flex;
+align-items: flex-start;
+gap: 11.8125rem;
+margin-left: 7.5rem;
+
+    max-width: 90rem;
+    margin: 0 auto;
 }
 .frame-1 h1{
     align-self: stretch;
@@ -53,7 +75,7 @@ line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
 width: 23.9875rem;
 }
-.frame-1-pp{
+.frame-1-pp a{
     color: #556070;
 font-family: "Helvetica Neue";
 font-size: 1.125rem;
@@ -70,8 +92,18 @@ text-underline-position: from-font;
 }
 .frame-2{
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+width: 39.25rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 2rem;
+}
+.frame-22{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
 }
 .frame-2h2{
     align-self: stretch;
@@ -126,11 +158,30 @@ width: 29.25rem;
 }
 /*  */
 .frame-3{
+    display: inline-flex;
+align-items: flex-start;
+gap: 14.25rem;
+
+    max-width: 90rem;
+    margin: 0 auto;
+
+    margin-top: 5.38rem;
+}
+.frame-3-header{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16.25rem;
-    margin-top: 10.85rem;
+width: 21.5rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+
+margin-left: 7.5rem;
+
+
+    position: sticky;
+flex: 1;
+top: 00.3rem; 
+height: fit-content;
 }
 .frame-3-header h2{
     color: #1A1A1A;
@@ -151,9 +202,15 @@ line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
 }
 .frame-3-b{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 3rem; */
+    display: flex;
+width: 39.25rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 3rem;
 }
 .frame-3-card{
     display: flex;
@@ -193,10 +250,17 @@ width: 35.25rem;
 }
 /*  */
 .frame-4{
+    display: inline-flex;
+align-items: flex-start;
+gap: 14.125rem;
+}
+.frame-4-head{
     display: flex;
-    justify-content: center;
-    gap: 14.12rem;
-    align-items: center;
+width: 21.5rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
 }
 .frame-4-head h2{
     align-self: stretch;
@@ -246,7 +310,8 @@ display: flex;
 .frame-4-bbb{
     gap: 1.5rem;
     display: flex;
-    justify-content: center;flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
 }
 .yellow{
     width: 16.82844rem;
@@ -277,27 +342,27 @@ flex-shrink: 0;
 }
 /*  */
 .frame-5{
-    padding-left: 7rem;
-    padding-right: 7.48rem;
-    padding-top: 227px;
-    /* padding-bottom: 724px;  */
-
-    /* display: flex;  */
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    /* display: inline-flex; */
-    justify-content: center;
+display: inline-flex;
 align-items: flex-start;
 gap: 11.625rem;
+
+max-width: 90rem;
+    margin: 0 auto;
 }
 .frame-5-a{
-    display: flex;
+display: flex;
 width: 24rem;
 padding-top: 7.5rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
+
+margin-left: 7.5rem;
+
+position: sticky;
+flex: 1;
+top: 1rem; 
+height: fit-content;
 }
 .frame-5-a h2{
     color: #1A1A1A;
@@ -309,14 +374,22 @@ line-height: 3rem; /* 150% */
 letter-spacing: 0.032rem;
 }
 .frame-5-a p{
-    color: #556070;
+color: #556070;
 font-family: "Helvetica Neue";
 font-size: 1.125rem;
 font-style: normal;
 font-weight: 400;
 line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
-align-self: stretch;
+width: 24rem;
+}
+.frame-5-b{
+    display: flex;
+width: 39.39994rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-end;
+gap: 1.5rem;
 }
 .frame-5-b h3{
     color: #2F80ED;
@@ -338,8 +411,11 @@ gap: 11.625rem;
 .frame-6{
     display: inline-flex;
 align-items: flex-start;
-justify-content: center;
-gap: 11.625rem;
+/* justify-content: center; */
+/* gap: 11.625rem; */
+
+max-width: 90rem;
+    margin: 0 auto;
 }
 .frame-6a{
     display: flex;
@@ -348,6 +424,11 @@ padding-top: 7.5rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
+
+position: sticky;
+flex: 1;
+top: 6rem; 
+height: fit-content;
 }
 .frame-6a h2{
     color: #1A1A1A;
@@ -371,7 +452,7 @@ align-self: stretch;
 .frame-6b{
     display: flex;
 width: 39.39994rem;
-padding-top: 7.5rem;
+padding-top: 9.8rem;
 flex-direction: column;
 align-items: flex-end;
 gap: 1.5rem;
@@ -389,6 +470,18 @@ align-self: stretch;
 .frame-6b-one{
     width: 39.25rem;
 height: 34.5rem;
+display: flex;
+gap: 2.6rem;
+}
+.frame-6b-one-1{
+    display: flex;
+    gap: 3.99rem;
+    flex-direction: column;
+}
+.frame-6b-one-2{
+    display: flex;
+    gap: 8.5rem;
+    flex-direction: column;
 }
 .six-card{
     display: flex;
@@ -434,7 +527,7 @@ letter-spacing: 0.0045rem;
 border-radius: 0.25rem;
 background: #D8E9FD;
 }
-.six-cardone-a p{
+.six-cardone-a li{
     color: #556070;
 font-family: "Helvetica Neue";
 font-size: 1rem;
@@ -466,7 +559,7 @@ font-weight: 400;
 line-height: 1rem; /* 133.333% */
 letter-spacing: 0.0045rem;
 }
-.six-cardone-b p{
+.six-cardone-b li{
     color: #556070;
 font-family: "Helvetica Neue";
 font-size: 1rem;
@@ -478,21 +571,20 @@ width: 17.25rem;
 }
 
 /*  */
-.frame-7{
+.frame-7e{
     display: inline-flex;
-align-items: flex-start;
-gap: 15.1875rem;
-padding-left: 7.5px;
-padding-right: 7.5px;
-justify-content: center;
+    align-items: flex-start;
+    gap: 15.1875rem;
 }
 .frame-7a{
-    display: flex;
-    width: 24rem;
+display: flex;
+width: 24rem;
 padding-top: 7.5rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
+
+/* margin-left: 7.5rem; */
 }
 .frame-7a h2{
 color: #1A1A1A;
@@ -512,9 +604,10 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
+width: 24rem;
 }
 .frame-7b{
-    display: flex;
+display: flex;
 width: 35.8125rem;
 padding: 7.5rem 0;
 flex-direction: column;
@@ -538,7 +631,7 @@ line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
 align-self: stretch;
 }
-.frame-7b1 span{
+.frame-7b1 a{
     color: #556070;
 font-family: "Helvetica Neue";
 font-size: 1.125rem;
@@ -573,7 +666,7 @@ font-weight: 400;
 line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
 }
-.frame-7b2 h3 span{
+.frame-7b2 h3 a{
     color: #556070;
 font-family: "Helvetica Neue";
 font-size: 1.125rem;
@@ -723,7 +816,7 @@ gap: 0.25rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
-padding: 7.5rem;
+margin-left: 7.5rem;
 }
 .frame-10a h3{
     color: #1A1A1A;
@@ -867,7 +960,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.01688rem;
-list-style-type: circle;
+/* list-style-type: circle; */
 margin-top: 1rem;
 }
 .frame-13b{
@@ -875,7 +968,7 @@ margin-top: 1rem;
     /* height: 30.6875rem; */
     flex-shrink: 0;
 }
-.frame-13b p{
+.frame-13b ul li{
     color: #636161;
 font-family: "Helvetica Neue";
 font-size: 1.125rem;
