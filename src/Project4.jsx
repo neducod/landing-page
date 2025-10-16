@@ -27,6 +27,37 @@ const Project4 = () => {
         </div>
       </div>
 
+      <div className="dp">
+        <div className="dp-a">
+          <h2>Design Process</h2>
+          <p>~6 Weeks to Idea Validation</p>
+        </div>
+        <div className="dp-b">
+          <div className="dpp">
+            <div className="dp2">
+              <img src="/image 391.png" alt="" />
+              <p>Synthesising the Problem</p>
+            </div>
+            <p>How might we design a secure, user-centred crowdfunding platform that helps people in East Africa easily raise and receive funds for personal or community causes, built for speed, trust, and local relevance?</p>
+          </div>
+          <div className="dpp">
+            <div className="dp2">
+              <img src="/🤔.png" alt="" />
+              <p>Ideas & Solution</p>
+            </div>
+            <p>Design a web-based crowdfunding platform that allows users to create fundraising campaigns, donate to meaningful causes, and receive contributions seamlessly. The platform needed to be intuitive, accessible, and integrated with local payment systems, ensuring a smooth, reliable, and inclusive experience for users across East Africa.</p>
+          </div>
+          <div className="dpp">
+            <div className="dp2">
+              <img src="/🎯.png" alt="" />
+              <p>Impacts</p>
+            </div>
+            <p>We successfully empowered individuals to raise funds for a wide range of personal and community causes, providing timely financial support when it mattered most.</p>
+            <p>For instance, one family raised $1,440 to cover funeral expenses for a loved one, demonstrating the platform’s real-world impact and ability to connect communities through generosity</p>
+          </div>
+        </div>
+      </div>
+
       <div className="frame-three">
         <div className="frame-three-a">
           <h2>Research</h2>
@@ -105,11 +136,61 @@ const Project4 = () => {
       </div>
 
       <div className="eight">
-        
+        <div className="eight-a">
+          <div className="eight-head">
+            <h2>Donate to a Cause</h2>
+          </div>
+          <ul>
+            <li>Designed a seamless donation flow to minimize friction, enhance usability, and encourage more contributions.</li>
+            <li>Integrated multiple payment options, including debit cards and Mobile Money, to cater to diverse user preferences across East Africa.</li>
+            <li>Added an option for donors to contribute anonymously or share selected personal details, promoting privacy, trust, and transparency.</li>
+            <li>Enabled easy social sharing of causes with friends and family to boost visibility, reach, and community engagement across networks.</li>
+          </ul>
+          <p>This user-centered approach ensured the donation experience was intuitive, inclusive, and optimized for conversion.</p>
+        </div>
+        <div>
+          <img src="/Screenshot 2025-10-16 at 14.04.17.png" alt="" />
+        </div>
+      </div>
+
+      <div className="nin">
+        <div className="nin-a">
+          <div className="nin-head">
+            <h2>Cash Out</h2>
+          </div>
+          <ul>
+            <li>At the end of each campaign, the creator can seamlessly withdraw the funds raised, ensuring a smooth and transparent payout process.</li>
+            <li>All funds are securely transferred to the verified bank account provided during the cause setup, guaranteeing safe, reliable, and traceable disbursement.</li>
+            <li>This process reinforces trust, accountability, and financial transparency, key pillars of a user-centered crowdfunding experience.</li>
+          </ul>
+        </div>
+        <div>
+          <img src="/Screenshot 2025-10-16 at 14.02.24.png" alt="" />
+        </div>
       </div>
 
 
+   
 
+      <div className="wrap">
+        <div className="ten">
+          <div className="ten-head">
+            <h2>Developer Handoff</h2>
+            <p>To wrap up the project, I developed a structured, component-based design system that ensured visual consistency, scalability, and efficiency across the platform. This centralized system streamlined collaboration between design and engineering, enabling faster development and easier maintenance.</p>
+            <p>I also facilitated a smooth design-to-development handoff using Figma, providing detailed documentation and specifications to ensure accurate implementation. This process minimized back-and-forth communication, improved team efficiency, and maintained pixel-perfect alignment between design and final build, strengthening the overall UX and product delivery workflow.</p>
+          </div>
+        </div>
+        <div className="eleven">
+          <div className="eleven-head">
+            <h2>Learning & Achievement</h2>
+            <p>So far, the platform has helped users raise over $400,000, making a tangible impact on the lives of individuals and families across East Africa.</p>
+            <p>For instance, Jules Karitanyi’s family raised $1,400 to bring their late father home for burial, while Ubuhamya used SavePlus to fund her cancer treatment.</p>
+            <p>Stories like these demonstrate the platform’s real-world value, showing how SavePlus empowers communities through digital crowdfunding, connecting people with the financial support they need during life’s most critical moments.</p>
+            <p>This success reinforces SavePlus’s mission to be a trusted, inclusive, and impactful crowdfunding platform built for real human stories and meaningful change.</p>
+            <p>View project presentation <a href="https://www.youtube.com/watch?v=u1eWK3WMjKU&t=57s">Video here</a></p>
+          </div>
+        </div>
+      </div>
 
 
     </section>
