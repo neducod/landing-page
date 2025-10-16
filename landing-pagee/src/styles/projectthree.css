@@ -1,0 +1,416 @@
+.project-three{
+    background: #F4F2FB;
+}
+.project-3img{
+    width: 75rem;
+height: 25rem;
+flex-shrink: 0;
+
+display: flex;
+justify-self: center;
+align-self: center;
+/* padding-left: 7.5rem; */
+margin-top: 3.5rem;
+}
+.projectthree-a{
+display: inline-flex;
+align-items: flex-start;
+gap: 11.8125rem;
+
+padding-left: 7.5rem;
+}
+.projectthree-aa{
+display: flex;
+width: 23.9375rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.head-three{
+    display: flex;
+width: 21.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.head-three h4{
+    color: #87909D;
+font-family: "Helvetica Neue";
+font-size: 0.8125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1rem; /* 123.077% */
+letter-spacing: 0.00488rem;
+align-self: stretch;
+}
+.head-three h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+align-self: stretch;
+}
+.projectthree-aa p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+align-self: stretch;
+}
+.projectthree-aa p a{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem;
+letter-spacing: 0.009rem;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+.project-three-b{
+    display: flex;
+width: 39.25rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+}
+.project-three-b h2{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+align-self: stretch;
+}
+.project-three-b  p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+.project-three-c{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+align-self: stretch;
+}
+.project-three-c p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+.frame-one{
+    display: inline-flex;
+align-items: flex-start;
+gap: 11.8125rem;
+
+padding-left: 7.5rem;
+margin-top: 10.75rem;
+}
+.frame-one-a{
+    display: flex;
+/* width: 21.5rem; */
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame-one-a h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame-one-b{
+    display: flex;
+width: 39.25rem;
+/* padding-top: 7.5rem; */
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+}
+.frame-one-b h2{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+}
+.frame-one-b p{
+    align-self: stretch;
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+.frame1-c{
+    display: flex;
+width: 39.25rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+}
+.frame1-c p{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+align-self: stretch;
+
+margin-top: 1rem;
+}
+.frame1-cc{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+align-self: stretch;
+}
+.frame1-cc p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+.frame-two{
+    display: flex;
+     width: 35.1875rem; 
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+
+padding-left: 7.5rem;
+}
+.frame-two-a{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+align-self: stretch;
+}
+.frame-two-a h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame-two p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+.cubo{
+    padding-left: 7.5rem;
+    margin-top: 2rem;
+}
+.frame-three{
+    margin-top: 5.5rem;
+    padding-left: 7.5rem;
+    margin-bottom: 2rem;
+}
+.frame-threehead{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+align-self: stretch;
+}
+.frame-threehead h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame-three p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+width: 48.9375rem;
+}
+.imag1{
+    padding-left: 7.5rem;
+}
+.frame-four{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4.5625rem;
+
+    padding-left: 7.5rem;
+    margin-top: 5.5rem;
+}
+.frame-four-head{
+    display: flex;
+width: 31.1875rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame-four-head h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame-four-head p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+.frame-four-b{
+    width: 39.25rem;
+height: 22.18713rem;
+
+position: relative;
+}
+.frame-four-b img{
+    position: absolute;
+}
+.four-img{
+    left: 58px;
+}
+.frame-five{
+    display: flex;
+width: 75rem;
+padding: 3.12494rem 1.6875rem 4.47575rem 1.75rem;
+justify-content: center;
+align-items: flex-start;
+gap: 1.66725rem;
+border-radius: 0.5rem;
+background: #FFF;
+
+margin-left: 7.5rem;
+margin-top: 5.5rem;
+}
+.frame-six{
+    display: flex;
+width: 75rem;
+padding: 3.12538rem 1.6875rem 0 1.75rem;
+justify-content: center;
+align-items: flex-start;
+gap: 1.625rem;
+border-radius: 0.5rem;
+background: #FFF;
+
+margin-left: 7.5rem;
+margin-top: 3rem;
+}
+.frame-7{
+    display: flex;
+width: 75rem;
+padding: 3.125rem 1.6875rem 0 1.75rem;
+justify-content: center;
+align-items: flex-start;
+gap: 1.625rem;
+border-radius: 0.5rem;
+background: #FFF;
+
+margin-left: 7.5rem;
+margin-top: 3rem;
+}
+.frame-8{
+    display: inline-flex;
+align-items: flex-start;
+gap: 5.3125rem;
+
+margin-bottom: 4rem;
+padding-left: 7.5rem;
+}
+.frame-8a{
+    display: flex;
+width: 33.9375rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame-8a h2{
+    color: #1A1A1A;
+    font-family: "Helvetica Neue";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem; /* 150% */
+    letter-spacing: 0.032rem;
+    align-self: stretch;
+}
+.frame-8a p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+align-self: stretch;
+}
+.frame-8a p a{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem;
+letter-spacing: 0.009rem;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}

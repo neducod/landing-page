@@ -1,0 +1,442 @@
+body{
+    background: #F4F2FB;
+    /* padding-left: 7.5rem; */
+}
+.hero-img{
+    margin-top: 10.5rem;
+    width: 75rem;
+height: 25rem;
+flex-shrink: 0;
+
+padding-left: 7.5rem;
+}
+.frame1{
+    display: inline-flex;
+align-items: flex-start;
+gap: 11.8125rem;
+
+padding-left: 7.5rem;
+}
+.frame1a{
+    display: flex;
+width: 23.9375rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame1aa{
+    display: flex;
+width: 21.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame1aa h4{
+    color: #87909D;
+font-family: "Helvetica Neue";
+font-size: 0.8125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1rem; /* 123.077% */
+letter-spacing: 0.00488rem;
+align-self: stretch;
+}
+.frame1aa h2{
+    align-self: stretch;
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame1a p{
+    color: #556070;
+    font-family: "Helvetica Neue";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 144.444% */
+    letter-spacing: 0.009rem;
+    align-self: stretch;
+}
+.frame1a p a{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem;
+letter-spacing: 0.009rem;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+.frame1b{
+    display: flex;
+width: 39.25rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 2rem;
+}
+.frame1ba{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
+.frame1ba h3{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+}
+.frame1ba p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+align-self: stretch;
+}
+.frame1bb{
+    width: 39.25rem;
+height: 19.4375rem;
+}
+.frame1bc{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
+.frame1bc h3{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+align-self: stretch;
+}
+.frame1bcc{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+align-self: stretch;
+}
+.frame1bcc p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+align-self: stretch;
+}
+/*  */
+.frame2{
+    display: inline-flex;
+align-items: flex-start;
+gap: 14.25rem;
+
+padding-left: 7.5rem;
+}
+.frame2a{
+    display: flex;
+width: 21.5rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame2a h2{
+    align-self: stretch;
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame2b{
+    display: flex;
+width: 39.25rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+}
+.frame2b h2{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+}
+.frame2b-a{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+align-self: stretch;
+}
+.frame2b-a p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+align-self: stretch;
+}
+.frame3{
+    display: inline-flex;
+align-items: flex-start;
+gap: 11.8125rem;
+
+padding-left: 7.5rem;
+}
+.frame3a{
+    display: flex;
+/* width: 23.9375rem; */
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame3ahead{
+    display: flex;
+/* width: 21.5rem; */
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame3ahead h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame3aimg{
+    width: 19.25631rem;
+height: 6.4375rem;
+}
+.frame3b{
+    display: flex;
+width: 39.25rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+}
+.frame3b h3{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+align-self: stretch;
+}
+.frame3b-b{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+align-self: stretch;
+}
+.frame3b-b p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+align-self: stretch;
+}
+.frame-3b-bb{
+    display: flex;
+width: 39.25rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+}
+.frame-3b-bb h3{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+align-self: stretch;
+}
+.frame3b-bb-c{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+align-self: stretch;
+}
+.frame3b-bb-c p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+align-self: stretch;
+}
+/*  */
+.frame4{
+    margin-top: 7.5rem;
+    padding-left: 7.4rem;
+}
+.frame4-head{
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame4-head h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame4-head p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+width: 39.25rem;
+}
+.frame4-con{
+    display: flex;
+    gap: 3.38rem;
+    margin-top: 3.2rem;
+}
+/*  */
+.frame5{
+    display: inline-flex;
+align-items: flex-start;
+gap: 4.0625rem;
+
+padding-left: 7.5rem;
+padding-top: 5.75rem;
+}
+.frame5-a{
+    display: flex;
+width: 35.1875rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame5a-head{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+align-self: stretch;
+
+width: 35.25rem;
+}
+.frame5-a-head h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame5-a p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+align-self: stretch;
+
+width: 35.1875rem;
+}
+.frame5-b img{
+    width: 35.75rem;
+height: 22rem;
+}
+.frame6{
+    display: inline-flex;
+justify-content: center;
+align-items: flex-start;
+gap: 4.0625rem;
+
+padding-left: 7.5rem;
+margin-top: 8.56rem;
+}
+.frame6-a{
+    display: flex;
+width: 35.1875rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame6-a-head{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+align-self: stretch;
+}
+.frame6-a-head h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame6-a p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+align-self: stretch;
+}

@@ -1,0 +1,396 @@
+.project-page{
+    background: #F4F2FB;
+    width: 90rem;
+/* height: 503.25rem; */
+}
+.frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9.38rem;
+}
+.frame img{
+    width: 75rem;
+height: 25rem;
+flex-shrink: 0;
+border-radius: 0.5rem;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.frame-one{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 11.8125rem;
+}
+.frame-onea{
+    display: flex;
+width: 23.9375rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame-onea p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+align-self: stretch;
+}
+.frame-onea a{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+.frame-oneaa{
+    display: flex;
+width: 21.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame-oneaa p{
+    color: #87909D;
+font-family: "Helvetica Neue";
+font-size: 0.8125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1rem; /* 123.077% */
+letter-spacing: 0.00488rem;
+align-self: stretch;
+}
+.frame-oneaa h2{
+    align-self: stretch;
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frameoneb{
+    display: flex;
+width: 39.25rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
+.frameoneb h2{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+align-self: stretch;
+}
+.frameoneb p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+align-self: stretch;
+}
+.frame-three{
+    display: inline-flex;
+align-items: flex-start;
+gap: 14.25rem;
+}
+.frame-three-a{
+    display: flex;
+width: 21.5rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame-three-a h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame-three-a p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+width: 27.3125rem;
+}
+.frame-three-b{
+    display: flex;
+width: 39.25rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 2rem;
+}
+.frame-3bb{
+    display: flex;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
+.frame-3bb h4{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+align-self: stretch;
+}
+.frame-3bb p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+.frame-3bc{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.5rem;
+align-self: stretch;
+}
+.frame-3bc div{
+    display: flex;
+align-items: flex-start;
+gap: 2.5rem;
+align-self: stretch;
+}
+.frame-3bc div img{
+width: 3.5rem;
+height: 3.5rem;
+aspect-ratio: 1/1;
+}
+.frame-3bc div p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem;
+letter-spacing: 0.009rem;
+width: 33.1875rem;
+}
+.frame-3bc div p span{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+.frame-4{
+display: flex;
+width: 48.9375rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+padding-left: 7.5rem;
+margin-top: 2rem;
+}
+.frame-4 h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame-4 p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+align-self: stretch;
+}
+.frame-5{
+    display: inline-flex;
+align-items: flex-start;
+gap: 15.125rem;
+}
+.frame-5a{
+    display: flex;
+width: 24rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.frame-5a h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame-5a  p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+.frame-5b{
+    display: flex;
+width: 35.75rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.5rem;
+}
+.frame-6{
+    display: inline-flex;
+align-items: center;
+gap: 4.5625rem;
+}
+.frame-6a{
+    display: flex;
+    width: 31.1875rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+
+justify-content: center;
+padding-left: 7.4rem;
+}
+.frame-6a-head{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+align-self: stretch;
+}
+.frame-6a-head h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame-6a p{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+.frame-6a p span{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: italic;
+font-weight: 400;
+line-height: 1.625rem;
+letter-spacing: 0.009rem;
+}
+.frame-6b{
+    width: 39.25rem;
+height: 22.18713rem;
+
+position: relative;
+}
+.frame-6b img{
+    position: absolute;
+}
+.six-img{
+    left: 60px;
+}
+.framee-7{
+    display: inline-flex;
+align-items: center;
+gap: 4.5625rem;
+
+padding-left: 7.5rem;
+}
+.framee-7a{
+    display: flex;
+width: 31.1875rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+}
+.framee-7ahead{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+align-self: stretch;
+}
+.framee-7ahead h2{
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.frame-7b{
+    width: 39.25rem;
+height: 22.18713rem;
+position: relative;
+
+}
+.frame-7b img{
+    position: absolute;
+
+}
+.seven-img{
+    left: 55px;
+}
+.eight{
+    display: inline-flex;
+align-items: center;
+gap: 4.5625rem;
+}
