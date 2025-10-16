@@ -149,14 +149,6 @@ const Project6 = () => {
           </div>
         </div>
       </div>
-      <div className="nggg">
-        jgj
-        jgjp
-        jfjfjfnvndfnvnvf
-        <p>mfjfjfnvjfjf</p>
-      </div>
-
-  
 
 
 
