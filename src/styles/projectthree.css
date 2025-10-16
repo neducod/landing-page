@@ -10,14 +10,18 @@ display: flex;
 justify-self: center;
 align-self: center;
 /* padding-left: 7.5rem; */
-margin-top: 3.5rem;
+margin-top: 10.5rem;
 }
 .projectthree-a{
 display: inline-flex;
 align-items: flex-start;
 gap: 11.8125rem;
 
+max-width: 90rem;
+    margin: 0 auto;
+
 padding-left: 7.5rem;
+margin-bottom: 8rem;
 }
 .projectthree-aa{
 display: flex;
@@ -26,6 +30,11 @@ padding-top: 7.5rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
+
+position: sticky;
+flex: 1;
+top: 6rem; 
+height: fit-content;
 }
 .head-three{
     display: flex;
@@ -129,6 +138,9 @@ gap: 11.8125rem;
 
 padding-left: 7.5rem;
 margin-top: 10.75rem;
+
+max-width: 90rem;
+    margin: 0 auto;
 }
 .frame-one-a{
     display: flex;
@@ -136,6 +148,12 @@ margin-top: 10.75rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
+
+
+position: sticky;
+flex: 1;
+top: 6rem; 
+height: fit-content;
 }
 .frame-one-a h2{
     color: #1A1A1A;
@@ -216,6 +234,7 @@ align-items: flex-start;
 gap: 0.25rem;
 
 padding-left: 7.5rem;
+margin-top: 10rem;
 }
 .frame-two-a{
 display: flex;
@@ -232,6 +251,8 @@ font-style: normal;
 font-weight: 700;
 line-height: 3rem; /* 150% */
 letter-spacing: 0.032rem;
+
+width: 36.6785rem;
 }
 .frame-two p{
     color: #556070;
@@ -241,18 +262,24 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
+width: 48.9875rem;
 }
 .cubo{
     padding-left: 7.5rem;
     margin-top: 2rem;
-}
-.frame-three{
-    margin-top: 5.5rem;
-    padding-left: 7.5rem;
     margin-bottom: 2rem;
 }
-.frame-threehead{
+/*
+.frame-three{
+    padding-left: 7.5rem;
     display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+align-self: stretch;
+}
+.frame-threehead{
+display: flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
@@ -264,7 +291,7 @@ font-family: "Helvetica Neue";
 font-size: 2rem;
 font-style: normal;
 font-weight: 700;
-line-height: 3rem; /* 150% */
+line-height: 3rem; 
 letter-spacing: 0.032rem;
 }
 .frame-three p{
@@ -273,10 +300,11 @@ font-family: "Helvetica Neue";
 font-size: 1.125rem;
 font-style: normal;
 font-weight: 400;
-line-height: 1.625rem; /* 144.444% */
+line-height: 1.625rem;
 letter-spacing: 0.009rem;
 width: 48.9375rem;
 }
+*/
 .imag1{
     padding-left: 7.5rem;
 }
@@ -365,15 +393,12 @@ margin-left: 7.5rem;
 margin-top: 3rem;
 }
 .frame-8{
-    display: inline-flex;
+display: inline-flex;
 align-items: flex-start;
 gap: 5.3125rem;
-
-margin-bottom: 4rem;
-padding-left: 7.5rem;
 }
 .frame-8a{
-    display: flex;
+display: flex;
 width: 33.9375rem;
 flex-direction: column;
 align-items: flex-start;
@@ -398,6 +423,7 @@ font-weight: 400;
 line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
 align-self: stretch;
+width: 33.9875rem;
 }
 .frame-8a p a{
     color: #556070;
@@ -414,3 +440,158 @@ text-decoration-thickness: auto;
 text-underline-offset: auto;
 text-underline-position: from-font;
 }
+
+.learning-section {
+    /* background-color: #f8f8fb; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 70px 10px;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+
+      display: inline-flex;
+align-items: flex-start;
+gap: 5.3125rem;
+margin-left: 7.5rem;
+  }
+  
+  .learning-container {
+    max-width: 720px;
+    color: #333;
+  }
+  
+  .learning-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #111;
+  }
+  
+  .learning-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 16px;
+
+    color: #556070;
+    font-family: "Helvetica Neue";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 144.444% */
+    letter-spacing: 0.009rem;
+    align-self: stretch;
+    width: 33.9875rem;
+  }
+  
+  .learning-link {
+    font-size: 1rem;
+    margin-top: 24px;
+
+    color: #556070;
+    font-family: "Helvetica Neue";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 144.444% */
+    letter-spacing: 0.009rem;
+    align-self: stretch;
+    width: 33.9875rem;
+  }
+  
+  .learning-link a {
+    color: #5b4ef4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    color: #556070;
+    font-family: "Helvetica Neue";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    letter-spacing: 0.009rem;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+  }
+  
+  .learning-link a:hover {
+    text-decoration: underline;
+    color: #3d2ef7;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .learning-title {
+      font-size: 1.5rem;
+    }
+  
+    .learning-text {
+      font-size: 0.95rem;
+    }
+  }
+  
+  .wireframing-section {
+    display: flex;
+    margin-left: 7.5rem;
+    /* justify-content: cen; */
+    align-items: flex-start;
+    padding: 80px 10px;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .wireframing-container {
+    max-width: 720px;
+    /* color: #333; */
+  }
+  
+  .wireframing-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #111;
+
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+  }
+  
+  .wireframing-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 16px;
+
+
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+width: 48.9375rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .wireframing-title {
+      font-size: 1.5rem;
+    }
+  
+    .wireframing-text {
+      font-size: 0.95rem;
+    }
+  }
+  

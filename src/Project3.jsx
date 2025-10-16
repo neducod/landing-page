@@ -57,12 +57,33 @@ const Project3 = () => {
 
       <img src="/CUBOS 1.png" alt=""  className="cubo"/>
 
-      <div className="frame-three">
+      {/* <div className="frame-three">
         <div className="frame-threehead">
           <h2>Wire-framing</h2>
         </div>
         <p>To clarify and validate the user experience early in the design process, I began by creating rough sketches and low-fidelity wireframes that visualized my initial ideas for the platforms key interactions.  These early design explorations helped me communicate user flows clearly and align with stakeholders on functionality and priorities before investing time in detailed visuals.By sharing and iterating on these sketches, I gathered valuable stakeholder feedback, refined the information architecture, and ensured that the transition to high-fidelity, production-ready designs was both efficient and user-driven. This collaborative and iterative approach laid a strong foundation for a seamless, intuitive, and scalable AI-powered news platform</p>
+      </div> */}
+
+    <div className="wireframing-section">
+      <div className="wireframing-container">
+        <h2 className="wireframing-title">Wire-framing</h2>
+        <p className="wireframing-text">
+          To clarify and validate the user experience early in the design process,
+          I began by creating rough sketches and low-fidelity wireframes that visualized
+          my initial ideas for the platform’s key interactions. These early design
+          explorations helped me communicate user flows clearly and align with
+          stakeholders on functionality and priorities before investing time in
+          detailed visuals.
+        </p>
+        <p className="wireframing-text">
+          By sharing and iterating on these sketches, I gathered valuable stakeholder
+          feedback, refined the information architecture, and ensured that the transition
+          to high-fidelity, production-ready designs was both efficient and user-driven.
+          This collaborative and iterative approach laid a strong foundation for a
+          seamless, intuitive, and scalable AI-powered news platform.
+        </p>
       </div>
+    </div>
 
       <img src="/Cubos Wireframe 1.png" alt="" className="imag1" />
 
@@ -91,21 +112,49 @@ const Project3 = () => {
         <img src="/Dash 2 1.png" alt="" />
         <img src="/Dash 1 1.png" alt="" />
       </div>
- 
-      <div className="frame-8">
+
+      {/* <div className="frame-8">
         <div className="frame-8a">
-          <h2>Learning & Achievement</h2>
-          <p>To finalize the project, I consolidated all UI components into a unified design system, ensuring visual consistency, scalability, and development efficiency across the platform. This Figma-based design system streamlined collaboration, enabling the engineering team to implement, maintain, and iterate on the product with ease.</p>
+        <h2>Learning & Achievement</h2>
+        <p>To finalize the project, I consolidated all UI components into a unified design system, ensuring visual consistency, scalability, and development efficiency across the platform. This Figma-based design system streamlined collaboration, enabling the engineering team to implement, maintain, and iterate on the product with ease.</p>
           <p>For quality assurance, I implemented a side-by-side design validation process, comparing screenshots from the staging environment with the original Figma design files. This method allowed us to quickly identify and resolve visual discrepancies, including spacing inconsistencies, color mismatches, and text errors, ensuring pixel-perfect accuracy before launch.
           This structured and detail-oriented approach resulted in a high-quality, production-ready design that was efficient to build, easy to maintain,  and   visually consistent across all user interfaces.</p>
           <p>View project here  <a href="https://bit.ly/3wz0Okc">https://bit.ly/3wz0Okc</a></p>
         </div>
+      </div> */}
+
+      <div className="learning-section">
+      <div className="learning-container">
+        <h2 className="learning-title">Learning & Achievement</h2>
+        <p className="learning-text">
+          To finalize the project, I consolidated all UI components into a unified
+          design system, ensuring visual consistency, scalability, and development
+          efficiency across the platform. This Figma-based design system streamlined
+          collaboration, enabling the engineering team to implement, maintain, and
+          iterate on the product with ease.
+        </p>
+        <p className="learning-text">
+          For quality assurance, I implemented a side-by-side design validation
+          process, comparing screenshots from the staging environment with the
+          original Figma design files. This method allowed us to quickly identify and
+          resolve visual discrepancies, including spacing inconsistencies, color
+          mismatches, and text errors, ensuring pixel-perfect accuracy before launch.
+        </p>
+        <p className="learning-text">
+          This structured and detail-oriented approach resulted in a high-quality,
+          production-ready design that was efficient to build, easy to maintain, and
+          visually consistent across all user interfaces.
+        </p>
+        <p className="learning-link">
+          View project here{" "}
+          <a href="https://bit.ly/3wz0Okc" target="_blank" rel="noopener noreferrer">
+            https://bit.ly/3wz0Okc
+          </a>
+        </p>
       </div>
+    </div>
 
-
-
-
-
+    
     </section>
   );
 };
