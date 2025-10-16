@@ -232,7 +232,30 @@ text-underline-position: from-font;
       display: flex;
       justify-content: center;
       align-items: center;
+
+      position: relative;
+      width: 25rem;
+      height: 25rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 2rem;
+      overflow: hidden;
+      background: #fff;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    
   
     .frame-a-c {
       width: 100%;

@@ -3,14 +3,49 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./styles/about.css";
 
+import { useEffect, useState } from "react";
+
 function About() {
+
+
+  const images = [
+    "/About me photos.png",
+    "/Property 1=About me 3.png",
+    "/Property 1=About me 2.png",
+    "/Property 1=About me 4.png",
+    "/Property 1=About me 5.png",
+    "/Property 1=About me 6.png",
+    "/Property 1=About me 7.png",
+    "/Property 1=About me 8.png",
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // cycle through images
+      setCurrentIndex((prev) => (prev + 1) % images.length);
+    }, 800); // 800ms delay
+    return () => clearInterval(interval);
+  }, [images.length]);
+
+
+
+
   return (
     <>
       {/* <Navbar /> */}
       <section className="frameaa">
         <div className="frame-a-one">
           <div className="frame-a-onee">
-            <img src="/About me photos.png" alt="" />
+          {images.map((src, index) => (
+        <img
+          key={index}
+          src={src}
+          alt={`photo ${index}`}
+          className={`fade-image ${index === currentIndex ? "active" : ""}`}
+        />
+      ))}
           </div>
           <div className="frame-a-c">
             <div className="header-cont">

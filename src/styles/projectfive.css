@@ -463,3 +463,160 @@ letter-spacing: 0.009rem;
     flex-direction: column;
     gap: 7.5rem;
 }
+
+
+
+
+
+
+.ips{
+    /* margin-left: 7.5rem; */
+    display: flex;
+    margin-top: 5.5rem;
+    justify-content: center;
+    gap: 5.94rem;
+}
+
+
+.design-approach {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8rem;
+    padding: 7.5rem;
+  }
+  
+  /* Sticky left section */
+  .approach-left {
+    flex: 0 0 25%;
+    position: sticky;
+    top: 6rem;
+    align-self: flex-start;
+  }
+  
+  .approach-left h2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+  
+  /* Wrapper for all approaches */
+  .approach-right-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    width: 35rem;
+  }
+  
+  /* Individual approach block */
+  .approach-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  /* Text styles */
+  .approach-right-text h3 {
+    color: #2f80ed;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .approach-right-text ul {
+    padding-left: 1.2rem;
+    color: #556070;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6rem;
+    list-style-type: disc;
+  }
+  
+  .approach-right-text ul li {
+    margin-bottom: 0.8rem;
+  }
+  
+  /* Images */
+  .approach-image img {
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
+  }
+  
+  /* ========== RESPONSIVE ========== */
+  
+  /* Tablets */
+  @media (max-width: 1024px) {
+    .design-approach {
+      gap: 4rem;
+      padding: 4rem;
+    }
+  
+    .approach-left {
+      flex: 0 0 30%;
+      top: 4rem;
+    }
+  
+    .approach-right-wrapper {
+      width: 100%;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 755px) {
+    .design-approach {
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      padding: 2rem;
+    }
+  
+    .approach-left {
+      position: static;
+      text-align: center;
+    }
+  
+    .approach-right-wrapper {
+      width: 100%;
+      align-items: center;
+    }
+  
+    .approach-right-text {
+      text-align: center;
+    }
+  
+    .approach-right-text ul {
+      text-align: left;
+      padding-left: 1rem;
+    }
+  
+    .approach-image img {
+      width: 100%;
+      max-width: 18rem;
+    }
+  }
+  
+  /* Extra small screens */
+  @media (max-width: 398px) {
+    .design-approach {
+      padding: 1.5rem;
+    }
+  
+    .approach-left h2 {
+      font-size: 1.5rem;
+    }
+  
+    .approach-right-text h3 {
+      font-size: 1.25rem;
+    }
+  
+    .approach-right-text ul li {
+      font-size: 0.95rem;
+    }
+  }
+  

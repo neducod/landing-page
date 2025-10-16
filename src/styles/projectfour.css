@@ -16,10 +16,27 @@ flex-shrink: 0;
 border-radius: 0.5rem;
 background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
+
+
+
+
+
+
+
 .frame-one{
     display: inline-flex;
     align-items: flex-start;
     gap: 11.8125rem;
+
+
+    /* display: flex; */
+    align-items: flex-start;
+    gap: 11.8125rem;
+    max-width: 90rem;
+    margin: 0 auto;
+    /* padding: 4rem 2rem; */
+  
+    /* margin-bottom: 10rem; */
 }
 .frame-onea{
     display: flex;
@@ -28,6 +45,16 @@ padding-top: 7.5rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
+
+position: sticky;
+flex: 1;
+height: fit-content;
+
+/* display: flex; */
+
+position: sticky;
+top: 6rem; 
+/* flex-shrink: 0; */
 }
 .frame-onea p{
     color: #556070;
@@ -94,7 +121,20 @@ flex-direction: column;
 align-items: flex-start;
 gap: 0.5rem;
 align-self: stretch;
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
 .frameoneb h2{
     color: #2F80ED;
 font-family: "Helvetica Neue";
@@ -119,6 +159,10 @@ align-self: stretch;
     display: inline-flex;
 align-items: flex-start;
 gap: 14.25rem;
+
+
+max-width: 90rem;
+    margin: 0 auto;
 }
 .frame-three-a{
     display: flex;
@@ -127,6 +171,13 @@ padding-top: 7.5rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
+
+
+position: sticky;
+flex: 1;
+top: 6rem; 
+height: fit-content;
+
 }
 .frame-three-a h2{
     color: #1A1A1A;
@@ -250,6 +301,10 @@ align-self: stretch;
     display: inline-flex;
 align-items: flex-start;
 gap: 15.125rem;
+
+
+max-width: 90rem;
+margin: 0 auto;
 }
 .frame-5a{
     display: flex;
@@ -258,6 +313,11 @@ padding-top: 7.5rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
+
+
+position: sticky;
+flex: 1;
+height: fit-content;
 }
 .frame-5a h2{
     color: #1A1A1A;
@@ -284,6 +344,8 @@ padding-top: 7.5rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 1.5rem;
+
+/* flex: 2; */
 }
 .frame-6{
     display: inline-flex;

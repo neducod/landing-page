@@ -279,6 +279,10 @@ padding-top: 7.5rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 1.5rem;
+
+position: sticky;
+top: 6rem;
+height: fit-content
 }
 .six-four-head{
     display: flex;
@@ -398,6 +402,64 @@ font-weight: 400;
 line-height: 1.625rem;
 letter-spacing: 0.009rem;
 }
+
+/* Mobile & small tablets (max-width: 755px) */
+@media (max-width: 755px) {
+    .six-four {
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      padding-left: 0;
+    }
+  
+    .six-foura {
+      position: static; /* disable sticky on small screens */
+      width: 100%;
+      padding-top: 0;
+      align-items: center;
+    }
+  
+    .six-foura img {
+      width: 100%;
+      max-width: 20rem;
+      height: auto;
+    }
+  
+    .six-fourb {
+      width: 100%;
+      padding-top: 0;
+      align-items: center;
+    }
+  
+    .six-fourbbli, .six-fourbbb-one {
+      width: 100%;
+    }
+  }
+  
+  /* Extra small devices (max-width: 398px) */
+  @media (max-width: 398px) {
+    .six-four {
+      padding-left: 1rem;
+      gap: 2rem;
+    }
+  
+    .six-foura h2 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .six-fourb h2 {
+      font-size: 1.25rem;
+      text-align: center;
+    }
+  
+    .six-fourbbli p,
+    .six-fourbbli ul li {
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+  }
+  
 .six-five{
     display: flex;
 width: 75rem;
@@ -543,3 +605,145 @@ text-underline-position: from-font;
     flex-direction: column;
     margin-bottom: 7.5rem;
 }
+.design-iteration {
+    display: flex;
+    align-items: flex-start;
+    gap: 8rem;
+    padding: 7.5rem;
+    justify-content: center;
+  }
+  
+  /* Left column (sticky) */
+  .design-left {
+    flex: 0 0 25%;
+    position: sticky;
+    top: 6rem;
+    align-self: flex-start;
+  }
+  
+  .design-left h2 {
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+  }
+  
+  /* Right column */
+  .design-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 35rem;
+  }
+  
+  .design-right-text h3 {
+    color: #2f80ed;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .design-right-text p {
+    color: #556070;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+
+
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+  }
+  
+  /* Laptop image */
+  .design-laptop img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  /* -------------------- RESPONSIVENESS -------------------- */
+  
+  /* Tablets */
+  @media (max-width: 1024px) {
+    .design-iteration {
+      gap: 4rem;
+      padding: 4rem;
+    }
+  
+    .design-left {
+      flex: 0 0 30%;
+      top: 4rem;
+    }
+  
+    .design-right {
+      width: 100%;
+    }
+  }
+  
+  /* Mobile screens */
+  @media (max-width: 755px) {
+    .design-iteration {
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      padding: 2rem;
+    }
+  
+    .design-left {
+      position: static; /* disable sticky */
+      text-align: center;
+      flex: 0 0 auto;
+    }
+  
+    .design-right {
+      width: 100%;
+      align-items: center;
+    }
+  
+    .design-right-text {
+      text-align: center;
+    }
+  
+    .design-right-text p {
+      font-size: 1rem;
+    }
+  
+    .design-laptop img {
+      width: 100%;
+      max-width: 22rem;
+    }
+  }
+  
+  /* Very small screens */
+  @media (max-width: 398px) {
+    .design-iteration {
+      padding: 1.5rem;
+    }
+  
+    .design-left h2 {
+      font-size: 1.5rem;
+    }
+  
+    .design-right-text h3 {
+      font-size: 1.25rem;
+    }
+  
+    .design-right-text p {
+      font-size: 0.95rem;
+    }
+  }
+  
+

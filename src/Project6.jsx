@@ -99,6 +99,32 @@ const Project6 = () => {
         </div>
       </div>
 
+      <div class="design-iteration">
+  <div class="design-left">
+    <h2>Design & Iteration</h2>
+  </div>
+
+  <div class="design-right">
+    <div class="design-right-text">
+      <h3>High-Fidelity Design</h3>
+      <p>
+        Building on the defined structure, I designed clean, high-fidelity UI screens that emphasize clarity, visual hierarchy, and trust. Each interface element was crafted to make browsing and discovering coupons effortless and reliable.
+      </p>
+      <p>
+        I focused on incorporating key trust signals such as “Verified” badges, clear expiry indicators, and easy-to-scan coupon cards. Additionally, I designed intuitive search, filtering, and bookmarking features to help users quickly find and save deals that matter most to them.
+      </p>
+      <p>
+        The overall design reflects a modern, minimal, and trustworthy shopping experience, ensuring users feel confident every time they interact with the platform.
+      </p>
+    </div>
+
+    <div class="design-laptop">
+      <img src="/Laptopvjaao 2.jpg" alt="Laptop mockup" />
+    </div>
+  </div>
+</div>
+
+
       <div className="six-five">
         <div className="six-fivee">
           {/* img src="/v3 1.png" alt="" />
@@ -108,18 +134,8 @@ const Project6 = () => {
       </div>
 
       <div className="six-six">
-        <div className="six-sixx">
-          <div className="ssix-a">
-            <img src="/Property 1=Beauty 1.png" alt="" />
-            <div>
-              <img src="/Group 82 1.png" alt="" />
-              <img src="/Frame 169 1.png" alt="" />
-            </div>
-          </div>
-          <div className="ssix-b">
-            <img src="/Screenshot 2025-10-16 at 08.12.01.png" alt="" />
-          </div>
-        </div>
+        <img src="/Screenshot 2025-10-16 at 11.59.54.png" alt="" />
+
       </div>
 
       <div className="ree">

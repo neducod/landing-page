@@ -79,7 +79,33 @@ const Project5 = () => {
             </div>
           </div>
         </div>
+
+
+  
       </div>
+
+
+      {/* <div> */}
+
+
+      {/* </div> */}
+
+
+
+
+
+
+
+
+
+      <div className="ips">
+        <img src="/iPhone 12 Pro.png" alt="" />
+        <img src="/iPhone 12 Pro (4).png" alt="" />
+        <img src="/iPhone 12 Pro 2.png" alt="" />
+        <img src="/iPhone 12 Pro (1).png" alt="" />
+      </div>
+
+
 
       <div className="whole">
       <div className="f-five">
@@ -101,6 +127,8 @@ const Project5 = () => {
         </div>
       </div>
       </div>
+
+
     </section>
   );
 };
