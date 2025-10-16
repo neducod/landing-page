@@ -135,7 +135,7 @@ const Project4 = () => {
         </div>
       </div>
 
-      <div className="eight">
+      <div className="eight5">
         <div className="eight-a">
           <div className="eight-head">
             <h2>Donate to a Cause</h2>
@@ -148,7 +148,7 @@ const Project4 = () => {
           </ul>
           <p>This user-centered approach ensured the donation experience was intuitive, inclusive, and optimized for conversion.</p>
         </div>
-        <div>
+        <div className="eight-b">
           <img src="/Screenshot 2025-10-16 at 14.04.17.png" alt="" />
         </div>
       </div>
