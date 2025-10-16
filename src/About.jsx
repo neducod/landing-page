@@ -20,7 +20,6 @@ function About() {
               <p>🗣️ You can call me Victor</p>
             </div>
             <button className="btn">Contact me</button>
-            {/* <div></div> */}
           </div>
         </div>
         <div className="frame-aa-one">
