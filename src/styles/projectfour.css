@@ -317,6 +317,7 @@ gap: 0.25rem;
 
 position: sticky;
 flex: 1;
+top: 6rem;
 height: fit-content;
 }
 .frame-5a h2{
@@ -386,6 +387,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
+
+width: 29.96789rem;
 }
 .frame-6a p span{
     color: #556070;
@@ -421,6 +424,10 @@ width: 31.1875rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
+}
+.frame-7a p{
+    width: 29.96789rem;
+    /* padding-right: 25rem; */
 }
 .framee-7ahead{
     display: flex;
