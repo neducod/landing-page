@@ -7,13 +7,11 @@ function About() {
   return (
     <>
       <Navbar />
-      <section>
-
-
-
-
-
-
+      <section className="frameaa">
+        <div className="frame-a-one">
+          ihgvbnm,.,mnb
+        </div>
+        <div className="frame-a-two"></div>
       </section>
       {/* <Footer /> */}
     </>
