@@ -79,9 +79,47 @@ const Project5 = () => {
             </div>
           </div>
         </div>
+      </div>
 
+      <div className="five-seve">
+        <div className="five-seve-head">
+          <h2>Design Approach</h2>
+        </div>
+        <div className="five-seve-n">
+          <div className="sevenn">
+            <div className="sevennn">
+              <h3>1. Seamless Onboarding</h3>
+              <ul>
+                <li>Eliminated the mandatory sign-up barrier, users can start exploring without logging in.</li>
+                <li>Integrated progressive onboarding tips, inspired by Duolingo’s gamified approach, introducing features naturally as users interact.</li>
+              </ul>
+            </div>
+            <img src="/Pattern 2 (1).png" alt="" />
+          </div>
+          <div className="sevenn-b">
+            <h3>2. Intuitive Ride Flow</h3>
+            <ul>
+              <li>Designed a three-step booking process: (1) Pick location → (2) Choose ride → (3) Confirm fare.
+                
+              </li>
+              <li>Added animated feedback for searching, confirmation, and arrival states, making waiting moments feel engaging, not empty</li>
+            </ul>
+          </div>
+          <div>
+            <img src="/Group 19309.png" alt="" />
+          </div>
+          <div className="sevenn-b">
+            <h3>3. Trust & Transparency</h3>
+            <ul>
+              <li>Integrated real-time driver tracking, fare breakdown visibility, and in-app chat.</li>
+              <li>Designed a driver card layout highlighting name, vehicle details, and rating, making riders feel informed and safe.</li>
+            </ul>
+            <div>
+              <img src="/Group 19311.png" alt="" />
+            </div>
+          </div>
+        </div>
 
-  
       </div>
 
 

@@ -469,12 +469,14 @@ letter-spacing: 0.009rem;
 
 
 
+
 .ips{
+    margin-top: 7.8rem;
     /* margin-left: 7.5rem; */
     display: flex;
-    margin-top: 5.5rem;
     justify-content: center;
-    gap: 5.94rem;
+    /* gap: 5.94rem; */
+    gap: 3.85rem;
 }
 
 
@@ -620,3 +622,108 @@ letter-spacing: 0.009rem;
     }
   }
   
+.five-seve{
+    display: inline-flex;
+align-items: flex-start;
+gap: 7.75rem;
+
+margin-left: 7.5rem;
+
+max-width: 90rem;
+    margin: 0 auto;
+}
+.five-seve-head{
+    display: flex;
+width: 21.5rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+
+position: sticky;
+flex: 1;
+top: 0.5rem; 
+height: fit-content;
+
+margin-left: 7.7rem;
+}
+.five-seve-head h2{
+    align-self: stretch;
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.five-seve-n{
+    width: 45.75rem;
+height: 159.15256rem;
+
+margin-left: 2rem;
+}
+.sevenn{
+    display: flex;
+width: 39.25rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+}
+.sevennn{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+
+margin-bottom: 2rem;
+}
+.sevennn h3{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+align-self: stretch;
+}
+.sevennn ul li{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+.sevenn-b{
+    display: flex;
+width: 39.25rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+
+margin-bottom: 2rem;
+margin-top: 5rem;
+}
+.sevenn-b h3{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+}
+.sevenn-b ul li{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
