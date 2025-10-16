@@ -249,20 +249,32 @@ align-self: stretch;
 width: 35.25rem;
 }
 /*  */
-.frame-4{
+.frame-44{
     display: inline-flex;
 align-items: flex-start;
 gap: 14.125rem;
+
+max-width: 90rem;
+    margin: 0 auto;
+
+    margin-bottom: 7rem;
 }
-.frame-4-head{
+.frame-4-headd{
     display: flex;
 width: 21.5rem;
 padding-top: 7.5rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
+
+margin-left: 7.5rem;
+
+position: sticky;
+flex: 1;
+top: 1rem; 
+height: fit-content;
 }
-.frame-4-head h2{
+.frame-4-headd h2{
     align-self: stretch;
     color: #1A1A1A;
 font-family: "Helvetica Neue";
@@ -272,7 +284,7 @@ font-weight: 700;
 line-height: 3rem; /* 150% */
 letter-spacing: 0.032rem;
 }
-.frame-4-head p{
+.frame-4-headd p{
     color: #556070;
 font-family: "Helvetica Neue";
 font-size: 1.125rem;
@@ -348,6 +360,8 @@ gap: 11.625rem;
 
 max-width: 90rem;
     margin: 0 auto;
+
+    margin-bottom: 7rem;
 }
 .frame-5-a{
 display: flex;
@@ -408,14 +422,17 @@ align-items: flex-start;
 gap: 11.625rem;
 }
 /*  */
-.frame-6{
+.frame-66{
     display: inline-flex;
 align-items: flex-start;
 /* justify-content: center; */
-/* gap: 11.625rem; */
+gap: 11.625rem; 
 
 max-width: 90rem;
     margin: 0 auto;
+
+margin-top: 6rem;
+margin-bottom: 6rem;
 }
 .frame-6a{
     display: flex;
@@ -427,7 +444,7 @@ gap: 0.25rem;
 
 position: sticky;
 flex: 1;
-top: 6rem; 
+top: 1rem; 
 height: fit-content;
 }
 .frame-6a h2{
@@ -448,8 +465,9 @@ font-weight: 400;
 line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
 align-self: stretch;
+width: 24rem;
 }
-.frame-6b{
+.frame-66b{
     display: flex;
 width: 39.39994rem;
 padding-top: 9.8rem;
@@ -457,7 +475,7 @@ flex-direction: column;
 align-items: flex-end;
 gap: 1.5rem;
 }
-.frame-6b h3{
+.frame-66b h3{
     color: #2F80ED;
 font-family: "Helvetica Neue";
 font-size: 1.375rem;
@@ -478,9 +496,9 @@ gap: 2.6rem;
     gap: 3.99rem;
     flex-direction: column;
 }
-.frame-6b-one-2{
+.frame-6b-one-22{
     display: flex;
-    gap: 8.5rem;
+    gap: 1.5rem;
     flex-direction: column;
 }
 .six-card{
@@ -574,7 +592,14 @@ width: 17.25rem;
 .frame-7e{
     display: inline-flex;
     align-items: flex-start;
-    gap: 15.1875rem;
+    /* gap: 15.1875rem; */
+    gap: 6rem;
+
+    max-width: 90rem;
+    margin: 0 auto;
+
+    margin-bottom: 10rem;
+    margin-left: 7rem;
 }
 .frame-7a{
 display: flex;
@@ -584,7 +609,12 @@ flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
 
+
 /* margin-left: 7.5rem; */
+position: sticky;
+flex: 1;
+top: 1rem; 
+height: fit-content;
 }
 .frame-7a h2{
 color: #1A1A1A;
@@ -594,6 +624,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 3rem; /* 150% */
 letter-spacing: 0.032rem;
+width: 24.4372rem;
 }
 .frame-7a p{
     align-self: stretch;
@@ -612,7 +643,7 @@ width: 35.8125rem;
 padding: 7.5rem 0;
 flex-direction: column;
 align-items: flex-end;
-gap: 3rem;
+gap: 23rem;
 }
 .frame-7b1{
     display: flex;
@@ -650,14 +681,14 @@ text-underline-position: from-font;
     width: 35.6875rem;
 height: 18.84344rem;
 }
-.frame-7b2{
-    display: flex;
+.frame-7b22{
+display: flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 1.5rem;
 align-self: stretch;
 }
-.frame-7b2 h3{
+.frame-7b22 h3{
     color: #556070;
 font-family: "Helvetica Neue";
 font-size: 1.125rem;
@@ -665,8 +696,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
+
 }
-.frame-7b2 h3 a{
+.frame-7b22 h3 a{
     color: #556070;
 font-family: "Helvetica Neue";
 font-size: 1.125rem;
@@ -681,6 +713,7 @@ text-decoration-thickness: auto;
 text-underline-offset: auto;
 text-underline-position: from-font;
 }
+/*
 .frame-7b2-group{
     width: 35.6875rem;
 height: 14.61744rem;
@@ -708,10 +741,10 @@ font-family: "Shadows Into Light";
 font-size: 1.36144rem;
 font-style: normal;
 font-weight: 400;
-line-height: 1.57638rem; /* 115.789% */
+line-height: 1.57638rem; 
 letter-spacing: 0.02725rem;
 }
-
+*/
 /*  */
 .frame-8{
     padding-left: 7.5rem;

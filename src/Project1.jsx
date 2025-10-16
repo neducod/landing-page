@@ -88,8 +88,8 @@ const Project1 = () => {
         </div>
       </div>
 
-      <div className="frame-4">
-        <div className="frame-4-head">
+      <div className="frame-44">
+        <div className="frame-4-headd">
           <h2>Research</h2>
           <p>I interviewed 14 newcomers to Canada and the UK to uncover needs, fears, and barriers.</p>
         </div>
@@ -123,12 +123,12 @@ const Project1 = () => {
         </div>
       </div>
 
-      <div className="frame-6">
+      <div className="frame-66">
         <div className="frame-6a">
           <h2>Competitor Analysis</h2>
           <p>I conducted a competitive review of similar products in Canada that support immigrants, identifying their strengths, gaps, and areas for improvement to inform the design of a more user-centred solution.</p>
         </div>
-        <div className="frame-6b">
+        <div className="frame-66b">
           <h3>What others are doing?</h3>
           <div className="frame-6b-one">
             <div className="frame-6b-one-1">
@@ -149,7 +149,7 @@ const Project1 = () => {
                 <img src="/frame-r4d.png" alt="" />
               </div>
             </div>
-            <div className="frame-6b-one-2">
+            <div className="frame-6b-one-22">
                <div>
                <img src="/ftw-5-py.png" alt="" />
                </div>
@@ -163,7 +163,7 @@ const Project1 = () => {
         </div>
       </div>
 
-      {/* <div className="frame-7e">
+      <div className="frame-7e">
         <div className="frame-7a">
           <h2>Challenges and Learning</h2>
           <p>This project was my first opportunity to design for people relocating across countries. To better understand the needs of immigrants, I explored how relocation and immigration support apps work and gathered key insights from two primary sources.</p>
@@ -175,11 +175,14 @@ const Project1 = () => {
               <img src="/Group 19299.png" alt="" />
             </div>
           </div>
-          <div className="frame-7b2">
-            <h3>UX Magazine <a href="#"> “Onboarding: best move for user retention in mobile apps”</a></h3>
+          <div className="frame-7b22">
+            <h3>UX Magazine <a href="https://uxmag.com/articles/onboarding-best-move-for-user-retention-in-mobile-apps"> “Onboarding: best move for user retention in mobile apps”</a></h3>
+            <div>
+              <img src="/jhytrr.png" alt="" />
+            </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="frame-8">
         <div className="frame-8a">
