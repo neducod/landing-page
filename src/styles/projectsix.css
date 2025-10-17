@@ -1261,6 +1261,7 @@ letter-spacing: 0.009rem;
       font-size: 0.95rem;
     }
     .six-foura img{
+        display: none;
         width: 95%;
       height: auto;
     }
