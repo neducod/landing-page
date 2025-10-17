@@ -638,7 +638,7 @@ letter-spacing: 0.009rem;
 
 
 
-  
+
 
 
 /* Base Styles (already in your code) */
@@ -1011,6 +1011,85 @@ letter-spacing: 0.009rem;
     .six-fourbbb-one ul span {
       font-size: 0.95rem;
       line-height: 1.3rem;
+    }
+  }
+  
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .design-iteration {
+      flex-direction: column;
+      gap: 4rem;
+      padding: 4rem 3rem;
+    }
+  
+    .design-left {
+      position: static;
+      flex: none;
+      text-align: center;
+    }
+  
+    .design-right {
+      width: 100%;
+    }
+  
+    .design-right-text h3 {
+      font-size: 1.25rem;
+    }
+  
+    .design-right-text p {
+      font-size: 1rem;
+      line-height: 1.6rem;
+    }
+  }
+  
+  /* Mobile (max-width: 768px) */
+  @media (max-width: 768px) {
+    .design-iteration {
+      padding: 3rem 1.5rem;
+      gap: 3rem;
+    }
+  
+    .design-left h2 {
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+    }
+  
+    .design-right-text h3 {
+      font-size: 1.15rem;
+    }
+  
+    .design-right-text p {
+      font-size: 0.95rem;
+      line-height: 1.5rem;
+    }
+  
+    .design-laptop img {
+      border-radius: 0.4rem;
+    }
+  }
+  
+  /* Small phones (max-width: 480px) */
+  @media (max-width: 480px) {
+    .design-iteration {
+      padding: 2.5rem 1rem;
+      gap: 2rem;
+    }
+  
+    .design-left h2 {
+      font-size: 1.4rem;
+    }
+  
+    .design-right {
+      width: 100%;
+    }
+  
+    .design-right-text h3 {
+      font-size: 1rem;
+    }
+  
+    .design-right-text p {
+      font-size: 0.9rem;
+      line-height: 1.45rem;
     }
   }
   
