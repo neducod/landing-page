@@ -1,3 +1,6 @@
+body{
+    scroll-behavior: smooth;
+}
 .project-three{
     background: #F4F2FB;
 }

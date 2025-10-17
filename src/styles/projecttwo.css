@@ -2,6 +2,9 @@ body{
     background: #F4F2FB;
     /* padding-left: 7.5rem; */
 }
+body{
+    scroll-behavior: smooth;
+}
 .hero-img{
     margin-top: 10.5rem;
     width: 75rem;

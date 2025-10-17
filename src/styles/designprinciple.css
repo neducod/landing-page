@@ -1,4 +1,6 @@
-
+body{
+  scroll-behavior: smooth;
+}
 .principles-container {
     /* min-height: 100vh; */
     display: flex;

@@ -3,6 +3,9 @@ body{
 /* height: 111.875rem; */
     background: #F4F2FB;
 }
+body{
+  scroll-behavior: smooth;
+}
 .frameaa{
     display: inline-flex;
 align-items: flex-start;

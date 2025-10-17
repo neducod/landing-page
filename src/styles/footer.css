@@ -93,6 +93,9 @@
     }
   }
   */
+  body{
+    scroll-behavior: smooth;
+}
 
   .footer {
     background-color: #f2f7ff;

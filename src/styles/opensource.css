@@ -187,6 +187,9 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* ===============================
    OPEN SOURCE SECTION
 =============================== */
+body{
+  scroll-behavior: smooth;
+}
 .open-source {
   text-align: center;
   background-color: #f7f5fb;

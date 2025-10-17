@@ -1,4 +1,6 @@
-
+body{
+  scroll-behavior: smooth;
+}
 
 .intro {
   text-align: center;

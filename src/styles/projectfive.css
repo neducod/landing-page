@@ -1,3 +1,6 @@
+body{
+    scroll-behavior: smooth;
+}
 .hero-img{
     display: flex;
     /* justify-content: center; */

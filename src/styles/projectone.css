@@ -1,4 +1,7 @@
 body{
+    scroll-behavior: smooth;
+}
+body{
     background: #F4F2FB;
 }
 .hero-image{

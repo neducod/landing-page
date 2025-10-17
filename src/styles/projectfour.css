@@ -1,3 +1,6 @@
+body{
+    scroll-behavior: smooth;
+}
 .project-page{
     background: #F4F2FB;
     width: 90rem;
