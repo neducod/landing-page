@@ -679,3 +679,78 @@ letter-spacing: 0.009rem;
     width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+/* 📱 Tablets and small laptops */
+@media (max-width: 1024px) {
+  .f-one {
+    gap: 5rem;
+    padding-left: 3rem;
+  }
+
+  .f-one-b,
+  .f-one-a {
+    padding-top: 5rem;
+  }
+}
+
+/* 📱 Mobile screens */
+@media (max-width: 768px) {
+  .f-one {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .f-one-a,
+  .f-one-b {
+    width: 90%;
+    align-items: center;
+  }
+
+  .f-one-head {
+    width: 100%;
+    align-items: center;
+  }
+
+  .f-one-head h2 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+
+  .f-one-b h3 {
+    font-size: 1.25rem;
+  }
+
+  .f-one-b p,
+  .f-one-a p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* 📱 Extra small phones */
+@media (max-width: 480px) {
+  .f-one {
+    gap: 2rem;
+  }
+
+  .f-one-b,
+  .f-one-a {
+    width: 100%;
+  }
+
+  .f-one-head h2 {
+    font-size: 1.5rem;
+  }
+}
+
