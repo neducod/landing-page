@@ -1215,3 +1215,49 @@ letter-spacing: 0.009rem;
     }
   }
   
+
+
+
+
+
+
+/* 📱 Tablets */
+@media (max-width: 1024px) {
+    .ips {
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      padding-left: 3rem;
+    }
+  
+    .ips img {
+      width: 12rem;
+    }
+  }
+  
+  /* 📱 Mobile screens */
+  @media (max-width: 768px) {
+    .ips {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 1.5rem;
+      padding-left: 1.5rem;
+    }
+  
+    .ips img {
+      width: 10rem;
+    }
+  }
+  
+  /* 📱 Extra small phones */
+  @media (max-width: 480px) {
+    .ips {
+      gap: 1rem;
+      padding-left: 1rem;
+    }
+  
+    .ips img {
+      width: 8.5rem;
+    }
+  }
+  
