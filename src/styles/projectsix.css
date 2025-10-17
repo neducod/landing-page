@@ -287,6 +287,9 @@ position: sticky;
 top: 6rem;
 height: fit-content
 }
+.six-foura img{
+    width: 100%;
+}
 .six-four-head{
     display: flex;
 /* width: 18.9375rem; */
@@ -1186,6 +1189,80 @@ letter-spacing: 0.009rem;
       width: 100%;
       height: auto;
       border-radius: 0.3rem;
+    }
+  }
+  
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .six-seven,
+    .six-eight {
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+    }
+  
+    .six-sevenn,
+    .eight {
+      width: 80%;
+      margin: 4rem auto 0;
+    }
+  }
+  
+  /* Mobile (max-width: 768px) */
+  @media (max-width: 768px) {
+    .six-seven,
+    .six-eight {
+      gap: 2rem;
+    }
+  
+    .six-sevenn,
+    .eight {
+      width: 90%;
+      margin: 3rem auto 0;
+    }
+  
+    .six-sevenn h2,
+    .eight h2 {
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+    }
+  
+    .six-sevenn ul li,
+    .eight ul li,
+    .eight p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+  
+  /* Small phones (max-width: 480px) */
+  @media (max-width: 480px) {
+    .six-sevenn,
+    .eight {
+      width: 95%;
+      margin: 2rem auto 0;
+    }
+  
+    .six-sevenn h2,
+    .eight h2 {
+      font-size: 1.25rem;
+      line-height: 2rem;
+    }
+  
+    .six-sevenn ul li,
+    .eight ul li,
+    .eight p {
+      font-size: 0.95rem;
+      line-height: 1.4rem;
+    }
+  
+    .eight p a {
+      font-size: 0.95rem;
+    }
+    .six-foura img{
+        width: 95%;
+      height: auto;
     }
   }
   
