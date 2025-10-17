@@ -3,10 +3,11 @@ body{
 }
 .hero-img{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     align-items: center; 
     padding-left: 7.5rem;
+
+    width: 100%;
+    height: auto;
 }
 .f-one{
     display: inline-flex;
@@ -466,23 +467,14 @@ letter-spacing: 0.009rem;
     flex-direction: column;
     gap: 7.5rem;
 }
-
-
-
-
-
-
-
 .ips{
     margin-top: 7.8rem;
-    /* margin-left: 7.5rem; */
     display: flex;
     justify-content: center;
-    /* gap: 5.94rem; */
     gap: 3.85rem;
+    width: 100%;
+    /* max-width: 600px; */
 }
-
-
 .design-approach {
     display: flex;
     align-items: flex-start;
@@ -551,78 +543,6 @@ letter-spacing: 0.009rem;
     height: auto;
     display: block;
     border-radius: 1rem;
-  }
-  
-  /* ========== RESPONSIVE ========== */
-  
-  /* Tablets */
-  @media (max-width: 1024px) {
-    .design-approach {
-      gap: 4rem;
-      padding: 4rem;
-    }
-  
-    .approach-left {
-      flex: 0 0 30%;
-      top: 4rem;
-    }
-  
-    .approach-right-wrapper {
-      width: 100%;
-    }
-  }
-  
-  /* Mobile */
-  @media (max-width: 755px) {
-    .design-approach {
-      flex-direction: column;
-      align-items: center;
-      gap: 3rem;
-      padding: 2rem;
-    }
-  
-    .approach-left {
-      position: static;
-      text-align: center;
-    }
-  
-    .approach-right-wrapper {
-      width: 100%;
-      align-items: center;
-    }
-  
-    .approach-right-text {
-      text-align: center;
-    }
-  
-    .approach-right-text ul {
-      text-align: left;
-      padding-left: 1rem;
-    }
-  
-    .approach-image img {
-      width: 100%;
-      max-width: 18rem;
-    }
-  }
-  
-  /* Extra small screens */
-  @media (max-width: 398px) {
-    .design-approach {
-      padding: 1.5rem;
-    }
-  
-    .approach-left h2 {
-      font-size: 1.5rem;
-    }
-  
-    .approach-right-text h3 {
-      font-size: 1.25rem;
-    }
-  
-    .approach-right-text ul li {
-      font-size: 0.95rem;
-    }
   }
   
 .five-seve{
@@ -729,4 +649,142 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(230, 187, 173);
+    }
+  }
+
+  @media (max-width: 1024px) { /* Tablets and below */ }
+
+
+@media (max-width: 768px)  { /* Mobile landscape */ }
+
+
+
+
+
+
+
+@media (max-width: 480px)  { 
+    .hero-img{
+        display: none;
+        align-items: flex-start;
+    }
+    .hero-img img{
+        /* width: 300px; */
+        padding-left: 1px;
+    }
+    .f-one{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-one-b{
+        width: 300px;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .f-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-two-b{
+        width: 300px;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .f-three{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-three-b{
+        width: 300px;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .f-four{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-fourb{
+        width: 300px;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    .five-seve{
+        display: flex;
+        flex-direction: column;
+    }
+    .sevennn{
+        width: 300px;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    .sevenn img{
+        max-width: 300px;
+        height: auto;
+        display: block;
+    }
+    .sevenn-b{
+        width: 300px;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    .respon{
+        max-width: 300px;
+        height: auto;
+        display: block;
+    }
+    .whole{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .f-five{
+        padding-left: 5px;
+        flex-wrap: wrap;
+        display: flex;
+        /* justify-content: center; */
+    }
+    .f-five-a{
+        max-width: 100%;
+        width: 300px;
+    }
+    .f-six{
+        flex-wrap: wrap;
+        display: flex;
+        padding-left: 5px;
+    }
+    .f-six-a {
+        max-width: 100%;
+        width: 300px;
+    }
+    .five-seve-head{
+        margin-left: 1px;
+    }
+    .f-four{
+        padding-left: 1px;
+    }
+    .f-three{
+        padding-left: 1px;
+    }
+    .f-two{
+        padding-left: 1px;
+
+    }
+    .f-one{
+        padding-left: 1px;
+    }
+    .ips{
+        flex-direction: column;
+    }
+    .ips img{
+        max-width: 300px;
+        height: auto;
+        display: block;
+    }
+
 }

@@ -106,7 +106,7 @@ const Project5 = () => {
             </ul>
           </div>
           <div>
-            <img src="/Group 19309.png" alt="" />
+            <img src="/Group 19309.png" alt="" className="respon"/>
           </div>
           <div className="sevenn-b">
             <h3>3. Trust & Transparency</h3>
@@ -115,11 +115,11 @@ const Project5 = () => {
               <li>Designed a driver card layout highlighting name, vehicle details, and rating, making riders feel informed and safe.</li>
             </ul>
             <div>
-              <img src="/Group 19311.png" alt="" />
+              <img src="/Group 19311.png" alt=""  className="respon"/>
             </div>
           </div>
         </div>
-
+        
       </div>
 
 

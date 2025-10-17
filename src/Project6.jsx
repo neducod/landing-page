@@ -127,8 +127,6 @@ const Project6 = () => {
 
       <div className="six-five">
         <div className="six-fivee">
-          {/* img src="/v3 1.png" alt="" />
-          <img src="/V2 2.png" alt="" /> */}
           <img src="/Screenshot 2025-10-16 at 07.59.23.png" alt="" />
         </div>
       </div>
