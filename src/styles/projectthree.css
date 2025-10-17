@@ -946,3 +946,76 @@ width: 48.9375rem;
     overflow-x: hidden; /* Prevent horizontal scroll */
   }
 }
+
+
+
+
+
+
+
+
+
+
+/* ============================= */
+/* 📱 Responsive Wireframing Section */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .wireframing-section {
+    margin-left: 2rem;
+    padding: 60px 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .wireframing-container {
+    max-width: 100%;
+  }
+
+  .wireframing-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wireframing-section {
+    margin-left: 1rem;
+    padding: 40px 1rem;
+  }
+
+  .wireframing-title {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+
+  .wireframing-text {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    width: 100%;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 400px) {
+  .wireframing-section {
+    margin-left: 0.5rem;
+    padding: 20px 0.5rem;
+  }
+
+  .wireframing-title {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+  }
+
+  .wireframing-text {
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  body {
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+}
