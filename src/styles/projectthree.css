@@ -532,7 +532,6 @@ margin-left: 7.5rem;
   .wireframing-section {
     display: flex;
     margin-left: 7.5rem;
-    /* justify-content: cen; */
     align-items: flex-start;
     padding: 80px 10px;
     font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -541,7 +540,6 @@ margin-left: 7.5rem;
   
   .wireframing-container {
     max-width: 720px;
-    /* color: #333; */
   }
   
   .wireframing-title {
@@ -905,5 +903,46 @@ width: 48.9375rem;
 
   body {
     overflow-x: hidden;
+  }
+}
+
+
+
+/* ============================= */
+/* 📱 Responsive for .cubo image */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .cubo {
+    width: 100%;
+    max-width: 90%;
+    padding-left: 2rem;
+    margin: 2rem auto;
+    display: block;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .cubo {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1.5rem auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .cubo {
+    width: 100%;
+    max-width: 100%;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    height: auto;
+  }
+
+  body {
+    overflow-x: hidden; /* Prevent horizontal scroll */
   }
 }
