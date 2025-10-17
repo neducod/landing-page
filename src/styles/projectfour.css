@@ -747,7 +747,8 @@ letter-spacing: 0.00825rem;
 
 @media (max-width: 480px){
     .project-page{
-        width: 400px;
+        width: 100%;
+        max-width: 480px;
     }
     .frame{
         display: none;
@@ -798,14 +799,18 @@ letter-spacing: 0.00825rem;
         margin: 1px;
     }
     .eleven-head{
-        width: 400px;
+        /* width: 100%; */
         max-width: 100%;
+        padding: 0 1rem;
 
     }
     .eleven-head p{
         word-wrap: break-word;
         overflow-wrap: break-word;
-        width: 400px;
-        max-width: 100%;
+        /* width: 100%; */
+        /* max-width: 300px; */
+
+        font-size: 0.95rem;
+        line-height: 1.5rem;
     }
 }
