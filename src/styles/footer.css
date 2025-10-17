@@ -142,6 +142,14 @@ width: 21.875rem;
 align-items: center;
 gap: 1.9375rem;
 }
+.footer-in-content a{
+  color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2rem; /* 160% */
+}
 .footer-a p{
   color: #000;
 font-family: "Helvetica Neue";
@@ -193,9 +201,8 @@ text-underline-position: from-font;
 
 
 
-
+/*
   
-  /* Left Section */
   .footer-left {
     flex: 1;
   }
@@ -228,7 +235,6 @@ text-underline-position: from-font;
     text-decoration: underline;
   }
   
-  /* Right Section */
   .footer-right {
     max-width: 40%;
     align-self: flex-end;
@@ -238,7 +244,6 @@ text-underline-position: from-font;
     color: #222;
   }
   
-  /* Bottom Section */
   .footer-bottom {
     display: flex;
     justify-content: space-between;
@@ -264,6 +269,16 @@ text-underline-position: from-font;
     text-decoration: underline;
   }
 
+*/
+
+
+
+
+
+
+
+
+
 
 
 
@@ -279,9 +294,8 @@ text-underline-position: from-font;
   
   /* ===========================
      Responsive Design
-     =========================== */
+     =========================== *
   
-  /* Medium screens (tablets, small laptops) */
   @media (max-width: 1024px) {
     .footer {
       padding: 3.5rem 3rem;
@@ -297,7 +311,6 @@ text-underline-position: from-font;
     }
   }
   
-  /* Tablets and small devices */
   @media (max-width: 768px) {
     .footer {
       padding: 3rem 2rem;
@@ -325,7 +338,6 @@ text-underline-position: from-font;
     }
   }
   
-  /* Phones (below 480px) */
   @media (max-width: 480px) {
     .footer {
       padding: 2.5rem 1.5rem;
@@ -357,4 +369,4 @@ text-underline-position: from-font;
       justify-content: center;
     }
   }
-  
+  */

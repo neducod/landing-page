@@ -8,9 +8,10 @@ const Footer = () => {
       <footer>
         <div className="footer-a">
           <div className="footer-aa">
-            <h2>Let’s work together</h2>
+            <h2>Let’s <br />  work together</h2>
             <div className="footer-in-content">
-              
+              <img src="/arrow-icon.png" alt="" />
+              <a href="#">aribidoolusegun@gmail.com</a>
             </div>
           </div>
           <p>Do you have an interesting project? I’ll love to hear from you. Reach out and let’s create something amazing together.</p>
