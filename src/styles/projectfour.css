@@ -4,6 +4,7 @@ body{
 .project-page{
     background: #F4F2FB;
     width: 90rem;
+    /* display: none; */
 /* height: 503.25rem; */
 }
 .frame{
@@ -741,4 +742,70 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5rem; /* 109.091% */
 letter-spacing: 0.00825rem;
+}
+
+
+@media (max-width: 480px){
+    .project-page{
+        width: 400px;
+    }
+    .frame{
+        display: none;
+    }
+    .frame-one{
+        display: none;
+    }
+    .dp{
+        display: none;
+    }
+    .frame-three{
+        display: none;
+    }
+    .frame-4{
+        display: none;
+    }
+    .frame-5{
+        display: none;
+    }
+    .frame-6{
+        display: none;
+    }
+    .framee-7{
+        display: none;
+    }
+    .eight5{
+        display: none;
+    }
+    .nin{
+        display: none;
+    }
+    .wrap{
+        max-width: 100%;
+        width: 400px;
+        margin-top: 90px;
+        /* display: none; */
+    }
+    .ten{
+        margin-top: 90px;
+        margin: 1px;
+
+    }
+    .ten-head{
+        max-width: 100%;
+        width: 400px;
+    }
+    .eleven{
+        margin: 1px;
+    }
+    .eleven-head{
+        width: 400px;
+        max-width: 100%;
+
+    }
+    .eleven-head p{
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        width: 400px;
+        max-width: 100%;
+    }
 }
