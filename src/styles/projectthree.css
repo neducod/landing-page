@@ -587,177 +587,35 @@ width: 48.9375rem;
 
 
 
-/* MOBILE SCREENS */
-@media (max-width: 768px) {
-    /* General layout fixes */
-    .projectthree-a,
-    .frame-one,
-    .frame-four,
-    .frame-8,
-    .learning-section,
-    .wireframing-section {
-      flex-direction: column;
-      padding-left: 1rem;
-      gap: 2rem;
-    }
-  
-    /* Reduce container widths */
-    .project-three-b,
-    .frame-one-b,
-    .frame1-c,
-    .frame-two,
-    .frame-four-head,
-    .frame-four-b,
-    .frame-8a,
-    .learning-container,
-    .wireframing-container {
-      width: 100%;
-      max-width: 100%;
-    }
-  
-    /* Remove sticky to allow scroll flow */
-    .projectthree-aa,
-    .frame-one-a {
-      position: static;
-      top: auto;
-      padding-top: 2rem;
-    }
-  
-    /* Adjust big sections’ padding and margins */
-    .project-3img,
-    .cubo,
-    .imag1 {
-      width: 100%;
-      height: auto;
-      margin: 2rem 0;
-      padding-left: 0;
-    }
-  
-    /* Reduce text sizes for readability */
-    h2 {
-      font-size: 1.5rem;
-      line-height: 2rem;
-    }
-  
-    p {
-      font-size: 1rem;
-      line-height: 1.5rem;
-    }
-  
-    /* Fix images inside frames */
-    .frame-four-b img {
-      position: relative;
-      left: 0;
-      width: 100%;
-      height: auto;
-    }
-  
-    /* Adjust white boxes */
-    .frame-five,
-    .frame-six,
-    .frame-7 {
-      width: 100%;
-      margin-left: 0;
-      padding: 1.5rem;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    /* Remove big left padding on mobile */
-    .frame-two,
-    .projectthree-a,
-    .frame-one,
-    .frame-four,
-    .learning-section,
-    .wireframing-section {
-      padding-left: 1rem;
-    }
-  }
-  @media (max-width: 768px) {
-    img {
-      width: 100%;
-      height: auto;
-      max-width: 100%;
-      object-fit: cover;
-    }
-  
-    /* if you have containers like .project-3img, .frame, etc */
-    .project-3img,
-    .frame,
-    .frame-5b,
-    .frameoneb,
-    .frame-four-b {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 1.5rem 0;
-      padding: 0;
-    }
-  
-    /* disable sticky elements so they scroll naturally */
-    .frame-5a,
-    .frame-onea {
-      position: static;
-      top: auto;
-    }
-  }
-  @media (max-width: 768px) {
 
-    /* 🔹 General image responsiveness */
-    img {
-      width: 100%;
-      height: auto;
-      max-width: 100%;
-      object-fit: cover;
-    }
-  
-    /* 🔹 First project image */
-    .porjectt3image,
-    .project-3img,
-    .frame {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 1.5rem 0;
-      padding: 0;
-    }
-  
-    /* 🔹 Wireframing, Learning, and Envision sections */
-    .wireframe-section,
-    .learning-achievement,
-    .envision-future,
-    .leading-section,
-    .frame-5b,
-    .frame-four-b,
-    .frameoneb {
-      width: 100%;
-      padding: 1rem;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 1rem;
-    }
-  
-    /* 🔹 Make sticky parts scroll normally */
-    .frame-5a,
-    .frame-onea,
-    .dp-a {
-      position: static;
-      top: auto;
-    }
-  
-    /* 🔹 Tweak large text and gaps */
-    h2 {
-      font-size: 1.5rem;
-      line-height: 2rem;
-    }
-  
-    p {
-      font-size: 1rem;
-      line-height: 1.5rem;
-    }
+
+
+
+@media (max-width: 768px) {
+  .project-3img {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
   }
-  
+
+  .project-3img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 400px) {
+  .project-3img {
+    width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+  }
+
+  .project-3img img {
+    width: 100%;
+    height: auto;
+  }
+}
