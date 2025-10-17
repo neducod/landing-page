@@ -799,18 +799,14 @@ letter-spacing: 0.00825rem;
         margin: 1px;
     }
     .eleven-head{
-        /* width: 100%; */
-        max-width: 100%;
-        padding: 0 1rem;
+        max-width: 400px;
+        width: 100%;
 
     }
     .eleven-head p{
         word-wrap: break-word;
         overflow-wrap: break-word;
-        /* width: 100%; */
-        /* max-width: 300px; */
-
-        font-size: 0.95rem;
-        line-height: 1.5rem;
+        width: 100%; 
+        max-width: 300px; 
     }
 }
