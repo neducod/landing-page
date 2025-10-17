@@ -312,3 +312,28 @@ letter-spacing: 0.018rem;
   }
   
 
+
+  .nav-links button {
+    /*
+    font: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    color: aqua;
+*/
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+color: #505050;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6875rem; /* 150% */
+letter-spacing: 0.018rem;
+  }
+  
