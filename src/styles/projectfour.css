@@ -303,7 +303,6 @@ width: 48.98375rem;
 align-items: flex-start;
 gap: 15.125rem;
 
-
 max-width: 90rem;
 margin: 0 auto;
 }
@@ -349,7 +348,6 @@ flex-direction: column;
 align-items: flex-start;
 gap: 1.5rem;
 
-/* flex: 2; */
 }
 .frame-6{
     display: inline-flex;
@@ -773,15 +771,155 @@ letter-spacing: 0.00825rem;
     .framee-7{
         display: none;
     }
-/*
-    .wrap{
-        max-width: 100%;
-        width: 400px;
-        margin-top: 90px;
-    }
-    */
 }
 
+
+/* Responsive adjustments for .frame-5 section */
+@media (max-width: 768px) {
+    .frame-5 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      margin: 2rem 1rem;
+    }
+  
+    .frame-5a {
+      width: 100%;
+      max-width: 100%;
+      padding-top: 0;
+      margin-left: 0;
+      position: static; /* Disable sticky */
+      top: auto;
+    }
+  
+    .frame-5a h2 {
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+      text-align: center;
+    }
+  
+    .frame-5a p {
+      width: 100%;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      text-align: left;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+  
+    .frame-5b {
+      width: 100%;
+      max-width: 100%;
+      padding-top: 0;
+      gap: 1rem;
+    }
+  
+    .frame-5b img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .frame-5 {
+      margin: 1.5rem 1rem;
+      gap: 1.5rem;
+    }
+  
+    .frame-5a h2 {
+      font-size: 1.25rem;
+      line-height: 1.8rem;
+    }
+  
+    .frame-5a p {
+      font-size: 0.95rem;
+      line-height: 1.4rem;
+    }
+  }
+  
+
+
+
+
+
+
+/* Responsive adjustments for .framee-7 section */
+/*
+@media (max-width: 768px) {
+    .framee-7 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-top: 2rem;
+    }
+  
+    .framee-7a {
+      width: 100%;
+      max-width: 100%;
+      gap: 0.75rem;
+    }
+  
+    .framee-7ahead h2 {
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+      text-align: center;
+    }
+  
+    .framee-7a p {
+      width: 100%;
+      max-width: 100%;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+  
+    .frame-7b {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin-left: 0;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .frame-7b img {
+      position: static;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  
+    .seven-img {
+      left: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .framee-7 {
+      margin: 1.5rem 1rem;
+      gap: 1.5rem;
+    }
+  
+    .framee-7ahead h2 {
+      font-size: 1.25rem;
+      line-height: 1.8rem;
+    }
+  
+    .framee-7a p {
+      font-size: 0.95rem;
+      line-height: 1.4rem;
+    }
+  }
+*/  
 
 /* Responsive adjustments for .eight5 section */
 @media (max-width: 768px) {
