@@ -671,4 +671,77 @@ letter-spacing: 0.009rem;
       border-radius: 0.4rem;
     }
   }
+/* For large tablets and smaller laptops */
+@media (max-width: 1024px) {
+    .sixone {
+      gap: 5rem;
+      padding-left: 3rem;
+    }
+  
+    .sixone-one,
+    .sixone-two {
+      padding-top: 5rem;
+      width: 100%;
+    }
+  }
+  
+  /* For tablets */
+  @media (max-width: 768px) {
+    .sixone {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+      gap: 3rem;
+    }
+  
+    .sixone-one,
+    .sixone-two {
+      width: 90%;
+      padding-top: 3rem;
+    }
+  
+    .sixone-head h2 {
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+    }
+  
+    .sixone-one p,
+    .sixone-one a,
+    .sixone-tw p {
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 480px) {
+    .sixone {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 1rem;
+      gap: 2rem;
+    }
+  
+    .sixone-one,
+    .sixone-two {
+      width: 100%;
+      padding-top: 2rem;
+    }
+  
+    .sixone-head h2 {
+      font-size: 1.3rem;
+      line-height: 1.8rem;
+    }
+  
+    .sixone-one p,
+    .sixone-one a,
+    .sixone-tw p {
+      font-size: 0.95rem;
+      line-height: 1.3rem;
+    }
+  
+    .sixone-tw h2 {
+      font-size: 1.1rem;
+    }
+  }
   
