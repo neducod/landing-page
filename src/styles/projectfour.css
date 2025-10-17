@@ -738,9 +738,7 @@ letter-spacing: 0.00825rem;
         max-width: 480px;
         margin-top: 90px;
     }
-    .frame{
-        display: none;
-    }
+
 
     .frame-three{
         display: none;
@@ -1563,4 +1561,24 @@ letter-spacing: 0.00825rem;
       padding-top: 2rem;
     }
   }
+
+  @media (max-width: 1024px) {
+    .frame img {
+      width: 90%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .frame {
+      margin-top: 4rem;
+    }
+  
+    .frame img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.4rem;
+    }
+  }
+  
   
