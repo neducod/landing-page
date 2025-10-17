@@ -15,13 +15,33 @@ function About() {
     "/Property 1=About me 8.png",
   ];
 
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 1500); // change every 1.5 seconds
+
+    return () => clearInterval(interval);
+  }, [images.length]);
+
+
   return (
     <>
       {/* <Navbar /> */}
       <section className="frameaa">
         <div className="frame-a-one">
           <div className="frame-a-onee">
-            <img src="" alt="about-images" className="intro-face" />
+            {/* <img src="" alt="about-images" className="intro-face" /> */}
+            <img
+        key={images[currentIndex]}
+        src={images[currentIndex]}
+        alt="about-images"
+        className="intro-face fade"
+      />
           </div>
           <div className="frame-a-c">
             <div className="header-cont">

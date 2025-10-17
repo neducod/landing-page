@@ -97,7 +97,8 @@
     scroll-behavior: smooth;
 }
 
-  .footer {
+  footer {
+    /*
     background-color: #f2f7ff;
     color: #000;
     padding: 4rem 6rem;
@@ -106,7 +107,66 @@
     justify-content: space-between;
     min-height: 70vh;
     font-family: "Inter", sans-serif;
+*/
+
+    display: flex;
+width: 90.1875rem;
+padding: 3.5rem 7.5rem;
+flex-direction: column;
+align-items: center;
+gap: 2rem;
+background: #F2F7FF;
   }
+
+.footer-a{
+  display: flex;
+align-items: flex-end;
+gap: 8.5625rem;
+align-self: stretch;
+}
+.footer-b{
+  display: flex;
+padding: 1rem 0;
+align-items: center;
+gap: 38.375rem;
+align-self: stretch;
+border-top: 1px solid #556070;
+}
+.footer-b p{
+  color: #5A6474;
+font-family: "Helvetica Neue";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+}
+.footer-iconn{
+  display: flex;
+align-items: flex-start;
+gap: 1.5rem;
+}
+.footer-iconn a{
+  color: #000;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 133.333% */
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+
+
+
+
+
+
+
+
   
   /* Left Section */
   .footer-left {
@@ -176,6 +236,19 @@
   .social-links a:hover {
     text-decoration: underline;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   /* ===========================
      Responsive Design
