@@ -1141,3 +1141,51 @@ letter-spacing: 0.009rem;
     }
   }
   
+
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .six-six {
+      width: 90%;
+      height: auto;
+      margin: 5rem auto;
+    }
+  
+    .six-six img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+      display: block;
+    }
+  }
+  
+  /* Mobile (max-width: 768px) */
+  @media (max-width: 768px) {
+    .six-six {
+      width: 95%;
+      height: auto;
+      margin: 3rem auto;
+    }
+  
+    .six-six img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.4rem;
+    }
+  }
+  
+  /* Small phones (max-width: 480px) */
+  @media (max-width: 480px) {
+    .six-six {
+      width: 100%;
+      height: auto;
+      margin: 2rem auto;
+    }
+  
+    .six-six img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.3rem;
+    }
+  }
+  
