@@ -140,7 +140,8 @@ gap: 1.9375rem;
 font-family: "Helvetica Neue";
 font-size: 1.25rem;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
+text-decoration: none;
 line-height: 2rem; /* 160% */
 }
 .footer-a p{
