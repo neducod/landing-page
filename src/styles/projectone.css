@@ -159,6 +159,19 @@ line-height: 1.625rem;
 letter-spacing: 0.009rem;
 width: 29.25rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  */
 .frame-3{
     display: inline-flex;
@@ -1236,3 +1249,68 @@ text-decoration-thickness: auto;
 text-underline-offset: auto;
 text-underline-position: from-font;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================= */
+/* 📱 Responsive Hero Image */
+/* ============================= */
+
+@media (max-width: 1024px) {
+    .hero-image {
+      width: 100%;
+      max-width: 90%;
+      height: auto;
+    }
+  
+    .hero-image-parent {
+      margin-top: 6rem;
+      padding: 0 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .hero-image-parent {
+      margin-top: 4rem;
+      padding: 0 1rem;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .hero-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .hero-image-parent {
+      margin-top: 2rem;
+      padding: 0 0.5rem;
+    }
+  
+    body {
+      overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+  }
+  
