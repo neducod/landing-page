@@ -34,38 +34,13 @@ const Navbar = () => {
   }, [location]);
 
 
-/*
-  useEffect(() => {
-    const handleScroll = () => {
-      const workSection = document.getElementById("work");
-      const scrollY = window.scrollY;
-      const viewportHeight = window.innerHeight;
-  
-      if (workSection) {
-        const sectionTop = workSection.offsetTop - 100;
-        const sectionBottom = sectionTop + workSection.offsetHeight;
-  
-        if (scrollY + viewportHeight / 2 >= sectionTop && scrollY < sectionBottom) {
-          setActiveSection("work");
-        } else if (scrollY < sectionTop - 150) {
-          setActiveSection("home");
-        } else {
-          setActiveSection(null);
-        }
-      }
-    };
-  
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-*/
-  
-
 
 
 
   return (
     <header className="navbar">
+      <div className="naa">
+
       <div className="nav-left">
         <img src={logo} alt="Logo" className="nav-logo" />
         <span className="brand-name">
@@ -76,56 +51,14 @@ const Navbar = () => {
       <nav className="nav-right">
         <ul className="nav-links">
 
- {/* <Link to="/" className="active">
-              Home
-            </Link> */}
-<li>
+          <li>
              <NavLink
-    to="/"
-    className={({ isActive }) => (isActive ? "active-link" : "")}
-  >
-    Home
-  </NavLink>
+              to="/"
+              className={({ isActive }) => (isActive ? "active-link" : "")}
+              >
+                Home
+              </NavLink>
           </li> 
-
-          {/* <li>
-             <NavLink
-    to="/"
-    className={({ isActive }) => (isActive ? "active-link" : "")}
-  >
-    Home
-  </NavLink>
-          </li> */}
-
-
-
-
-          {/* <li>
-            <a href="#work">Work</a>
-          </li> */}
-
-{/* <li>
-  {location.pathname === "/" ? (
-    <a
-      href="#work"
-      className={activeSection === "work" ? "active" : ""}
-    >
-      Work
-    </a>
-  ) : (
-    <button
-      className={location.pathname.startsWith("/project") ? "active" : ""}
-      onClick={() => navigate("/#work")}
-      style={{ background: "none", border: "none", cursor: "pointer" }}
-    >
-      Work
-    </button>
-  )}
-</li>
- */}
-
-
-
 <li>
   {location.pathname === "/" ? (
     <a href="#work" className={location.hash === "#work" ? "active" : ""}>
@@ -141,30 +74,23 @@ const Navbar = () => {
     </button>
   )}
 </li> 
-
-
-
-
           <li>
-
-
           <NavLink
       to="/about"
       className={({ isActive }) => (isActive ? "active-link" : "")}
     >
       About me
     </NavLink>
-            {/* <Link to="/about">About me</Link> */}
           </li>
         </ul>
 
         <button className="nav-btn">Let’s Work</button>
 
-        {/* Hamburger icon */}
         <div className="hamburger" onClick={toggleMenu}>
           <div className={`bar ${menuOpen ? "open" : ""}`}></div>
         </div>
       </nav>
+      </div>
     </header>
   );
 };
