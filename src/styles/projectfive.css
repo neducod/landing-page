@@ -896,3 +896,81 @@ letter-spacing: 0.009rem;
 }
 
 
+
+
+
+/* 📱 Tablets and small laptops */
+@media (max-width: 1024px) {
+  .f-four {
+    gap: 6rem;
+    padding-left: 3rem;
+  }
+
+  .f-foura h2 {
+    font-size: 1.75rem;
+  }
+}
+
+/* 📱 Mobile screens */
+@media (max-width: 768px) {
+  .f-four {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    padding-left: 1.5rem;
+  }
+
+  .f-foura,
+  .f-fourb {
+    width: 90%;
+    align-items: flex-start;
+    padding-top: 3rem;
+  }
+
+  .extra h2 {
+    font-size: 1.25rem;
+  }
+
+  .extra p,
+  .f-fourb-two-a p,
+  .f-fourb-two-b p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .f-fourb-two-a,
+  .f-fourb-two-b {
+    gap: 1rem;
+  }
+
+  .f-fourb-two-a img,
+  .f-fourb-two-b img {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+}
+
+/* 📱 Extra small phones */
+@media (max-width: 480px) {
+  .f-four {
+    gap: 2rem;
+    padding-left: 1rem;
+  }
+
+  .f-foura h2 {
+    font-size: 1.4rem;
+  }
+
+  .extra h2 {
+    font-size: 1.1rem;
+  }
+
+  .extra p,
+  .f-fourb-two-a p,
+  .f-fourb-two-b p {
+    font-size: 0.95rem;
+  }
+}
+
+
+
