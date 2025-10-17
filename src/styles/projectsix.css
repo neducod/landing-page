@@ -744,4 +744,78 @@ letter-spacing: 0.009rem;
       font-size: 1.1rem;
     }
   }
+/* For large tablets and smaller laptops */
+@media (max-width: 1024px) {
+    .sixtwo {
+      gap: 5rem;
+      padding-left: 3rem;
+    }
+  
+    .sixtwo-a,
+    .sixtwo-b {
+      width: 100%;
+    }
+  }
+  
+  /* For tablets */
+  @media (max-width: 768px) {
+    .sixtwo {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+      gap: 3rem;
+    }
+  
+    .sixtwo-a,
+    .sixtwo-b {
+      width: 90%;
+    }
+  
+    .sixtwo-head h2 {
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+    }
+  
+    .sixtwo-a p,
+    .sixtwo-bb ul li {
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+  
+    .sixtwo-bb h3 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 480px) {
+    .sixtwo {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 1rem;
+      gap: 2rem;
+      margin-top: 4rem;
+    }
+  
+    .sixtwo-a,
+    .sixtwo-b {
+      width: 100%;
+    }
+  
+    .sixtwo-head h2 {
+      font-size: 1.3rem;
+      line-height: 1.8rem;
+    }
+  
+    .sixtwo-a p,
+    .sixtwo-bb ul li {
+      font-size: 0.95rem;
+      line-height: 1.3rem;
+    }
+  
+    .sixtwo-bb h3 {
+      font-size: 1.1rem;
+    }
+  }
+  
   
