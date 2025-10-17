@@ -544,7 +544,136 @@ letter-spacing: 0.009rem;
     display: block;
     border-radius: 1rem;
   }
+
+
+
+
+
+
   
+.five-seve{
+    display: inline-flex;
+align-items: flex-start;
+gap: 7.75rem;
+
+margin-left: 7.5rem;
+
+max-width: 90rem;
+    margin: 0 auto;
+}
+.five-seve-head{
+    display: flex;
+width: 21.5rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.25rem;
+
+position: sticky;
+flex: 1;
+top: 0.5rem; 
+height: fit-content;
+
+margin-left: 7.7rem;
+}
+.five-seve-head h2{
+    align-self: stretch;
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 150% */
+letter-spacing: 0.032rem;
+}
+.five-seve-n{
+    width: 45.75rem;
+height: 159.15256rem;
+
+margin-left: 2rem;
+}
+.sevenn{
+    display: flex;
+width: 39.25rem;
+padding-top: 7.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+}
+.sevennn{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+
+margin-bottom: 2rem;
+}
+-b{
+    display: flex;
+width: 39.25rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+
+margin-bottom: 2rem;
+margin-top: 5rem;
+}
+.sevenn-b h3{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+}
+.sevenn-.sevennn h3{
+    color: #2F80ED;
+font-family: "Helvetica Neue";
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 109.091% */
+letter-spacing: 0.00825rem;
+align-self: stretch;
+}
+.sevennn ul li{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+.sevennb ul li{
+    color: #556070;
+font-family: "Helvetica Neue";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 144.444% */
+letter-spacing: 0.009rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .five-seve{
     display: inline-flex;
 align-items: flex-start;
@@ -622,6 +751,17 @@ font-weight: 400;
 line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
 }
+
+
+
+
+
+
+
+
+
+
+
 .sevenn-b{
     display: flex;
 width: 39.25rem;
@@ -650,6 +790,10 @@ font-weight: 400;
 line-height: 1.625rem; /* 144.444% */
 letter-spacing: 0.009rem;
 }
+
+
+
+
 
 
 
@@ -974,3 +1118,100 @@ letter-spacing: 0.009rem;
 
 
 
+
+/* 📱 Tablets and small laptops */
+@media (max-width: 1024px) {
+    .five-seve {
+      gap: 4rem;
+      margin-left: 3rem;
+      max-width: 100%;
+    }
+  
+    .five-seve-head {
+      margin-left: 3rem;
+      position: relative;
+      padding-top: 4rem;
+    }
+  
+    .five-seve-n {
+      width: 90%;
+      margin-left: 0;
+    }
+  
+    .sevenn {
+      width: 100%;
+      padding-top: 4rem;
+    }
+  }
+  
+  /* 📱 Mobile screens */
+  @media (max-width: 768px) {
+    .five-seve {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 3rem;
+      margin-left: 1.5rem;
+    }
+  
+    .five-seve-head {
+      width: 100%;
+      margin-left: 0;
+      padding-top: 3rem;
+      position: static;
+    }
+  
+    .five-seve-head h2 {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
+  
+    .five-seve-n {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  
+    .sevenn {
+      width: 100%;
+      padding-top: 2.5rem;
+      gap: 1rem;
+    }
+  
+    .sevennn h3 {
+      font-size: 1.2rem;
+    }
+  
+    .sevennn ul li {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  
+    .respon {
+      width: 100%;
+      height: auto;
+      margin-top: 1rem;
+    }
+  }
+  
+  /* 📱 Extra small phones */
+  @media (max-width: 480px) {
+    .five-seve {
+      margin-left: 1rem;
+      gap: 2rem;
+    }
+  
+    .five-seve-head h2 {
+      font-size: 1.4rem;
+      line-height: 2rem;
+    }
+  
+    .sevennn h3 {
+      font-size: 1.1rem;
+    }
+  
+    .sevennn ul li {
+      font-size: 0.95rem;
+      line-height: 1.4rem;
+    }
+  }
+  
