@@ -622,3 +622,53 @@ letter-spacing: 0.009rem;
     border-radius: 0.5rem;
   }
   
+
+
+
+/* Base Styles (already in your code) */
+.img-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9.38rem;
+  }
+  
+  .img-content img {
+    width: 75rem;
+    height: 25rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    object-fit: cover;
+  }
+  
+  /* ✅ Responsive Adjustments */
+  
+  /* For large tablets and smaller laptops */
+  @media (max-width: 1024px) {
+    .img-content img {
+      width: 55rem;
+      height: 20rem;
+    }
+  }
+  
+  /* For tablets */
+  @media (max-width: 768px) {
+    .img-content img {
+      width: 90%;
+      height: auto;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 480px) {
+    .img-content {
+      margin-top: 4rem;
+    }
+  
+    .img-content img {
+      width: 95%;
+      height: auto;
+      border-radius: 0.4rem;
+    }
+  }
+  
