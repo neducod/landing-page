@@ -84,7 +84,9 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <button className="nav-btn">Let’s Work</button>
+        {/* <button className="nav-btn">Let’s Work</button> */}
+        <button className="nav-btn" onClick={() => navigate("/about")}>Let’s Work</button>
+
 
         <div className="hamburger" onClick={toggleMenu}>
           <div className={`bar ${menuOpen ? "open" : ""}`}></div>
