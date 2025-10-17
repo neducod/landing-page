@@ -653,138 +653,29 @@ letter-spacing: 0.009rem;
 
 
 
-@media screen and (max-width: 600px) {
-    body {
-      background-color: rgb(230, 187, 173);
-    }
+/* 📱 Tablets and small laptops */
+@media (max-width: 1024px) {
+  .hero-img {
+    padding-left: 3rem;
+  }
+}
+
+/* 📱 Mobile screens */
+@media (max-width: 768px) {
+  .hero-img {
+    justify-content: center;
+    padding-left: 0;
   }
 
-  @media (max-width: 1024px) { /* Tablets and below */ }
+  .hero-img img {
+    width: 90%;
+    height: auto;
+  }
+}
 
-
-@media (max-width: 768px)  { /* Mobile landscape */ }
-
-
-
-
-
-
-
-@media (max-width: 480px)  { 
-    .hero-img{
-        display: none;
-        align-items: flex-start;
-    }
-    .hero-img img{
-        /* width: 300px; */
-        padding-left: 1px;
-    }
-    .f-one{
-        display: flex;
-        flex-direction: column;
-    }
-    .f-one-b{
-        width: 290px;
-        max-width: 100%;
-        flex-wrap: wrap;
-    }
-    .f-two{
-        display: flex;
-        flex-direction: column;
-    }
-    .f-two-b{
-        width: 300px;
-        max-width: 100%;
-        flex-wrap: wrap;
-    }
-    .f-three{
-        display: flex;
-        flex-direction: column;
-    }
-    .f-three-b{
-        width: 300px;
-        max-width: 100%;
-        flex-wrap: wrap;
-    }
-    .f-four{
-        display: flex;
-        flex-direction: column;
-    }
-    .f-fourb{
-        width: 300px;
-        flex-wrap: wrap;
-        max-width: 100%;
-    }
-    .five-seve{
-        display: flex;
-        flex-direction: column;
-    }
-    .sevennn{
-        width: 300px;
-        flex-wrap: wrap;
-        max-width: 100%;
-    }
-    .sevenn img{
-        max-width: 300px;
-        height: auto;
-        display: block;
-    }
-    .sevenn-b{
-        width: 300px;
-        flex-wrap: wrap;
-        max-width: 100%;
-    }
-    .respon{
-        max-width: 300px;
-        height: auto;
-        display: block;
-    }
-    .whole{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .f-five{
-        padding-left: 5px;
-        flex-wrap: wrap;
-        display: flex;
-        /* justify-content: center; */
-    }
-    .f-five-a{
-        max-width: 100%;
-        width: 300px;
-    }
-    .f-six{
-        flex-wrap: wrap;
-        display: flex;
-        padding-left: 5px;
-    }
-    .f-six-a {
-        max-width: 100%;
-        width: 300px;
-    }
-    .five-seve-head{
-        margin-left: 1px;
-    }
-    .f-four{
-        padding-left: 1px;
-    }
-    .f-three{
-        padding-left: 1px;
-    }
-    .f-two{
-        padding-left: 1px;
-
-    }
-    .f-one{
-        padding-left: 1px;
-    }
-    .ips{
-        flex-direction: column;
-    }
-    .ips img{
-        max-width: 300px;
-        height: auto;
-        display: block;
-    }
-
+/* 📱 Extra small phones */
+@media (max-width: 480px) {
+  .hero-img img {
+    width: 100%;
+  }
 }
