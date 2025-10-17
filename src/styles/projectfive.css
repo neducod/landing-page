@@ -1323,3 +1323,68 @@ letter-spacing: 0.009rem;
   }
   
 
+
+
+
+
+
+
+
+
+/* 📱 Tablets */
+@media (max-width: 1024px) {
+    .f-six {
+      flex-wrap: wrap;
+      gap: 3rem;
+      padding-left: 3rem;
+    }
+  
+    .f-six-a {
+      width: 100%;
+    }
+  }
+  
+  /* 📱 Mobile screens */
+  @media (max-width: 768px) {
+    .f-six {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2rem;
+      padding-left: 1.5rem;
+      margin-bottom: 5rem;
+    }
+  
+    .f-six-a {
+      width: 100%;
+    }
+  
+    .f-six-a h2 {
+      font-size: 1.75rem;
+      line-height: 2.5rem;
+    }
+  
+    .f-six-a p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+  
+  /* 📱 Extra small phones */
+  @media (max-width: 480px) {
+    .f-six {
+      padding-left: 1rem;
+      gap: 1.5rem;
+    }
+  
+    .f-six-a h2 {
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+    }
+  
+    .f-six-a p {
+      font-size: 0.95rem;
+      line-height: 1.45rem;
+    }
+  }
+  
+
