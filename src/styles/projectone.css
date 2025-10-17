@@ -1621,3 +1621,39 @@ text-underline-position: from-font;
     }
   }
   
+
+
+  .frame-5-b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* <-- change from flex-end to flex-start */
+    gap: 1.5rem;
+    width: 39.39994rem;
+    padding-top: 7.5rem;
+}
+
+.frame-5-b img {
+    width: 100%; /* optional, to make it responsive */
+    max-width: 100%; /* optional, to prevent overflow */
+    height: auto; /* maintain aspect ratio */
+    display: block; /* ensures no inline spacing */
+}
+
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    .frame-5 {
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .frame-5-a,
+    .frame-5-b {
+        padding-top: 2rem;
+    }
+
+    .frame-5-b img {
+        max-width: 100%;
+        height: auto;
+    }
+}
