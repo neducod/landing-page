@@ -133,7 +133,6 @@ const Project6 = () => {
 
       <div className="six-six">
         <img src="/Screenshot 2025-10-16 at 11.59.54.png" alt="" />
-
       </div>
 
       <div className="ree">
