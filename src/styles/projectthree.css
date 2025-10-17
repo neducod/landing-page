@@ -152,8 +152,6 @@ max-width: 90rem;
 flex-direction: column;
 align-items: flex-start;
 gap: 0.25rem;
-
-
 position: sticky;
 flex: 1;
 top: 6rem; 
@@ -617,5 +615,101 @@ width: 48.9375rem;
   .project-3img img {
     width: 100%;
     height: auto;
+  }
+}
+/* ============================= */
+/* 📱 Responsive Adjustments */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .projectthree-a {
+    gap: 4rem;
+    padding-left: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .projectthree-aa,
+  .project-three-b {
+    padding-top: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .projectthree-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 2rem;
+    max-width: 100%;
+  }
+
+  .projectthree-aa {
+    width: 100%;
+    position: static; /* disable sticky on mobile */
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .head-three {
+    width: 100%;
+    align-items: center;
+  }
+
+  .project-three-b {
+    width: 100%;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: left;
+  }
+
+  .project-three-b h2 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .project-three-b p,
+  .projectthree-aa p,
+  .project-three-c p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 400px) {
+  .projectthree-a {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .head-three h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .project-three-b h2 {
+    font-size: 1.1rem;
+  }
+
+  .projectthree-aa p,
+  .project-three-b p,
+  .project-three-c p {
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  a {
+    word-break: break-all; /* keeps links from overflowing */
+  }
+
+  body {
+    overflow-x: hidden;
   }
 }
