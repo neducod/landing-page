@@ -23,7 +23,7 @@ function About() {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 1500); // change every 1.5 seconds
+    }, 200); 
 
     return () => clearInterval(interval);
   }, [images.length]);
@@ -40,7 +40,7 @@ function About() {
         key={images[currentIndex]}
         src={images[currentIndex]}
         alt="about-images"
-        className="intro-face fade"
+        className="intro-faace"
       />
           </div>
           <div className="frame-a-c">

@@ -124,6 +124,33 @@ align-items: flex-end;
 gap: 8.5625rem;
 align-self: stretch;
 }
+.footer-aa{
+  display: flex;
+align-items: flex-end;
+}
+.footer-aa h2{
+  color: #000;
+font-family: "Helvetica Neue";
+font-size: 4.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 21.875rem;
+}
+.footer-in-content{
+  display: flex;
+align-items: center;
+gap: 1.9375rem;
+}
+.footer-a p{
+  color: #000;
+font-family: "Helvetica Neue";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+width: 23.8125rem;
+}
 .footer-b{
   display: flex;
 padding: 1rem 0;

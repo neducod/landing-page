@@ -6,7 +6,15 @@ const Footer = () => {
   
     return (
       <footer>
-        <div className="footer-a"></div>
+        <div className="footer-a">
+          <div className="footer-aa">
+            <h2>Let’s work together</h2>
+            <div className="footer-in-content">
+              
+            </div>
+          </div>
+          <p>Do you have an interesting project? I’ll love to hear from you. Reach out and let’s create something amazing together.</p>
+        </div>
         <div className="footer-b">
           <p>Copyright @ 2025 Olusegun Aribido</p>
           <div className="footer-iconn">
