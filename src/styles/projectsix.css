@@ -625,6 +625,22 @@ letter-spacing: 0.009rem;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
 /* Base Styles (already in your code) */
 .img-content {
     display: flex;
@@ -889,6 +905,112 @@ letter-spacing: 0.009rem;
   
     .six-three-bb h2 {
       font-size: 1.1rem;
+    }
+  }
+  
+
+
+
+/* For large tablets and smaller laptops */
+@media (max-width: 1024px) {
+    .six-four {
+      gap: 5rem;
+      padding-left: 3rem;
+    }
+  
+    .six-foura,
+    .six-fourb {
+      width: 100%;
+    }
+  
+    .six-foura {
+      position: static;
+      padding-top: 5rem;
+    }
+  
+    .six-fourb {
+      padding-top: 5rem;
+    }
+  }
+  
+  /* For tablets */
+  @media (max-width: 768px) {
+    .six-four {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+      gap: 3rem;
+    }
+  
+    .six-foura,
+    .six-fourb {
+      width: 90%;
+      padding-top: 3rem;
+    }
+  
+    .six-foura img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .six-four-head h2 {
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+    }
+  
+    .six-fourbb h2,
+    .six-fourbbb h2 {
+      font-size: 1.2rem;
+    }
+  
+    .six-fourbbli p,
+    .six-fourbbli ul li,
+    .six-fourbbb-one p,
+    .six-fourbbb-one ul li,
+    .six-fourbbb-one ul span {
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 480px) {
+    .six-four {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 1rem;
+      gap: 2rem;
+      margin-top: 4rem;
+    }
+  
+    .six-foura,
+    .six-fourb {
+      width: 100%;
+      padding-top: 2rem;
+    }
+  
+    .six-foura img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .six-four-head h2 {
+      font-size: 1.3rem;
+      line-height: 1.8rem;
+    }
+  
+    .six-fourbb h2,
+    .six-fourbbb h2 {
+      font-size: 1.1rem;
+    }
+  
+    .six-fourbbli p,
+    .six-fourbbli ul li,
+    .six-fourbbb-one p,
+    .six-fourbbb-one ul li,
+    .six-fourbbb-one ul span {
+      font-size: 0.95rem;
+      line-height: 1.3rem;
     }
   }
   
