@@ -23,7 +23,7 @@ function About() {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 200); 
+    }, 900); 
 
     return () => clearInterval(interval);
   }, [images.length]);
