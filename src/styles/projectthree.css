@@ -1063,3 +1063,92 @@ width: 48.9375rem;
     overflow-x: hidden; /* Prevent horizontal scroll */
   }
 }
+
+
+
+
+
+
+
+/* ============================= */
+/* 📱 Responsive Frame-Four Section */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .frame-four {
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-left: 3rem;
+    justify-content: center;
+  }
+
+  .frame-four-head,
+  .frame-four-b {
+    width: 100%;
+  }
+
+  .frame-four-b {
+    height: auto;
+    position: relative;
+  }
+
+  .frame-four-b img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .frame-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .frame-four-head {
+    text-align: center;
+    align-items: center;
+  }
+
+  .frame-four-head h2 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+
+  .frame-four-head p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: justify;
+  }
+
+  .frame-four-b img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .frame-four {
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+  }
+
+  .frame-four-head h2 {
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+  }
+
+  .frame-four-head p {
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+  }
+
+  body {
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+}
