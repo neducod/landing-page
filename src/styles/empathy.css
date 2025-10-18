@@ -1,30 +1,44 @@
-.empathy-section {
-    text-align: center;
-    background: #cce8ff;
-    padding: 3rem 1rem;
-    border-radius: 1rem;
-  }
-  
-  .folder-container {
+.animation-container {
     position: relative;
-    display: inline-block;
-    margin-top: 2rem;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
   }
   
   .folder {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
     width: 120px;
-    position: relative;
+    transform: translateX(-50%);
     z-index: 2;
   }
   
   .heart {
-    width: 25px;
     position: absolute;
-    bottom: 20px; /* inside the folder */
-    left: 50%;
-    transform: translateX(-50%) scale(0);
+    bottom: 50px;
+    width: 50px;
     opacity: 0;
-    z-index: 1;
-    will-change: transform, opacity;
+    animation: floatUp 3s ease-in infinite;
+  }
+  
+  /* Each heart slightly drifts left or right as it rises */
+  @keyframes floatUp {
+    0% {
+      transform: translateY(0) translateX(0) scale(1);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-100px) translateX(var(--drift, 0px)) scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-220px) translateX(var(--drift, 0px)) scale(1);
+      opacity: 0;
+    }
   }
   
