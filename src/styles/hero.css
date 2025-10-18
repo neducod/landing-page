@@ -364,8 +364,6 @@ text-underline-position: from-font;
 
 .slideshow-container {
   position: relative;
-  /* width: 100%; */
-  /* height: 400px; */
   height: 100px;
   overflow: hidden;
   display: flex;
@@ -427,7 +425,6 @@ flex-shrink: 0;
   background: #F4F2FB;
 }
 
-/* Inside structure */
 .content {
   display: flex;
   flex-direction: row;
@@ -475,7 +472,6 @@ aspect-ratio: 1/1;
   animation: box3Exit 2.5s forwards;
 }
 
-/* Animations (matching your Figma logic) */
 @keyframes box1Exit {
   0%, 60% {
     transform: translateY(0);
