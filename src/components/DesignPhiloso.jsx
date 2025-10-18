@@ -6,40 +6,45 @@ const DesignPhiloso = () => {
   const rootRef = useRef(null);
 
   useEffect(() => {
-    // use gsap.context to scope selectors to this component and allow cleanup
     const ctx = gsap.context(() => {
-      const tl = gsap.timeline({ repeat: -1, repeatDelay: 0.8 });
+      const tl = gsap.timeline({ repeat: -1, repeatDelay: 1 });
 
-      // animation: first icon appears, then second fades in, then third & fourth slide/overlap
-      tl.fromTo(
-        ".icon",
-        { x: 0, opacity: 0 },
-        {
-          x: (i) => i * 36, // slight offset for overlapping effect
-          opacity: 1,
-          duration: 0.3,      // 300ms like Figma
+      // Initial state: only pen visible
+      gsap.set(".icon", { opacity: 0, x: 0 });
+      gsap.set(".icon-pen", { opacity: 1 });
+      gsap.set(".philosophy-text", { x: 0 });
+
+      // Heart fades in, replacing pen
+      tl.to(".icon-pen", { opacity: 0, duration: 0.4, ease: "power1.inOut" })
+        .to(".icon-heart", { opacity: 1, duration: 0.4, ease: "power1.inOut" }, "<")
+
+        // Heart slides left, text moves slowly right
+        .to(".icon-heart", { x: -40, duration: 0.7, ease: "power1.inOut" })
+        .to(".philosophy-text", { x: 40, duration: 0.7, ease: "power1.inOut" }, "<")
+
+        // Bulb fades in slightly overlapping
+        .to(".icon-bulb", { opacity: 1, x: -20, duration: 0.6, ease: "power1.inOut" })
+        .to(".philosophy-text", { x: 60, duration: 0.6, ease: "power1.inOut" }, "<")
+
+        // Briefcase appears next
+        .to(".icon-briefcase", { opacity: 1, x: 0, duration: 0.6, ease: "power1.inOut" })
+        .to(".philosophy-text", { x: 80, duration: 0.6, ease: "power1.inOut" }, "<")
+
+        // Pause briefly
+        .to({}, { duration: 0.5 })
+
+        // Fade out all icons, text returns
+        .to(".icon-heart, .icon-bulb, .icon-briefcase", {
+          opacity: 0,
+          duration: 0.6,
           ease: "power1.inOut",
-          stagger: {
-            each: 0.8,        // 800ms delay between each icon's animation (matches Figma)
-          },
-        }
-      )
-        // hold state briefly so the icons are visible
-        .to({}, { duration: 0.6 })
-        // fade all icons out together and reset x back to 0
-        .to(
-          ".icon",
-          {
-            opacity: 0,
-            x: 0,
-            duration: 0.3,
-            ease: "power1.inOut",
-          },
-          "+=0"
-        );
+        })
+        .to(".philosophy-text", { x: 0, duration: 0.8, ease: "power1.inOut" }, "<")
+
+        // Fade back to the first Pen icon smoothly
+        .to(".icon-pen", { opacity: 1, duration: 0.6, ease: "power1.inOut" });
     }, rootRef);
 
-    // cleanup on unmount
     return () => ctx.revert();
   }, []);
 
@@ -49,12 +54,12 @@ const DesignPhiloso = () => {
         <h1 className="www">
           My Design{" "}
           <span className="icons-set">
-            <img src="/My design Phy.png" className="icon" alt="icon1" />
-            <img src="/Property 1=Interaction 1 2.png" className="icon" alt="icon2" />
-            <img src="/Clarity 2.svg" className="icon" alt="icon3" />
-            <img src="/Collaboration 2.svg" className="icon" alt="icon4" />
+            <img src="/My design Phy.png" className="icon icon-pen" alt="pen" />
+            <img src="/Property 1=Interaction 1 2.png" className="icon icon-heart" alt="heart" />
+            <img src="/Clarity 2.svg" className="icon icon-bulb" alt="bulb" />
+            <img src="/Collaboration 2.svg" className="icon icon-briefcase" alt="briefcase" />
           </span>{" "}
-          Philosophy
+          <span className="philosophy-text">Philosophy</span>
         </h1>
       </div>
 
@@ -62,11 +67,6 @@ const DesignPhiloso = () => {
         I design with logic and empathy to create functional, human-centered products.
         Good design, to me feels effortless, scalable, and built on collaboration.
       </p>
-
-      <div className="test">
-        <div className="container"></div>
-        <div className="container"></div>
-      </div>
     </section>
   );
 };
