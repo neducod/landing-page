@@ -1,0 +1,30 @@
+.empathy-section {
+    text-align: center;
+    background: #cce8ff;
+    padding: 3rem 1rem;
+    border-radius: 1rem;
+  }
+  
+  .folder-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 2rem;
+  }
+  
+  .folder {
+    width: 120px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .heart {
+    width: 25px;
+    position: absolute;
+    bottom: 20px; /* inside the folder */
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+    opacity: 0;
+    z-index: 1;
+    will-change: transform, opacity;
+  }
+  

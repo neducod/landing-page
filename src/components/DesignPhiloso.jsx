@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import Empathy from "./Empathy.jsx";
 import "../styles/designphiloso.css";
 
 const DesignPhiloso = () => {
@@ -39,10 +40,10 @@ const DesignPhiloso = () => {
           duration: 0.6,
           ease: "power1.inOut",
         })
-        .to(".philosophy-text", { x: 0, duration: 0.8, ease: "power1.inOut" }, "<")
+        .to(".philosophy-text", { x: 0, duration: 0.6, ease: "power1.inOut" }, "<")
 
         // Fade back to the first Pen icon smoothly
-        .to(".icon-pen", { opacity: 1, duration: 0.6, ease: "power1.inOut" });
+        .to(".icon-pen", { opacity: 1, duration: 0.3, ease: "power1.inOut" });
     }, rootRef);
 
     return () => ctx.revert();
@@ -67,6 +68,12 @@ const DesignPhiloso = () => {
         I design with logic and empathy to create functional, human-centered products.
         Good design, to me feels effortless, scalable, and built on collaboration.
       </p>
+
+      <div>
+      <Empathy />
+      </div>
+
+
     </section>
   );
 };
