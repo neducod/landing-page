@@ -50,37 +50,37 @@ const DesignPhiloso = () => {
         <div className="qqq">
         <h2 className="www">My Design</h2>
         <div className="container">
-                          <video
+                          {/* <video
   src="/ogtjer.mov"
   autoPlay
   loop
   muted
   playsInline
   className="hero-video"
-/>
+/> */}
         </div>
         </div>
 
       <div className="test">
         <div className="container" >
-        <video
+        {/* <video
   src="/Screen Recording 2025-10-17 at 13.13.33.mov"
   autoPlay
   loop
   muted
   playsInline
   className="hero-video"
-/>
+/> */}
         </div>
         <div className="container">
-        <video
+        {/* <video
   src="/jjhn.mov"
   autoPlay
   loop
   muted
   playsInline
   className="hero-video"
-/>
+/> */}
         </div>
       </div>
     </section>

@@ -74,13 +74,14 @@ align-items: center;
 font-family: "Helvetica Neue";
 font-size: 2rem;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: 3.375rem; /* 168.75% */
 letter-spacing: 0.032rem;
 }
 
 .intro-tagline {
   display: flex;
+  gap: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -114,7 +115,6 @@ margin-left: 25px;
 
 .contact-btn {
   margin-top: 2rem;
-  /* margin-top: 4.81rem; */
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -132,7 +132,7 @@ font-family: "Helvetica Neue";
 font-size: 1rem;
 font-style: normal;
 font-weight: 400;
-line-height: 1.5rem; /* 150% */
+line-height: 1.5rem;
 letter-spacing: 0.016rem;
 text-decoration-line: underline;
 text-decoration-style: solid;
@@ -147,19 +147,15 @@ text-underline-position: from-font;
   transform: translateY(-2px);
 }
 
-
+/*
 .auto-scroll-container {
   position: relative;
   width: 32rempx;
   height: 6rem;
   overflow: hidden;
-  /* border-radius: 20px; */
   background: transparent;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  /* background: #fff; */
 }
 
-/* All slides stack */
 .slide {
   position: absolute;
   width: 100%;
@@ -173,6 +169,9 @@ text-underline-position: from-font;
   align-items: center;
 }
 
+
+
+/*
 .move-up {
   transform: scaleX(1.7);
 }
@@ -200,6 +199,18 @@ text-underline-position: from-font;
   font-size: 1rem;
   color: #666;
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -332,301 +343,168 @@ text-underline-position: from-font;
   }
 }
 
-/*
-@media (max-width: 768px) {
-  .intro-title {
-    font-size: 1.6rem;
-  }
 
-  .intro-face {
-    width: 40px;
-    height: 40px;
-  }
 
-  .intro-tagline {
-    font-size: 1.1rem;
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slideshow-container {
+  position: relative;
+  /* width: 100%; */
+  /* height: 400px; */
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+width: 19.75rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.5rem;
+flex-shrink: 0;
+width: 21.625rem;
+}
+.box {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 0.8s ease, opacity 0.8s ease;
+gap: 1rem;
+}
+
+.box1 {
+   display: flex;
+width: 23.1875rem;
+height: 6rem;
+padding: 0.25rem 8.75rem 0.25rem 0.6875rem;
+align-items: center;
+gap: 1rem;
+flex-shrink: 0;
+background: #F4F2FB;
+   }
+.box2 { 
+  display: flex;
+  width: 23.1875rem;
+  height: 6rem;
+  padding: 0.25rem 8.75rem 0.25rem 0.6875rem;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+  background: #F4F2FB;
+
+  display: flex;
+width: 23.1875rem;
+height: 6rem;
+padding: 0.25rem 2.75rem 0.25rem 0.6875rem;
+align-items: center;
+gap: 1rem;
+flex-shrink: 0;
+}
+.box3 { 
+  display: flex;
+  width: 23.1875rem;
+  height: 6rem;
+  padding: 0.25rem 8.75rem 0.25rem 0.6875rem;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+  background: #F4F2FB;
+}
+
+/* Inside structure */
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.slide-text {
+  color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2.5rem;
+font-style: italic;
+font-weight: 500;
+line-height: 3.375rem; /* 135% */
+letter-spacing: 0.04rem;
+}
+
+.image-wrapper {
+  overflow: hidden;
+
+  width: 5.5rem;
+height: 5.5rem;
+flex-shrink: 0;
+aspect-ratio: 1/1;
+}
+
+.image-wrapper img {
+  object-fit: cover;
+}
+
+.box.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.box1.active {
+  animation: box1Exit 2.5s forwards;
+}
+
+.box2.active {
+  animation: box2Exit 2.5s forwards;
+}
+
+.box3.active {
+  animation: box3Exit 2.5s forwards;
+}
+
+/* Animations (matching your Figma logic) */
+@keyframes box1Exit {
+  0%, 60% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
   }
 }
 
-@media (max-width: 480px) {
-  .intro {
-    padding: 60px 12px;
+@keyframes box2Exit {
+  0%, 60% {
+    transform: translateY(0);
+    opacity: 1;
   }
-
-  .intro-title {
-    flex-direction: column;
-    font-size: 1.4rem;
-  }
-
-  .intro-face {
-    width: 36px;
-    height: 36px;
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
   }
 }
 
-/*
-  .intro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background: #f7f4fb;
-    text-align: center;
-    font-family: "Inter", sans-serif;
+@keyframes box3Exit {
+  0%, 60% {
+    transform: translateY(0);
+    opacity: 1;
   }
-  
-  .intro-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
   }
-  
-  .intro-heading {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #111;
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-  }
-  
-  .intro-name {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  
-  .intro-avatar {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #fff;
-    box-shadow: 0 0 0 3px #e1e1e1;
-  }
-  
-  .intro-subtitle {
-    color: #555;
-    font-weight: 500;
-    margin-top: -0.2rem;
-  }
-  
-  .intro-tagline {
-    font-size: 1.2rem;
-    color: #333;
-  }
-  
-  .highlight {
-    font-style: italic;
-    font-weight: 600;
-  }
-  
-  .intro-icon {
-    width: 32px;
-    height: 32px;
-    margin-left: 8px;
-    vertical-align: middle;
-  }
-  
-  .contact-btn {
-    margin-top: 1.6rem;
-    background: #111;
-    color: #fff;
-    border: none;
-    padding: 0.6rem 1.4rem;
-    border-radius: 6px;
-    font-size: 0.85rem;
-    cursor: pointer;
-    transition: background 0.2s ease;
-  }
-  
-  .contact-btn:hover {
-    background: #222;
-  }
-  
-  @media (max-width: 600px) {
-    .intro-heading {
-      flex-direction: column;
-      font-size: 1.5rem;
-    }
-  
-    .intro-avatar {
-      width: 40px;
-      height: 40px;
-    }
-  
-    .intro-tagline {
-      font-size: 1rem;
-    }
-  */
-
-  /*
-
-  {
-  "name": "landing-pagee",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/neducod/landing-page.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/neducod/landing-page/issues"
-  },
-  "homepage": "https://github.com/neducod/landing-page#readme"
 }
-*/
-
-
-
-
-
-
-
-/*
-
-import React, { useEffect, useState } from "react";
-// import { useState, useEffect } from "react";
-import "../styles/hero.css";
-
-const images = [
-  "/ProfileImages.png",
-  "/Property 1=Pro 2.png",
-  "/Property 1=Pro 3.png",
-  "/Property 1=Pro 4.png",
-  "/Property 1=Pro 5.png",
-  "/Property 1=Pro 6.png",
-];
-
-
-
-const Index = () => {
-  const [currentImage, setCurrentImage] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 3000); // change every 3s
-    return () => clearInterval(interval);
-  }, []);
-
-
-
-
-
-
-
-  // SECOND ANIMATION IN HERO SECTION
-
-  const slides = [
-    {
-      id: 1,
-      direction: "down",
-      content: (
-        <div className="slide-content">
-          <h2>Auto Scroll 1</h2>
-          <img src="/photo1.jpg" alt="photo" />
-          <p>This div moves from top → bottom</p>
-        </div>
-      ),
-    },
-    {
-      id: 2,
-      direction: "up",
-      content: (
-        <div className="slide-content">
-           <img src="/photo1.jpg" alt="photo" />
-          <h2>Auto Scroll 2</h2>
-          <p>This one moves from bottom → top</p>
-        </div>
-      ),
-    },
-    {
-      id: 3,
-      direction: "down",
-      content: (
-        <div className="slide-content">
-           <img src="/photo1.jpg" alt="photo" />
-          <h2>Auto Scroll 3</h2>
-          <p>Back to top → bottom</p>
-        </div>
-      ),
-    },
-  ];
-
-  function AutoScrollAnimation() {
-    const [index, setIndex] = useState(0);
-  
-    useEffect(() => {
-      const timer = setInterval(() => {
-        setIndex((prev) => (prev + 1) % slides.length);
-      }, 2500);
-      return () => clearInterval(timer);
-    }, []);
-  
-    return (
-      <div className="auto-scroll-container">
-        {slides[index]}
-      </div>
-    );
-  }
-
-
-
-
-
-
-
-
-  return (
-
-
-
-
-
-
-  <section className="intro" id="home">
-  <h1 className="intro-title">
-    Hi,{" "}
-    <div className="intro-face-wrapper">
-      <img
-        src={images[currentImage]}
-        alt="Changing faces"
-        className="intro-face"
-      />
-    </div>{" "}
-    I’m <span className="intro-name"> Segun</span>
-  </h1>
-
-  <p className="intro-subtitle">an Interaction Designer</p>
-  <div className="intro-tagline">
-   <p> I design for </p>
-   <video
-  src="/videofile.mov"
-  autoPlay
-  loop
-  muted
-  playsInline
-  className="hero-video"
-/>
-  </div>
-
-  <button className="contact-btn">Contact me</button>
-</section>
-  );
-};
-
-export default Index;
-
-
-
-*/
