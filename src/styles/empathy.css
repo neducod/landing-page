@@ -19,7 +19,7 @@
   .heart {
     position: absolute;
     bottom: 50px;
-    width: 30px;
+    width: 42px;
     opacity: 0;
     animation: floatUpDown 6s ease-in-out infinite;
     background: transparent;
