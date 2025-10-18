@@ -4,6 +4,7 @@
     height: 300px;
     margin: auto;
     overflow: hidden;
+    background: transparent;
   }
   
   .folder {
@@ -18,13 +19,18 @@
   .heart {
     position: absolute;
     bottom: 50px;
-    width: 50px;
+    width: 30px;
     opacity: 0;
-    animation: floatUp 3s ease-in infinite;
+    animation: floatUpDown 6s ease-in-out infinite;
+    background: transparent;
+    border: none;
+    outline: none;
+    mix-blend-mode: normal;
+    filter: none;
   }
   
-  /* Each heart slightly drifts left or right as it rises */
-  @keyframes floatUp {
+  /* New animation with rise + dissolve + fall */
+  @keyframes floatUpDown {
     0% {
       transform: translateY(0) translateX(0) scale(1);
       opacity: 0;
@@ -32,12 +38,19 @@
     10% {
       opacity: 1;
     }
-    50% {
-      transform: translateY(-100px) translateX(var(--drift, 0px)) scale(1.1);
+    40% {
+      transform: translateY(-160px) translateX(var(--drift, 0px)) scale(1.1);
       opacity: 1;
     }
+    50% {
+      opacity: 0.6; /* start dissolving */
+    }
+    70% {
+      transform: translateY(0) translateX(0) scale(0.9);
+      opacity: 1; /* reappear while falling */
+    }
     100% {
-      transform: translateY(-220px) translateX(var(--drift, 0px)) scale(1);
+      transform: translateY(0) translateX(0) scale(1);
       opacity: 0;
     }
   }
