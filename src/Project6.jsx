@@ -119,7 +119,9 @@ const Project6 = () => {
     </div>
 
     <div class="design-laptop">
-      <img src="/Laptopvjaao 2.jpg" alt="Laptop mockup" />
+      <img src="/Group 4.png" alt="design-laptop-img" className="imagee1" />
+      <img src="public/Mask group 5.png" alt="design-laptop-img" className="design-image" />
+      {/* <img src="/Laptopvjaao 2.jpg" alt="Laptop mockup" /> */}
     </div>
   </div>
 </div>

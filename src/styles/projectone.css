@@ -729,6 +729,7 @@ text-decoration-thickness: auto;
 text-underline-offset: auto;
 text-underline-position: from-font;
 }
+
 /*
 .frame-7b2-group{
     width: 35.6875rem;
@@ -762,6 +763,7 @@ letter-spacing: 0.02725rem;
 }
 */
 /*  */
+
 .frame-8{
     padding-left: 7.5rem;
     padding-right: 7.5rem;
@@ -1271,7 +1273,7 @@ text-underline-position: from-font;
 /* 📱 Responsive Hero Image */
 /* ============================= */
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .hero-image {
       width: 100%;
       max-width: 90%;
@@ -1310,13 +1312,38 @@ text-underline-position: from-font;
     }
   
     body {
-      overflow-x: hidden; /* Prevent horizontal scroll */
+      overflow-x: hidden; 
+    }
+  } */ 
+
+  @media (max-width: 1024px) {
+    .hero-image {
+      width: 100%;
+      max-width: 90%;
+      height: auto;
+    }
+    .hero-image-parent {
+      margin-top: 6rem;
+      padding: 0 1rem;
     }
   }
-  
-
-
-
+  @media (max-width: 768px) {
+    .hero-image {
+      max-width: 100%;
+    }
+    .hero-image-parent {
+      margin-top: 4rem;
+    }
+  }
+  @media (max-width: 400px) {
+    .hero-image-parent {
+      margin-top: 2rem;
+      padding: 0 0.5rem;
+    }
+    body {
+      overflow-x: hidden;
+    }
+  }
 
 
 
@@ -1326,7 +1353,7 @@ text-underline-position: from-font;
 /* 📱 Responsive Welkom-U Section */
 /* ============================= */
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .frame-1-wrapper {
       flex-direction: column;
       align-items: center;
@@ -1404,19 +1431,59 @@ text-underline-position: from-font;
       overflow-wrap: break-word;
       width: 100%;
     }
+  } */
+
+  @media (max-width: 1024px) {
+    .frame-1-wrapper {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 2rem;
+    }
+    .frame-1, .frame-2 {
+      width: 100%;
+      max-width: 100%;
+    }
+    .frame-1-p, .frame-2-p {
+      width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .frame-1-wrapper {
+      padding: 0 1rem;
+      gap: 1.5rem;
+    }
+    .frame-1 h1 { font-size: 1.6rem; line-height: 2.2rem; text-align: center; }
+    .frame-1 h2 { font-size: 0.9rem; text-align: center; }
+    .frame-1-p, .frame-2-p { font-size: 1rem; line-height: 1.6rem; text-align: justify; }
+    .frame-2-h2 { font-size: 1.25rem; }
+    .frame-2-h3 { font-size: 1rem; }
+  }
+  @media (max-width: 400px) {
+    .frame-1-wrapper {
+      padding: 0 0.5rem;
+      gap: 1rem;
+    }
+    .frame-1 h1 { font-size: 1.4rem; line-height: 1.8rem; }
+    .frame-1 h2 { font-size: 0.8rem; }
+    .frame-1-p, .frame-2-p {
+      font-size: 0.95rem;
+      line-height: 1.5rem;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      width: 100%;
+    }
   }
   
-
-
-
-
 
 
 /* ============================= */
 /* 📱 Responsive Design Process Section */
 /* ============================= */
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .frame-3 {
       flex-direction: column;
       align-items: center;
@@ -1502,10 +1569,40 @@ text-underline-position: from-font;
     .frame-3-h2 {
       font-size: 1.1rem;
     }
+  } */
+
+  @media (max-width: 1024px) {
+    .frame-3 {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 2rem;
+    }
+    .frame-3-header, .frame-3-b {
+      width: 100%;
+      max-width: 100%;
+      padding-top: 2rem;
+    }
+    .frame-3-p, .frame-3-h2 { width: 100%; }
   }
-  
-
-
+  @media (max-width: 768px) {
+    .frame-3-header h2 { font-size: 1.6rem; line-height: 2.2rem; }
+    .frame-3-header p { font-size: 1rem; line-height: 1.6rem; }
+    .frame-3-h2 { font-size: 1.25rem; }
+    .frame-3-p { font-size: 1rem; line-height: 1.5rem; }
+    .frame-3-card { padding: 1.5rem; }
+    .frame-3-b { gap: 2rem; }
+  }
+  @media (max-width: 400px) {
+    .frame-3 { padding: 0 0.5rem; gap: 1rem; }
+    .frame-3-card { width: 100%; padding: 1rem; flex-direction: column; gap: 0.75rem; }
+    .frame-3-p { word-wrap: break-word; overflow-wrap: break-word; width: 100%; }
+    .frame-3-header h2 { font-size: 1.4rem; line-height: 1.8rem; text-align: center; }
+    .frame-3-header p { font-size: 0.95rem; line-height: 1.5rem; text-align: center; }
+    .frame-3-h2 { font-size: 1.1rem; }
+  }
 
 
 
@@ -1513,6 +1610,36 @@ text-underline-position: from-font;
 /* 📱 Research Section Responsiveness */
 /* ============================= */
 
+@media (max-width: 1024px) {
+    .frame-44 {
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      padding: 0 2rem;
+    }
+    .frame-4-headd, .frame-4-b { width: 100%; max-width: 100%; padding-top: 2rem; }
+    .frame-4-headd p { width: 100%; }
+    .frame-4-bb { flex-direction: column; width: 100%; height: auto; gap: 1rem; }
+    .frame-4-bbb, .frame-4bbb { flex-direction: row; justify-content: space-between; gap: 0.5rem; }
+    .yellow, .yellow-one, .yellow-two, .yellow-twoo { width: 100%; max-width: 100%; height: auto; }
+  }
+  @media (max-width: 768px) {
+    .frame-4-headd h2 { font-size: 1.6rem; line-height: 2.2rem; text-align: center; }
+    .frame-4-headd p { font-size: 1rem; line-height: 1.5rem; text-align: center; }
+    .frame-4-b h3 { text-align: center; font-size: 1.25rem; }
+    .frame-4-bb, .frame-4-bbb, .frame-4bbb { flex-direction: column; gap: 0.75rem; }
+    .yellow, .yellow-one, .yellow-two, .yellow-twoo { width: 100%; height: auto; }
+  }
+  @media (max-width: 400px) {
+    .frame-44 { padding: 0 0.5rem; gap: 1rem; }
+    .frame-4-headd h2 { font-size: 1.4rem; line-height: 1.8rem; }
+    .frame-4-b h3 { font-size: 1.1rem; }
+    .frame-4-headd p, .frame-4-b p { font-size: 0.95rem; line-height: 1.4rem; }
+    .frame-4-bbb, .frame-4bbb { gap: 0.5rem; }
+  }
+
+
+/*
 @media (max-width: 1024px) {
     .frame-44 {
       flex-direction: column;
@@ -1619,8 +1746,8 @@ text-underline-position: from-font;
     .frame-4bbb {
       gap: 0.5rem;
     }
-  }
-  
+  } 
+  */
 
 
   .frame-5-b {
@@ -1641,7 +1768,14 @@ text-underline-position: from-font;
 
 
 /* Media query for small screens */
+
 @media screen and (max-width: 768px) {
+    .frame-5 { flex-direction: column; padding: 0 1rem; }
+    .frame-5-a, .frame-5-b { padding-top: 2rem; }
+    .frame-5-b img { max-width: 100%; height: auto; }
+  }
+
+/* @media screen and (max-width: 768px) {
     .frame-5 {
         flex-direction: column;
         padding: 0 1rem;
@@ -1657,7 +1791,7 @@ text-underline-position: from-font;
         height: auto;
     }
 }
-
+*/
 
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
@@ -1709,6 +1843,25 @@ text-underline-position: from-font;
         height: auto;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .frame-66 { flex-direction: column; gap: 3rem; margin: 3rem auto; }
+    .frame-6a, .frame-66b { width: 100%; padding-top: 3rem; }
+    .frame-66b { align-items: flex-start; padding-top: 2rem; }
+    .frame-6b-one { flex-direction: column; width: 100%; height: auto; gap: 2rem; }
+    .frame-6b-one-1, .frame-6b-one-22 { width: 100%; flex-direction: column; gap: 1.5rem; }
+    .six-card, .six-cardone, .six-cardone-a, .six-cardone-b { width: 100%; }
+    .frame-6b-one-1 img, .frame-6b-one-22 img { width: 100%; height: auto; }
+  }
+
+  @media screen and (max-width: 768px) {
+    /* Font size and padding adjustments */
+  }
+  @media screen and (max-width: 480px) {
+    /* Further font size and padding adjustments */
+  }
+
+
 
 @media screen and (max-width: 768px) {
     .frame-66 {
@@ -1863,5 +2016,80 @@ text-underline-position: from-font;
     .frame-7a,
     .frame-7b {
         padding-top: 1rem;
+    }
+}
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+@media screen and (max-width: 1024px) {
+    .frame-8,
+    .frame-9 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 3rem;
+    }
+
+    .frame-8a,
+    .frame-9-a {
+        width: 100%;
+    }
+
+    .frame-8b,
+    .frame-8b img,
+    .frame-9-b {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .frame-8a h3,
+    .frame-9-a h3 {
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+    }
+
+    .frame-8a p,
+    .frame-9-a p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .frame-8b,
+    .frame-8b img,
+    .frame-9-b {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .frame-8,
+    .frame-9 {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .frame-8a h3,
+    .frame-9-a h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .frame-8a p,
+    .frame-9-a p {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .frame-8,
+    .frame-9 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+    }
+
+    .frame-8b,
+    .frame-8b img,
+    .frame-9-b {
+        width: 100%;
+        height: auto;
     }
 }

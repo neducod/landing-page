@@ -30,10 +30,11 @@ const Navbar = () => {
     <header className="navbar">
       <div className="naa">
         <div className="nav-left">
-          <img src={logo} alt="Logo" className="nav-logo" />
+          {/* <img src={logo} alt="Logo" className="nav-logo" />
           <span className="brand-name">
             SEGUN <br /> ARIBIDO
-          </span>
+          </span> */}
+          <img src="/Logo Design.svg" alt="logo-image" />
         </div>
 
         <nav className={`nav-right ${menuOpen ? "open" : ""}`}>

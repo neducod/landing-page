@@ -146,6 +146,66 @@ text-underline-position: from-font;
   background: #333;
   transform: translateY(-2px);
 }
+
+
+.auto-scroll-container {
+  position: relative;
+  width: 32rempx;
+  height: 6rem;
+  overflow: hidden;
+  /* border-radius: 20px; */
+  background: transparent;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* background: #fff; */
+}
+
+/* All slides stack */
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 0.9s ease-in-out, opacity 0.9s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.move-up {
+  transform: scaleX(1.7);
+}
+.move-down {
+  transform: scaleX(1)
+}
+
+.slide.active {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 2;
+}
+
+.slide-content {
+  text-align: center;
+  color: #333;
+}
+
+.slide-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.slide-content p {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+
+
+
+
 /* ------------------- MEDIA QUERIES ------------------- */
 
 /* For large desktops (1200px and above) */
@@ -424,4 +484,149 @@ text-underline-position: from-font;
   },
   "homepage": "https://github.com/neducod/landing-page#readme"
 }
+*/
+
+
+
+
+
+
+
+/*
+
+import React, { useEffect, useState } from "react";
+// import { useState, useEffect } from "react";
+import "../styles/hero.css";
+
+const images = [
+  "/ProfileImages.png",
+  "/Property 1=Pro 2.png",
+  "/Property 1=Pro 3.png",
+  "/Property 1=Pro 4.png",
+  "/Property 1=Pro 5.png",
+  "/Property 1=Pro 6.png",
+];
+
+
+
+const Index = () => {
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % images.length);
+    }, 3000); // change every 3s
+    return () => clearInterval(interval);
+  }, []);
+
+
+
+
+
+
+
+  // SECOND ANIMATION IN HERO SECTION
+
+  const slides = [
+    {
+      id: 1,
+      direction: "down",
+      content: (
+        <div className="slide-content">
+          <h2>Auto Scroll 1</h2>
+          <img src="/photo1.jpg" alt="photo" />
+          <p>This div moves from top → bottom</p>
+        </div>
+      ),
+    },
+    {
+      id: 2,
+      direction: "up",
+      content: (
+        <div className="slide-content">
+           <img src="/photo1.jpg" alt="photo" />
+          <h2>Auto Scroll 2</h2>
+          <p>This one moves from bottom → top</p>
+        </div>
+      ),
+    },
+    {
+      id: 3,
+      direction: "down",
+      content: (
+        <div className="slide-content">
+           <img src="/photo1.jpg" alt="photo" />
+          <h2>Auto Scroll 3</h2>
+          <p>Back to top → bottom</p>
+        </div>
+      ),
+    },
+  ];
+
+  function AutoScrollAnimation() {
+    const [index, setIndex] = useState(0);
+  
+    useEffect(() => {
+      const timer = setInterval(() => {
+        setIndex((prev) => (prev + 1) % slides.length);
+      }, 2500);
+      return () => clearInterval(timer);
+    }, []);
+  
+    return (
+      <div className="auto-scroll-container">
+        {slides[index]}
+      </div>
+    );
+  }
+
+
+
+
+
+
+
+
+  return (
+
+
+
+
+
+
+  <section className="intro" id="home">
+  <h1 className="intro-title">
+    Hi,{" "}
+    <div className="intro-face-wrapper">
+      <img
+        src={images[currentImage]}
+        alt="Changing faces"
+        className="intro-face"
+      />
+    </div>{" "}
+    I’m <span className="intro-name"> Segun</span>
+  </h1>
+
+  <p className="intro-subtitle">an Interaction Designer</p>
+  <div className="intro-tagline">
+   <p> I design for </p>
+   <video
+  src="/videofile.mov"
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="hero-video"
+/>
+  </div>
+
+  <button className="contact-btn">Contact me</button>
+</section>
+  );
+};
+
+export default Index;
+
+
+
 */

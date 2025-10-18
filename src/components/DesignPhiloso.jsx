@@ -64,7 +64,7 @@ const DesignPhiloso = () => {
       <div className="test">
         <div className="container" >
         <video
-  src="/avdvd.mov"
+  src="/Screen Recording 2025-10-17 at 13.13.33.mov"
   autoPlay
   loop
   muted
