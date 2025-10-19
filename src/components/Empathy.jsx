@@ -17,9 +17,11 @@ const HeartsAnimation = () => {
     <div className="main-container">
 
       <div className="text-section">
-        <h2 className="animation-title">Hearts of Joy</h2>
+        <h2 className="animation-title">Empathy first</h2>
         <p className="animation-subtitle">
-          Watch the hearts rise and return with love 💖
+        I start by understanding 
+users’ real stories, needs, 
+and frustrations.
         </p>
       </div>
 

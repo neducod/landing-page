@@ -1,5 +1,5 @@
 body, .main-container {
-    background: transparent !important;
+    /* background: transparent !important; */
   }
   
   .main-container {
@@ -8,24 +8,47 @@ body, .main-container {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    width: 100%;
-    min-height: 100vh;
+    /* width: 100%; */
+    /* min-height: 100vh; */
+
+
+    width: 28.0625rem;
+height: 37.5rem;
+flex-shrink: 0;
+border-radius: 1rem;
+background: #CCE7FF;
   }
   
   .text-section {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     color: #222;
     font-family: "Poppins", sans-serif;
   }
   
   .animation-title {
-    font-size: 1.8rem;
-    font-weight: 600;
+    color: #1A1A1A;
+font-family: "Helvetica Neue";
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.25rem; /* 112.5% */
+letter-spacing: 0.032rem;
+
+margin-left: 2rem;
+/* margin-left: 2rem; */
   }
   
   .animation-subtitle {
-    font-size: 1rem;
-    opacity: 0.8;
+    color: #505050;
+font-family: "Helvetica Neue";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.25rem; /* 150% */
+letter-spacing: 0.024rem;
+/* width: 18.18rem; */
   }
   
   .animation-container {
@@ -51,7 +74,7 @@ body, .main-container {
     position: absolute;
     bottom: 60px; /* inside the folder */
     left: 50%;
-    width: 43px;
+    width: 44px;
     opacity: 0;
     transform: translateX(-50%);
     animation: floatUpDown 4s ease-in-out infinite;
