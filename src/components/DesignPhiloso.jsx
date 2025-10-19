@@ -78,10 +78,8 @@ const DesignPhiloso = () => {
         <Empathy />
         </div>
         <div>
-          <ClarityAnimation />
-          <AnimatedBox />
+          <img src="/design.gif" alt="" />
         </div>
-
       </div>
 
 

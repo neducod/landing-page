@@ -10,6 +10,12 @@
   width: 450px;
   height: 450px;
   padding: 2rem;
+       <div>
+          <ClarityAnimation />
+          <AnimatedBox />
+        </div>
+
+
  */
 display: flex;
 align-items: flex-start;
