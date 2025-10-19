@@ -20,9 +20,6 @@ body{
   justify-content: center;
   flex-wrap: wrap;
   gap: 0.5rem;
-
-
-
   color: #1A1A1A;
 font-family: "Helvetica Neue";
 font-size: 3rem;
@@ -147,76 +144,6 @@ text-underline-position: from-font;
   transform: translateY(-2px);
 }
 
-/*
-.auto-scroll-container {
-  position: relative;
-  width: 32rempx;
-  height: 6rem;
-  overflow: hidden;
-  background: transparent;
-}
-
-.slide {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transform: translateY(100%);
-  transition: transform 0.9s ease-in-out, opacity 0.9s ease-in-out;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-/*
-.move-up {
-  transform: scaleX(1.7);
-}
-.move-down {
-  transform: scaleX(1)
-}
-
-.slide.active {
-  opacity: 1;
-  transform: translateY(0);
-  z-index: 2;
-}
-
-.slide-content {
-  text-align: center;
-  color: #333;
-}
-
-.slide-content h2 {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
-
-.slide-content p {
-  font-size: 1rem;
-  color: #666;
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------- MEDIA QUERIES ------------------- */
 
 /* For large desktops (1200px and above) */
@@ -322,13 +249,13 @@ text-underline-position: from-font;
     margin-top: 5rem;
     padding: 40px 8px;
   }
-  .intro-title {
+ /* .intro-title {
     font-size: 1.2rem;
   }
   .intro-face {
     width: 50px;
     height: 50px;
-  }
+  }*/
   .intro-subtitle {
     font-size: 1rem;
   }
@@ -342,18 +269,6 @@ text-underline-position: from-font;
     font-size: 0.85rem;
   }
 }
-
-
-
- 
-
-
-
-
-
-
-
-
 
 
 
