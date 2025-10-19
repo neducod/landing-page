@@ -77,7 +77,23 @@ width: 44rem;
   display: flex;
   gap: 35px;
 }
+.hero-gif{
+    object-fit: cover; /* Keeps it from stretching */
+  border-radius: 1rem;
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
 @media (max-width: 480px) {
+  .bottom-part{
+    padding: 15px;
+    flex-direction: column;
+  }
+  .hero-gif{
+      width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  }
   .philosophy-wrapper .www {
     font-size: 1.4rem;
   }
@@ -95,7 +111,7 @@ width: 44rem;
     line-height: 1.7rem;
     padding: 0 10px;
   }
-}
+/* } */
 
 
 

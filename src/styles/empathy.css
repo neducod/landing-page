@@ -117,4 +117,109 @@ letter-spacing: 0.024rem;
 
 
 
- 
+ /* ===== Responsive Design ===== */
+
+/* Medium screens — tablets */
+@media (max-width: 1024px) {
+  .main-container {
+    width: 90%;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .animation-title {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin-left: 1.5rem;
+  }
+
+  .animation-subtitle {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .animation-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  .folder {
+    width: 110px;
+  }
+
+  .heart {
+    width: 35px;
+  }
+}
+
+/* Small screens — phones */
+@media (max-width: 768px) {
+  .main-container {
+    width: 95%;
+    height: auto;
+    border-radius: 0.8rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .text-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .animation-title {
+    font-size: 1.6rem;
+    margin-left: 0;
+  }
+
+  .animation-subtitle {
+    font-size: 1.1rem;
+    width: 90%;
+    text-align: center;
+  }
+
+  .animation-container {
+    width: 220px;
+    height: 220px;
+  }
+
+  .folder {
+    width: 100px;
+  }
+
+  .heart {
+    width: 30px;
+  }
+}
+
+/* Extra small screens — 320px to 480px */
+@media (max-width: 480px) {
+  .main-container {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .animation-title {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  .animation-subtitle {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    width: 100%;
+  }
+
+  .animation-container {
+    width: 180px;
+    height: 180px;
+  }
+
+  .folder {
+    width: 90px;
+  }
+
+  .heart {
+    width: 25px;
+  }
+}
