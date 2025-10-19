@@ -1,64 +1,37 @@
-.animation-container {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    margin: auto;
-    overflow: hidden;
-    background: transparent;
+body, .main-container {
+    background: transparent !important;
   }
   
-  .folder {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 120px;
-    transform: translateX(-50%);
-    z-index: 2;
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 100%;
+    min-height: 100vh;
   }
   
-  .heart {
-    position: absolute;
-    bottom: 50px;
-    width: 42px;
-    opacity: 0;
-    animation: floatUpDown 6s ease-in-out infinite;
-    background: transparent;
-    border: none;
-    outline: none;
-    mix-blend-mode: normal;
-    filter: none;
+  .text-section {
+    text-align: center;
+    color: #222;
+    font-family: "Poppins", sans-serif;
   }
   
-  @keyframes floatUpDown {
-    0% {
-      transform: translateY(0) translateX(0) scale(1);
-      opacity: 0;
-    }
-    10% {
-      opacity: 1;
-    }
-    40% {
-      transform: translateY(-160px) translateX(var(--drift, 0px)) scale(1.1);
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.6; 
-    }
-    70% {
-      transform: translateY(0) translateX(0) scale(0.9);
-      opacity: 1; 
-    }
-    100% {
-      transform: translateY(0) translateX(0) scale(1);
-      opacity: 0;
-    }
+  .animation-title {
+    font-size: 1.8rem;
+    font-weight: 600;
   }
-/*
+  
+  .animation-subtitle {
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+  
   .animation-container {
     position: relative;
     width: 300px;
     height: 300px;
-    margin: auto;
     overflow: hidden;
   }
   
@@ -66,24 +39,29 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 120px;
+    width: 133px;
     transform: translateX(-50%);
-    z-index: 3; 
+    z-index: 3;
+    background: transparent !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
   }
   
   .heart {
     position: absolute;
-    bottom: 60px;
+    bottom: 60px; /* inside the folder */
     left: 50%;
-    width: 30px;
+    width: 43px;
     opacity: 0;
     transform: translateX(-50%);
     animation: floatUpDown 4s ease-in-out infinite;
-    background: transparent;
+    background: transparent !important;
     border: none;
     outline: none;
-    mix-blend-mode: normal;
-    filter: none;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+    backface-visibility: hidden;
+    will-change: transform, opacity;
     z-index: 2;
   }
   
@@ -111,4 +89,4 @@
       opacity: 0;
     }
   }
-  */
+  
