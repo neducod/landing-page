@@ -5,8 +5,9 @@ const ClarityAnimation = () => {
   return (
     <div className="clarity-container">
       <div className="clarity-text">
-        <h2>Clarity</h2>
-        <p>Your message or tagline goes here.</p>
+        <h2>Clarity over complexity</h2>
+        <p>I simplify digital experiences so 
+every action feels natural.</p>
       </div>
 
       <div className="clarity-animation">
