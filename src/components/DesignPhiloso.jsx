@@ -57,7 +57,7 @@ const DesignPhiloso = () => {
   return (
     <section className="intro" id="home" ref={rootRef}>
       <div className="philosophy-wrapper">
-        <h1 className="www">
+        <h1 className="wwww">
           My Design{" "}
           <span className="icons-set">
             <img src="/My design Phy.png" className="icon icon-pen" alt="pen" />
@@ -69,7 +69,7 @@ const DesignPhiloso = () => {
         </h1>
       </div>
 
-      <p className="intro-p">
+      <p className="intro-pp">
         I design with logic and empathy to create functional, human-centered products.
         Good design, to me feels effortless, scalable, and built on collaboration.
       </p>
@@ -78,7 +78,7 @@ const DesignPhiloso = () => {
         <Empathy />
         </div>
         <div>
-          <img src="/design.gif" alt="" className="hero-gif" />
+          <img src="/design.gif" alt=""  className="hero-gif" />
         </div>
       </div>
 

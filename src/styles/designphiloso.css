@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
 }
-.philosophy-wrapper .www {
+.philosophy-wrapper .wwww {
   display: inline-flex;
   align-items: center;
   line-height: 1;
@@ -61,7 +61,7 @@ line-height: 3.375rem; /* 135% */
 letter-spacing: 0.04rem;
 }
 
-.intro-p {
+.intro-pp {
   /* max-width: 700px; */
   color: #505050;
 text-align: center;
@@ -93,7 +93,7 @@ width: 44rem;
     height: auto;
     border-radius: 0.5rem;
   }
-  }
+  /* } */
   .philosophy-wrapper .www {
     font-size: 1.4rem;
   }
@@ -111,7 +111,7 @@ width: 44rem;
     line-height: 1.7rem;
     padding: 0 10px;
   }
-/* } */
+}
 
 
 
