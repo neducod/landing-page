@@ -3,6 +3,10 @@ import { gsap } from "gsap";
 import Empathy from "./Empathy.jsx";
 import ClarityAnimation from "./ClarityAnimation.jsx";
 import "../styles/designphiloso.css";
+import "../styles/AnimatedBox.css"
+import AnimatedBox from "./AnimatedBox.jsx";
+
+
 
 const DesignPhiloso = () => {
   const rootRef = useRef(null);
@@ -69,12 +73,14 @@ const DesignPhiloso = () => {
         I design with logic and empathy to create functional, human-centered products.
         Good design, to me feels effortless, scalable, and built on collaboration.
       </p>
-
-      <div>
-      <Empathy />
-      </div>
-      <div>
-        <ClarityAnimation />
+      <div className="bottom-part">
+        <div>
+        <Empathy />
+        </div>
+        <div>
+          <ClarityAnimation />
+          <AnimatedBox />
+        </div>
 
       </div>
 

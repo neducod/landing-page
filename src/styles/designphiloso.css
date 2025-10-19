@@ -78,7 +78,10 @@ line-height: 2.25rem; /* 150% */
 letter-spacing: 0.024rem;
 width: 44rem;
 }
-
+.bottom-part{
+  display: flex;
+  gap: 35px;
+}
 @media (max-width: 480px) {
   .philosophy-wrapper .www {
     font-size: 1.4rem;
