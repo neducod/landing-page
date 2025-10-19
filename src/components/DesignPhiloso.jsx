@@ -78,7 +78,7 @@ const DesignPhiloso = () => {
         <Empathy />
         </div>
         <div>
-          <img src="/design.gif" alt="" />
+          <img src="/design.gif" alt="" className="hero-gif" />
         </div>
       </div>
 
