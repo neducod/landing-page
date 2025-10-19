@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Empathy from "./Empathy.jsx";
+import ClarityAnimation from "./ClarityAnimation.jsx";
 import "../styles/designphiloso.css";
 
 const DesignPhiloso = () => {
@@ -71,6 +72,10 @@ const DesignPhiloso = () => {
 
       <div>
       <Empathy />
+      </div>
+      <div>
+        <ClarityAnimation />
+
       </div>
 
 
