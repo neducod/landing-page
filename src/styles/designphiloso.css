@@ -3,17 +3,14 @@
 }
 .philosophy-wrapper{
   display: flex;
+  gap: 0.7rem;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
 }
-.philosophy-wrapper .wwww {
-  display: inline-flex;
-  align-items: center;
-  line-height: 1;
-  white-space: nowrap;
 
-
+.philosophy-wrapper h1{
   color: #505050;
   font-family: "Helvetica Neue";
   font-size: 2.5rem;
@@ -127,9 +124,6 @@ width: 44rem;
 }
 
 
-/* ✅ Responsive adjustments — keep your original CSS above this */
-
-/* For tablets and medium screens */
 @media (max-width: 1024px) {
   .philosophy-wrapper .www {
     font-size: 2rem;
@@ -259,5 +253,64 @@ width: 44rem;
     font-size: 1rem;
     line-height: 1.6rem;
     padding: 0 10px;
+  }
+}
+
+
+
+
+
+.philosophy-wrapper {
+  display: flex;
+  gap: 0.7rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* allows items to move down when screen is small */
+  padding: 1rem;
+  text-align: center;
+}
+
+.philosophy-wrapper h1 {
+  color: #505050;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.375rem;
+  letter-spacing: 0.04rem;
+  margin: 0;
+}
+
+/* Make responsive for smaller devices */
+@media (max-width: 768px) {
+  .philosophy-wrapper {
+    flex-direction: column; /* stack text and lottie vertically */
+    gap: 0.5rem;
+  }
+
+  .philosophy-wrapper h1 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  .philosophy-wrapper canvas,
+  .philosophy-wrapper svg {
+    width: 80% !important;  /* Lottie scales smoothly */
+    height: auto !important;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .philosophy-wrapper h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .philosophy-wrapper canvas,
+  .philosophy-wrapper svg {
+    width: 100% !important;
+    max-width: 250px;
   }
 }

@@ -6,6 +6,7 @@ import "../styles/designphiloso.css";
 import "../styles/AnimatedBox.css"
 import AnimatedBox from "./AnimatedBox.jsx";
 
+import MyLottie from "./MyLottie.jsx";
 
 
 const DesignPhiloso = () => {
@@ -57,16 +58,9 @@ const DesignPhiloso = () => {
   return (
     <section className="intro" id="home" ref={rootRef}>
       <div className="philosophy-wrapper">
-        <h1 className="wwww">
-          My Design{" "}
-          <span className="icons-set">
-            <img src="/My design Phy.png" className="icon icon-pen" alt="pen" />
-            <img src="/Property 1=Interaction 1 2.png" className="icon icon-heart" alt="heart" />
-            <img src="/Clarity 2.svg" className="icon icon-bulb" alt="bulb" />
-            <img src="/Collaboration 2.svg" className="icon icon-briefcase" alt="briefcase" />
-          </span>{" "}
-          <span className="philosophy-text">Philosophy</span>
-        </h1>
+         <h1>My design</h1>
+      <MyLottie width={400} height={400} />
+      <h1>Philosophy  {""}</h1>
       </div>
 
       <p className="intro-pp">
