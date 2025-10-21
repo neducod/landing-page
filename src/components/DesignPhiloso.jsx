@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from "react";
+// import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import Empathy from "./Empathy.jsx";
 import ClarityAnimation from "./ClarityAnimation.jsx";
@@ -55,13 +56,16 @@ const DesignPhiloso = () => {
     return () => ctx.revert();
   }, []);
 
+
+  // const [isAnimating, setIsAnimating] = useState(false);
+
   return (
     <section className="intro" id="home" ref={rootRef}>
       <div className="philosophy-wrapper">
          <h1>My design</h1>
       <MyLottie width={400} height={400} />
-      <h1>Philosophy</h1>
-      </div>
+      <h1> {""} Philosophy </h1>
+      </div> 
 
       <p className="intro-pp">
         I design with logic and empathy to create functional, human-centered products.
