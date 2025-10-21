@@ -60,7 +60,7 @@ const DesignPhiloso = () => {
       <div className="philosophy-wrapper">
          <h1>My design</h1>
       <MyLottie width={400} height={400} />
-      <h1>Philosophy  {""}</h1>
+      <h1>Philosophy</h1>
       </div>
 
       <p className="intro-pp">
